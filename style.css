@@ -70,5 +70,5 @@ textarea { width: 100%; min-height: 96px; border: 1px solid var(--line); border-
 details { border-top: 1px solid var(--line); padding: 8px 0; }
 summary { cursor: pointer; }
 label.field { display: block; margin: 12px 0 4px; font-weight: 600; }
-select, input[type=number] { width: 100%; padding: 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); }
+select, input[type=number], input[type=password] { width: 100%; padding: 10px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); }
 .toast { position: fixed; left: 16px; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom)); background: var(--text); color: var(--bg); padding: 12px 16px; border-radius: 12px; text-align: center; }

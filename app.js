@@ -424,6 +424,7 @@ function finishSession() {
   if (!s || !s.done) return renderHome();
   const mins = Math.max(1, Math.round((Date.now() - s.start) / 60000));
   const correct = s.results[3] + s.results[4];
+  tgAutoSend();
   $view.innerHTML = `
     <h1>Session done</h1>
     <div class="box">
@@ -477,6 +478,47 @@ function renderStats() {
     <div class="muted small">“Mastered” means the next review is 3 weeks or more away.</div>`;
 }
 
+/* ---------- telegram (send answers to Jad's own bot for review by Claude) ---------- */
+// The bot token is only ever stored in this phone's localStorage. It is never in the repo and is left out of backups.
+const tgUrl = m => `https://api.telegram.org/bot${state.settings.tgToken}/${m}`;
+const tgReady = () => !!(state.settings.tgToken && state.settings.tgChat);
+async function tgCall(method, body) {
+  const r = await fetch(tgUrl(method), { method: 'POST', body });
+  const j = await r.json().catch(() => ({}));
+  if (!j.ok) throw new Error(j.description || ('HTTP ' + r.status));
+  return j.result;
+}
+async function tgConnect() {
+  const ups = await tgCall('getUpdates', new FormData());
+  const m = ups.map(u => u.message || u.edited_message).filter(Boolean).pop();
+  if (!m) throw new Error('No message found. Open your bot in Telegram, send it "hi", then try again.');
+  state.settings.tgChat = m.chat.id; saveSettings();
+  const f = new FormData(); f.append('chat_id', m.chat.id); f.append('text', '✅ Quick Studies is connected. Your answers will arrive here.');
+  await tgCall('sendMessage', f);
+}
+// Sends answers newer than the last successful send (or since `sinceMs`). Returns how many were sent.
+async function tgSend(sinceMs) {
+  const st = state.settings;
+  const from = sinceMs ?? (st.tgSentUpTo || 0);
+  const entries = state.log.filter(e => Date.parse(e.t) > from);
+  if (!entries.length) return 0;
+  const last = entries[entries.length - 1].t;
+  const again = entries.filter(e => e.rating <= 2).length;
+  const name = `study-log-${last.slice(0, 16).replace(/[:T]/g, '-')}.json`;
+  const f = new FormData();
+  f.append('chat_id', st.tgChat);
+  f.append('caption', `${entries.length} answers (${again} Again/Hard). Ask Claude: "review my Telegram answers".`);
+  f.append('document', new Blob([JSON.stringify({ exported: new Date().toISOString(), entries }, null, 1)], { type: 'application/json' }), name);
+  await tgCall('sendDocument', f);
+  if (sinceMs == null || Date.parse(last) > (st.tgSentUpTo || 0)) { st.tgSentUpTo = Date.parse(last); saveSettings(); }
+  return entries.length;
+}
+async function tgAutoSend() {
+  if (!tgReady() || state.settings.tgAuto === false || !navigator.onLine) return;
+  try { const n = await tgSend(); if (n) toast(`Sent ${n} answers to Telegram`); }
+  catch (e) { toast('Telegram send failed, will retry next time'); }
+}
+
 /* ---------- settings ---------- */
 function renderSettings() {
   const st = state.settings;
@@ -500,6 +542,22 @@ function renderSettings() {
       <div class="muted small">${state.log.length} answers saved. Export them and give the file to Claude for a review of what you're missing.</div>
       <button class="btn secondary" id="expLog">Export answer log</button>
     </div>
+    <h2>Send answers to Telegram</h2>
+    <div class="box">
+      ${tgReady() ? `
+        <div class="muted small">Connected. ${st.tgSentUpTo ? 'Last sent ' + new Date(st.tgSentUpTo).toLocaleString() + '.' : 'Nothing sent yet.'}
+          ${state.log.filter(e => Date.parse(e.t) > (st.tgSentUpTo || 0)).length} new answers waiting.</div>
+        <button class="btn" id="tgSend">Send new answers now</button>
+        <label class="field">Send automatically after each session</label>
+        <select id="tgAuto">${opt(['on', 'off'], st.tgAuto === false ? 'off' : 'on', v => v === 'on' ? 'On' : 'Off')}</select>
+        <button class="btn ghost" id="tgResend">Resend the last 7 days</button>
+        <button class="btn ghost" id="tgOff">Disconnect</button>`
+      : `
+        <div class="muted small">1. Paste your bot token from @BotFather. 2. Open your bot in Telegram and send it "hi". 3. Tap Connect. The token stays on this phone only.</div>
+        <label class="field">Bot token</label>
+        <input id="tgToken" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="123456789:AA..." value="${st.tgToken || ''}">
+        <button class="btn" id="tgConnect">Connect</button>`}
+    </div>
     <h2>Backup</h2>
     <div class="box">
       <div class="muted small">Your progress only lives on this phone. Save a backup now and then.</div>
@@ -513,7 +571,21 @@ function renderSettings() {
   bind('minutes', 'minutes', Number); bind('newPer', 'newPerSession', Number); bind('other', 'otherShare', Number); bind('lang', 'speechLang', String); bind('useMic', 'useMic', v => v === 'on');
   const stamp = new Date().toISOString().slice(0, 10);
   document.getElementById('expLog').onclick = () => download(`study-log-${stamp}.json`, { exported: new Date().toISOString(), entries: state.log });
-  document.getElementById('expAll').onclick = () => download(`study-backup-${stamp}.json`, { version: 1, exported: new Date().toISOString(), progress: state.prog, log: state.log, settings: st });
+  document.getElementById('expAll').onclick = () => {
+    const { tgToken, tgChat, ...safe } = st;   // never put the bot token in a backup file
+    download(`study-backup-${stamp}.json`, { version: 1, exported: new Date().toISOString(), progress: state.prog, log: state.log, settings: safe });
+  };
+  const $ = id => document.getElementById(id);
+  const busy = async (btn, fn) => { btn.disabled = true; try { await fn(); } catch (e) { toast('Telegram: ' + e.message); } btn.disabled = false; };
+  if ($('tgConnect')) $('tgConnect').onclick = () => busy($('tgConnect'), async () => {
+    st.tgToken = $('tgToken').value.trim(); saveSettings();
+    if (!/^\d+:[\w-]{20,}$/.test(st.tgToken)) throw new Error('That does not look like a bot token.');
+    await tgConnect(); toast('Connected to Telegram'); renderSettings();
+  });
+  if ($('tgSend')) $('tgSend').onclick = () => busy($('tgSend'), async () => { const n = await tgSend(); toast(n ? `Sent ${n} answers` : 'No new answers to send'); renderSettings(); });
+  if ($('tgResend')) $('tgResend').onclick = () => busy($('tgResend'), async () => { const n = await tgSend(Date.now() - 7 * DAY); toast(n ? `Sent ${n} answers` : 'No answers in the last 7 days'); });
+  if ($('tgAuto')) $('tgAuto').onchange = e => { st.tgAuto = e.target.value === 'on'; saveSettings(); toast('Saved'); };
+  if ($('tgOff')) $('tgOff').onclick = () => { delete st.tgToken; delete st.tgChat; saveSettings(); renderSettings(); };
   const file = document.getElementById('file');
   document.getElementById('impAll').onclick = () => file.click();
   file.onchange = async () => {
@@ -521,7 +593,7 @@ function renderSettings() {
       const data = JSON.parse(await file.files[0].text());
       if (!data.progress) throw new Error('not a backup');
       if (!confirm('Replace the progress on this phone with this backup?')) return;
-      state.prog = data.progress; state.log = data.log || []; Object.assign(st, data.settings || {});
+      state.prog = data.progress; state.log = data.log || []; const { tgToken, tgChat, ...rest } = data.settings || {}; Object.assign(st, rest);
       saveProg(); saveLog(); saveSettings(); toast('Backup restored'); renderSettings();
     } catch (e) { toast('That file is not a Quick Studies backup.'); }
   };
