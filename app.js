@@ -483,13 +483,15 @@ function renderStats() {
 const tgUrl = m => `https://api.telegram.org/bot${state.settings.tgToken}/${m}`;
 const tgReady = () => !!(state.settings.tgToken && state.settings.tgChat);
 async function tgCall(method, body) {
-  const r = await fetch(tgUrl(method), { method: 'POST', body });
+  let r;
+  try { r = await fetch(tgUrl(method), body ? { method: 'POST', body } : {}); }
+  catch (e) { throw new Error('Could not reach Telegram. Check your internet connection.'); }
   const j = await r.json().catch(() => ({}));
   if (!j.ok) throw new Error(j.description || ('HTTP ' + r.status));
   return j.result;
 }
 async function tgConnect() {
-  const ups = await tgCall('getUpdates', new FormData());
+  const ups = await tgCall('getUpdates');
   const m = ups.map(u => u.message || u.edited_message).filter(Boolean).pop();
   if (!m) throw new Error('No message found. Open your bot in Telegram, send it "hi", then try again.');
   state.settings.tgChat = m.chat.id; saveSettings();
@@ -556,7 +558,8 @@ function renderSettings() {
         <div class="muted small">1. Paste your bot token from @BotFather. 2. Open your bot in Telegram and send it "hi". 3. Tap Connect. The token stays on this phone only.</div>
         <label class="field">Bot token</label>
         <input id="tgToken" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="123456789:AA..." value="${st.tgToken || ''}">
-        <button class="btn" id="tgConnect">Connect</button>`}
+        <button class="btn" id="tgConnect">Connect</button>
+        <div id="tgErr" class="small" style="color:var(--again)"></div>`}
     </div>
     <h2>Backup</h2>
     <div class="box">
@@ -576,7 +579,11 @@ function renderSettings() {
     download(`study-backup-${stamp}.json`, { version: 1, exported: new Date().toISOString(), progress: state.prog, log: state.log, settings: safe });
   };
   const $ = id => document.getElementById(id);
-  const busy = async (btn, fn) => { btn.disabled = true; try { await fn(); } catch (e) { toast('Telegram: ' + e.message); } btn.disabled = false; };
+  const busy = async (btn, fn) => {
+    btn.disabled = true; const old = btn.textContent; btn.textContent = 'Working…';
+    try { await fn(); } catch (e) { toast('Telegram: ' + e.message); if ($('tgErr')) $('tgErr').textContent = 'Telegram said: ' + e.message; }
+    btn.disabled = false; btn.textContent = old;
+  };
   if ($('tgConnect')) $('tgConnect').onclick = () => busy($('tgConnect'), async () => {
     st.tgToken = $('tgToken').value.trim(); saveSettings();
     if (!/^\d+:[\w-]{20,}$/.test(st.tgToken)) throw new Error('That does not look like a bot token.');
