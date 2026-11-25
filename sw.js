@@ -1,5 +1,5 @@
 // App shell is cached for offline use; card files are fetched fresh when online and cached as a fallback.
-const CACHE = 'qs-202611250324';
+const CACHE = 'qs-202611251227';
 const SHELL = ['./', 'index.html', 'style.css', 'app.js', 'manifest.json', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL))); self.skipWaiting(); });
 self.addEventListener('activate', e => {
