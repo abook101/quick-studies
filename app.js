@@ -1,7 +1,7 @@
 'use strict';
 /* Quick Studies: offline study app. All progress lives in this phone's localStorage. */
 
-const APP_VERSION = '2026-11-25 v3';   // shown in Settings so we can tell which version a phone runs
+const APP_VERSION = '2026-11-25 v4';   // shown in Settings so we can tell which version a phone runs
 const DAY = 86400000;
 const SEC_PER_CARD = 40;          // rough estimate used to size a session
 const LOG_MAX = 3000;             // keep the answer log bounded
@@ -512,9 +512,27 @@ async function tgSend(sinceMs) {
   f.append('chat_id', st.tgChat);
   f.append('caption', `${entries.length} answers (${again} Again/Hard). Ask Claude: "review my Telegram answers".`);
   f.append('document', new Blob([JSON.stringify({ exported: new Date().toISOString(), entries }, null, 1)], { type: 'application/json' }), name);
-  await tgCall('sendDocument', f);
+  const msg = await tgCall('sendDocument', f);
+  await tgIndexAdd(msg.document.file_id, entries.length, last);
   if (sinceMs == null || Date.parse(last) > (st.tgSentUpTo || 0)) { st.tgSentUpTo = Date.parse(last); saveSettings(); }
   return entries.length;
+}
+// A bot cannot read messages it sent itself, so Claude finds the logs through one pinned "index" message
+// listing their file ids. Claude reads it with getChat (pinned_message), which has no 24-hour limit.
+async function tgIndexAdd(fileId, n, t) {
+  const st = state.settings;
+  st.tgFiles = (st.tgFiles || []).concat({ f: fileId, n, t }).slice(-40); saveSettings();
+  const text = 'Quick Studies index for Claude. Please keep this pinned.\n' + JSON.stringify(st.tgFiles);
+  const f = new FormData(); f.append('chat_id', st.tgChat); f.append('text', text);
+  if (st.tgIndexMsg) {
+    f.append('message_id', st.tgIndexMsg);
+    try { await tgCall('editMessageText', f); return; } catch (e) { /* deleted or too old: post a new one */ }
+    f.delete('message_id');
+  }
+  const m = await tgCall('sendMessage', f);
+  st.tgIndexMsg = m.message_id; saveSettings();
+  const p = new FormData(); p.append('chat_id', st.tgChat); p.append('message_id', m.message_id); p.append('disable_notification', 'true');
+  await tgCall('pinChatMessage', p).catch(() => {});
 }
 async function tgAutoSend() {
   if (!tgReady() || state.settings.tgAuto === false || !navigator.onLine) return;
@@ -576,7 +594,7 @@ function renderSettings() {
   const stamp = new Date().toISOString().slice(0, 10);
   document.getElementById('expLog').onclick = () => download(`study-log-${stamp}.json`, { exported: new Date().toISOString(), entries: state.log });
   document.getElementById('expAll').onclick = () => {
-    const { tgToken, tgChat, ...safe } = st;   // never put the bot token in a backup file
+    const { tgToken, tgChat, tgIndexMsg, tgFiles, ...safe } = st;   // never put the bot token in a backup file
     download(`study-backup-${stamp}.json`, { version: 1, exported: new Date().toISOString(), progress: state.prog, log: state.log, settings: safe });
   };
   const $ = id => document.getElementById(id);
@@ -593,7 +611,7 @@ function renderSettings() {
   if ($('tgSend')) $('tgSend').onclick = () => busy($('tgSend'), async () => { const n = await tgSend(); toast(n ? `Sent ${n} answers` : 'No new answers to send'); renderSettings(); });
   if ($('tgResend')) $('tgResend').onclick = () => busy($('tgResend'), async () => { const n = await tgSend(Date.now() - 7 * DAY); toast(n ? `Sent ${n} answers` : 'No answers in the last 7 days'); });
   if ($('tgAuto')) $('tgAuto').onchange = e => { st.tgAuto = e.target.value === 'on'; saveSettings(); toast('Saved'); };
-  if ($('tgOff')) $('tgOff').onclick = () => { delete st.tgToken; delete st.tgChat; saveSettings(); renderSettings(); };
+  if ($('tgOff')) $('tgOff').onclick = () => { delete st.tgToken; delete st.tgChat; delete st.tgIndexMsg; delete st.tgFiles; saveSettings(); renderSettings(); };
   const file = document.getElementById('file');
   document.getElementById('impAll').onclick = () => file.click();
   file.onchange = async () => {
@@ -601,7 +619,7 @@ function renderSettings() {
       const data = JSON.parse(await file.files[0].text());
       if (!data.progress) throw new Error('not a backup');
       if (!confirm('Replace the progress on this phone with this backup?')) return;
-      state.prog = data.progress; state.log = data.log || []; const { tgToken, tgChat, ...rest } = data.settings || {}; Object.assign(st, rest);
+      state.prog = data.progress; state.log = data.log || []; const { tgToken, tgChat, tgIndexMsg, tgFiles, ...rest } = data.settings || {}; Object.assign(st, rest);
       saveProg(); saveLog(); saveSettings(); toast('Backup restored'); renderSettings();
     } catch (e) { toast('That file is not a Quick Studies backup.'); }
   };
