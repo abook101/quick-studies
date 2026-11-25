@@ -224,26 +224,42 @@ function checkAnswer(card, text) {
 
 /* ---------- speech ---------- */
 const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
-let rec = null;
+let rec = null, recDone = null;
+// iPhone Safari's speech recognition is unreliable (often silent in home-screen apps), so default to the keyboard mic there
+const isIOS = /iPhone|iPad|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+const micEnabled = () => !!SR && (state.settings.useMic ?? !isIOS);
+// Starts recognition. onText gets the live transcript; onEnd(reason) is called exactly once:
+// 'stopped' (user/normal end), 'nothing' (no speech heard), or an error name.
 function startListening(onText, onEnd) {
   if (!SR) return false;
-  rec = new SR();
-  rec.lang = state.settings.speechLang; rec.continuous = true; rec.interimResults = true;
-  let finalText = '';
-  rec.onresult = ev => {
-    let interim = '';
-    for (let i = ev.resultIndex; i < ev.results.length; i++) {
-      const r = ev.results[i];
-      if (r.isFinal) finalText += r[0].transcript + ' '; else interim += r[0].transcript;
-    }
-    onText((finalText + interim).trim());
-  };
-  rec.onerror = ev => { if (ev.error === 'not-allowed') toast('Microphone blocked. Allow it in the browser settings, or use the keyboard mic.'); };
-  rec.onend = () => { rec = null; onEnd(); };
-  try { rec.start(); } catch (e) { rec = null; return false; }
+  let ended = false, heard = false, finalText = '';
+  const end = reason => { if (ended) return; ended = true; clearTimeout(silence); rec = null; recDone = null; onEnd(heard ? 'stopped' : reason); };
+  recDone = end;
+  try {
+    rec = new SR();
+    rec.lang = state.settings.speechLang; rec.continuous = true; rec.interimResults = true;
+    rec.onresult = ev => {
+      heard = true; let interim = '';
+      for (let i = ev.resultIndex; i < ev.results.length; i++) {
+        const r = ev.results[i];
+        if (r.isFinal) finalText += r[0].transcript + ' '; else interim += r[0].transcript;
+      }
+      onText((finalText + interim).trim());
+    };
+    rec.onerror = ev => end(ev.error || 'error');
+    rec.onend = () => end('nothing');
+    rec.start();
+  } catch (e) { end('error'); return false; }
+  // some phones (e.g. iPhone home-screen apps) accept start() but never deliver anything
+  var silence = setTimeout(() => { if (heard) return; const r = rec; end('nothing'); if (r) { try { r.abort(); } catch (e) {} } }, 8000);
   return true;
 }
-function stopListening() { if (rec) try { rec.stop(); } catch (e) {} }
+// Always ends recording immediately, even if the browser never answers.
+function stopListening() {
+  const r = rec, done = recDone;
+  if (r) { try { r.stop(); } catch (e) {} try { r.abort(); } catch (e) {} }
+  if (done) done('stopped');
+}
 
 /* ---------- UI helpers ---------- */
 const $view = document.getElementById('view');
@@ -330,8 +346,9 @@ function renderCard() {
       ${card.type === 'summary' ? '<div class="muted small">Explain this in your own words, then check.</div>' : ''}
     </div>
     <div id="answerArea">
-      <button class="mic" id="mic" ${SR ? '' : 'style="display:none"'}>🎤 <span>Tap and speak your answer</span></button>
-      <textarea id="txt" placeholder="${SR ? 'Your spoken answer appears here. You can also type or edit it.' : 'Speak with the keyboard microphone, or type your answer.'}"></textarea>
+      <button class="mic" id="mic" ${micEnabled() ? '' : 'style="display:none"'}>🎤 <span>Tap and speak your answer</span></button>
+      <div class="muted small" id="micHint">${micEnabled() ? '' : 'Tap the box and use the 🎤 on your keyboard to speak your answer.'}</div>
+      <textarea id="txt" placeholder="${micEnabled() ? 'Your spoken answer appears here. You can also type or edit it.' : 'Your answer (keyboard mic or typing)'}"></textarea>
       <div class="row">
         <button class="btn secondary" id="dunno">I don't know</button>
         <button class="btn" id="check">Check answer</button>
@@ -341,12 +358,23 @@ function renderCard() {
     <button class="btn ghost" id="end">End session</button>`;
   const txt = document.getElementById('txt'), mic = document.getElementById('mic');
   let listening = false;
+  const micIdle = () => { listening = false; mic.classList.remove('on'); mic.lastElementChild.textContent = 'Tap and speak your answer'; };
   mic.onclick = () => {
     if (listening) { stopListening(); return; }
     const base = txt.value ? txt.value.trim() + ' ' : '';
-    listening = startListening(t => { txt.value = base + t; }, () => { listening = false; mic.classList.remove('on'); mic.lastElementChild.textContent = 'Tap and speak your answer'; });
-    if (listening) { mic.classList.add('on'); mic.lastElementChild.textContent = 'Listening… tap to stop'; }
-    else toast('Voice input is not available here. Use the keyboard mic instead.');
+    listening = startListening(t => { txt.value = base + t; }, reason => {
+      micIdle();
+      if (reason === 'stopped') return;
+      state.micFails = (state.micFails || 0) + 1;
+      const msg = reason === 'not-allowed' || reason === 'service-not-allowed'
+        ? 'Microphone access is blocked here.' : 'No speech was picked up.';
+      document.getElementById('micHint').innerHTML = `${msg} Tap the box below and use the 🎤 on your keyboard instead.` +
+        (state.micFails >= 2 ? ' <button class="btn ghost" id="micOff" style="margin-top:8px">Always use the keyboard mic</button>' : '');
+      const off = document.getElementById('micOff');
+      if (off) off.onclick = () => { state.settings.useMic = false; saveSettings(); mic.style.display = 'none'; document.getElementById('micHint').textContent = 'Tap the box and use the 🎤 on your keyboard. You can turn the app mic back on in Settings.'; txt.focus(); };
+    });
+    if (listening) { mic.classList.add('on'); mic.lastElementChild.textContent = 'Listening… tap to stop'; document.getElementById('micHint').textContent = ''; }
+    else { micIdle(); document.getElementById('micHint').textContent = 'Voice input could not start. Tap the box and use the 🎤 on your keyboard.'; }
   };
   document.getElementById('check').onclick = () => { stopListening(); showResult(card, txt.value); };
   document.getElementById('dunno').onclick = () => { stopListening(); showResult(card, ''); };
@@ -462,6 +490,8 @@ function renderSettings() {
       <select id="newPer">${opt([0, 4, 8, 12, 16, 24], st.newPerSession, v => v)}</select>
       <label class="field">Review cards from other courses</label>
       <select id="other">${opt([0, 0.1, 0.15, 0.25], st.otherShare, v => Math.round(v * 100) + '%')}</select>
+      <label class="field">Speaking answers</label>
+      <select id="useMic">${opt(['on', 'off'], micEnabled() ? 'on' : 'off', v => v === 'on' ? 'In-app mic button' : 'Keyboard mic only')}</select>
       <label class="field">Voice recognition accent</label>
       <select id="lang">${opt(['en-US', 'en-GB', 'en-IN', 'en-AU'], st.speechLang, v => v)}</select>
     </div>
@@ -480,7 +510,7 @@ function renderSettings() {
     </div>
     <div class="muted small">Cards loaded: ${state.byId.size} from ${state.courses.length} course(s).</div>`;
   const bind = (id, key, conv) => document.getElementById(id).onchange = e => { st[key] = conv(e.target.value); saveSettings(); toast('Saved'); };
-  bind('minutes', 'minutes', Number); bind('newPer', 'newPerSession', Number); bind('other', 'otherShare', Number); bind('lang', 'speechLang', String);
+  bind('minutes', 'minutes', Number); bind('newPer', 'newPerSession', Number); bind('other', 'otherShare', Number); bind('lang', 'speechLang', String); bind('useMic', 'useMic', v => v === 'on');
   const stamp = new Date().toISOString().slice(0, 10);
   document.getElementById('expLog').onclick = () => download(`study-log-${stamp}.json`, { exported: new Date().toISOString(), entries: state.log });
   document.getElementById('expAll').onclick = () => download(`study-backup-${stamp}.json`, { version: 1, exported: new Date().toISOString(), progress: state.prog, log: state.log, settings: st });
