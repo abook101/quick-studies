@@ -1,0 +1,3280 @@
+{
+ "course": "Electrical Engineering",
+ "cards": [
+  {
+   "id": "electrical-engineering-001",
+   "topic": "Units & Vectors",
+   "type": "flashcard",
+   "question": "Name the seven SI base quantities and their units.",
+   "answer": "Length (meter), mass (kilogram), time (second), electrical current (ampere), temperature (kelvin), luminous intensity (candela), amount of substance (mole).",
+   "keywords": [
+    "meter",
+    "kilogram",
+    "second",
+    "ampere",
+    "kelvin",
+    "candela",
+    "mole"
+   ],
+   "synonyms": {
+    "mole": [
+     "mol"
+    ]
+   },
+   "source": "1. Magnitudes and Units, Fundamental magnitudes and units"
+  },
+  {
+   "id": "electrical-engineering-002",
+   "topic": "Units & Vectors",
+   "type": "flashcard",
+   "question": "Which of the SI base units is the electrical base unit?",
+   "answer": "The ampere, the unit of electrical current.",
+   "keywords": [
+    "ampere",
+    "current"
+   ],
+   "synonyms": {
+    "ampere": [
+     "amp",
+     "amps"
+    ]
+   },
+   "source": "1. Magnitudes and Units, Fundamental magnitudes and units"
+  },
+  {
+   "id": "electrical-engineering-003",
+   "topic": "Units & Vectors",
+   "type": "concept",
+   "question": "What is the difference between fundamental and derived magnitudes?",
+   "answer": "Fundamental magnitudes are the SI base quantities. All other physical quantities are derived magnitudes and can always be expressed with the fundamental ones.",
+   "keywords": [
+    "fundamental",
+    "derived",
+    "base"
+   ],
+   "synonyms": {
+    "fundamental": [
+     "base"
+    ]
+   },
+   "source": "1. Magnitudes and Units, Derived magnitudes"
+  },
+  {
+   "id": "electrical-engineering-004",
+   "topic": "Units & Vectors",
+   "type": "concept",
+   "question": "How is a physical magnitude written, and what must match on both sides of an equation?",
+   "answer": "A magnitude is a numerical value times a unit. In an equation the numerical value, the unit and the type of magnitude (scalar or vector) must all match.",
+   "keywords": [
+    "numerical value",
+    "unit",
+    "scalar",
+    "vector"
+   ],
+   "synonyms": {
+    "numerical value": [
+     "number"
+    ]
+   },
+   "source": "1. Magnitudes and Units, Magnitudes and Units"
+  },
+  {
+   "id": "electrical-engineering-005",
+   "topic": "Units & Vectors",
+   "type": "concept",
+   "question": "How do you check whether a physics equation is coherent?",
+   "answer": "Compare the units on both sides; they must be identical, and a scalar cannot equal a vector.",
+   "keywords": [
+    "units",
+    "both sides"
+   ],
+   "synonyms": {
+    "units": [
+     "dimensions"
+    ]
+   },
+   "source": "1. Magnitudes and Units, Magnitudes and Units"
+  },
+  {
+   "id": "electrical-engineering-006",
+   "topic": "Units & Vectors",
+   "type": "quiz",
+   "question": "Which of these are scalars and which are vectors: temperature, time, pressure, speed, work, force?",
+   "answer": "Force is a vector (with direction). Temperature, time, pressure, speed and work are scalars.",
+   "keywords": [
+    "force",
+    "vector",
+    "scalar"
+   ],
+   "synonyms": {},
+   "source": "1. Magnitudes and Units, Scalar vs vector quiz"
+  },
+  {
+   "id": "electrical-engineering-007",
+   "topic": "Units & Vectors",
+   "type": "flashcard",
+   "question": "What is the unit of electric charge and how is it written in base units?",
+   "answer": "Coulomb, which equals ampere-second (C = A·s).",
+   "keywords": [
+    "coulomb",
+    "ampere",
+    "second"
+   ],
+   "synonyms": {
+    "coulomb": [
+     "coulombs"
+    ]
+   },
+   "source": "1. Magnitudes and Units, Table 2 derived units"
+  },
+  {
+   "id": "electrical-engineering-008",
+   "topic": "Units & Vectors",
+   "type": "flashcard",
+   "question": "What are the units of voltage and resistance?",
+   "answer": "Voltage is measured in volt (V), resistance in ohm (Ω).",
+   "keywords": [
+    "volt",
+    "ohm"
+   ],
+   "synonyms": {},
+   "source": "1. Magnitudes and Units, Table 3 derived units"
+  },
+  {
+   "id": "electrical-engineering-009",
+   "topic": "Units & Vectors",
+   "type": "flashcard",
+   "question": "What are the unit and symbol of conductance and capacitance?",
+   "answer": "Conductance G in siemens (S, equal to 1/Ω); capacitance C in farad (F).",
+   "keywords": [
+    "siemens",
+    "farad"
+   ],
+   "synonyms": {
+    "siemens": [
+     "mho"
+    ]
+   },
+   "source": "1. Magnitudes and Units, Table 3 derived units"
+  },
+  {
+   "id": "electrical-engineering-010",
+   "topic": "Units & Vectors",
+   "type": "flashcard",
+   "question": "Which units belong to inductance, magnetic flux, magnetic flux density and magnetic field strength?",
+   "answer": "Inductance: henry (H). Magnetic flux: weber (Wb). Flux density B: tesla (T). Field strength H: ampere per meter (A/m).",
+   "keywords": [
+    "henry",
+    "weber",
+    "tesla",
+    "ampere per meter"
+   ],
+   "synonyms": {
+    "ampere per meter": [
+     "A/m",
+     "amps per meter"
+    ]
+   },
+   "source": "1. Magnitudes and Units, Table 4 derived units"
+  },
+  {
+   "id": "electrical-engineering-011",
+   "topic": "Units & Vectors",
+   "type": "flashcard",
+   "question": "What are the units of force, energy and power?",
+   "answer": "Force in newton (N), energy/work/heat in joule (J), power in watt (W).",
+   "keywords": [
+    "newton",
+    "joule",
+    "watt"
+   ],
+   "synonyms": {},
+   "source": "1. Magnitudes and Units, Table 2 derived units"
+  },
+  {
+   "id": "electrical-engineering-012",
+   "topic": "Units & Vectors",
+   "type": "flashcard",
+   "question": "What is the unit of electric field strength?",
+   "answer": "Volt per meter (V/m).",
+   "keywords": [
+    "volt",
+    "meter"
+   ],
+   "synonyms": {
+    "volt": [
+     "volts"
+    ]
+   },
+   "source": "1. Magnitudes and Units, Table 3 derived units"
+  },
+  {
+   "id": "electrical-engineering-013",
+   "topic": "Units & Vectors",
+   "type": "quiz",
+   "question": "What do the prefixes kilo, mega, giga, milli, micro, nano and pico stand for?",
+   "answer": "Kilo is a thousand, mega a million, giga a billion (10^9), milli a thousandth, micro a millionth, nano 10^-9, pico 10^-12.",
+   "keywords": [
+    "thousand",
+    "million",
+    "thousandth",
+    "millionth"
+   ],
+   "synonyms": {
+    "thousand": [
+     "10^3",
+     "1000"
+    ],
+    "million": [
+     "10^6"
+    ]
+   },
+   "source": "1. Magnitudes and Units, SI prefixes"
+  },
+  {
+   "id": "electrical-engineering-014",
+   "topic": "Units & Vectors",
+   "type": "concept",
+   "question": "Why is a uniform unit system important? Give the lecture example.",
+   "answer": "Unit mix-ups have severe consequences: the Air Canada Gimli Glider ran out of fuel in 1983 because fuel was loaded in the wrong unit (pounds versus kilograms).",
+   "keywords": [
+    "Gimli",
+    "fuel",
+    "unit"
+   ],
+   "synonyms": {
+    "fuel": [
+     "kerosene"
+    ],
+    "Gimli": [
+     "Air Canada"
+    ]
+   },
+   "source": "1. Magnitudes and Units, Air Canada flight 143"
+  },
+  {
+   "id": "electrical-engineering-015",
+   "topic": "Units & Vectors",
+   "type": "concept",
+   "question": "How are vectors added, and which principle does that represent?",
+   "answer": "Vectors are added component by component, or graphically head to tail, which is the superposition principle; the order does not matter.",
+   "keywords": [
+    "components",
+    "superposition"
+   ],
+   "synonyms": {
+    "components": [
+     "head to tail",
+     "graphically"
+    ]
+   },
+   "source": "1. Magnitudes and Units, Vector addition"
+  },
+  {
+   "id": "electrical-engineering-016",
+   "topic": "Units & Vectors",
+   "type": "concept",
+   "question": "What is the scalar product of two vectors and what kind of result does it give?",
+   "answer": "It is the product of the magnitudes times the cosine of the angle between them. The result is a scalar, for example work as force dot path.",
+   "keywords": [
+    "cosine",
+    "angle",
+    "scalar"
+   ],
+   "synonyms": {
+    "cosine": [
+     "cos"
+    ]
+   },
+   "source": "1. Magnitudes and Units, Scalar product"
+  },
+  {
+   "id": "electrical-engineering-017",
+   "topic": "Units & Vectors",
+   "type": "concept",
+   "question": "What is the vector product and how do you find its direction?",
+   "answer": "Its magnitude is the product of the magnitudes times the sine of the angle. The result is perpendicular to both vectors, found with the three-finger rule.",
+   "keywords": [
+    "sine",
+    "perpendicular",
+    "three-finger"
+   ],
+   "synonyms": {
+    "sine": [
+     "sin"
+    ],
+    "three-finger": [
+     "right hand rule",
+     "right-hand rule"
+    ]
+   },
+   "source": "1. Magnitudes and Units, Vector product"
+  },
+  {
+   "id": "electrical-engineering-018",
+   "topic": "Units & Vectors",
+   "type": "concept",
+   "question": "What is a line integral, and what is it called when the path is closed?",
+   "answer": "It is the integral of a vector field along a path. Over a closed path it is called a circulation integral.",
+   "keywords": [
+    "path",
+    "closed",
+    "circulation"
+   ],
+   "synonyms": {
+    "circulation": [
+     "circulating"
+    ]
+   },
+   "source": "1. Magnitudes and Units, Line integral"
+  },
+  {
+   "id": "electrical-engineering-019",
+   "topic": "Units & Vectors",
+   "type": "concept",
+   "question": "What is a surface (area) integral used for in this course?",
+   "answer": "It sums a vector field through a surface, such as flux density through an area to get flux.",
+   "keywords": [
+    "surface",
+    "flux"
+   ],
+   "synonyms": {
+    "surface": [
+     "area"
+    ]
+   },
+   "source": "1. Magnitudes and Units, Surface integral"
+  },
+  {
+   "id": "electrical-engineering-020",
+   "topic": "DC: Charge & Current",
+   "type": "flashcard",
+   "question": "What is the elementary charge and what does it say about all charges?",
+   "answer": "It is about 1.6 × 10^-19 coulomb, the smallest charge. Every charge is an integer multiple of it.",
+   "keywords": [
+    "1.6",
+    "10^-19",
+    "integer multiple"
+   ],
+   "synonyms": {
+    "integer multiple": [
+     "whole number multiple"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Charge"
+  },
+  {
+   "id": "electrical-engineering-021",
+   "topic": "DC: Charge & Current",
+   "type": "flashcard",
+   "question": "Who determined the elementary charge and with which experiment?",
+   "answer": "Robert Millikan, with the oil droplet experiment.",
+   "keywords": [
+    "Millikan",
+    "oil"
+   ],
+   "synonyms": {
+    "oil": [
+     "oil drop",
+     "oil droplet"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Historical development: Charge"
+  },
+  {
+   "id": "electrical-engineering-022",
+   "topic": "DC: Charge & Current",
+   "type": "flashcard",
+   "question": "What is one coulomb in terms of current?",
+   "answer": "The charge carried through a conductor cross-section by a current of one ampere in one second.",
+   "keywords": [
+    "ampere",
+    "second",
+    "cross-section"
+   ],
+   "synonyms": {},
+   "source": "2. DC (DC-Circuits), Charge"
+  },
+  {
+   "id": "electrical-engineering-023",
+   "topic": "DC: Charge & Current",
+   "type": "flashcard",
+   "question": "How are charge, current and time related?",
+   "answer": "Charge equals current times time (Q = I·t). In general current is the time derivative of charge.",
+   "keywords": [
+    "charge",
+    "current",
+    "time",
+    "derivative"
+   ],
+   "synonyms": {
+    "derivative": [
+     "rate of change"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Charge and current"
+  },
+  {
+   "id": "electrical-engineering-024",
+   "topic": "DC: Charge & Current",
+   "type": "concept",
+   "question": "What is the technical direction of current compared to electron flow?",
+   "answer": "Technical current direction is defined as the flow of positive charge and is opposite to the direction of electron flow.",
+   "keywords": [
+    "opposite",
+    "electrons",
+    "positive"
+   ],
+   "synonyms": {},
+   "source": "2. DC (DC-Circuits), Electrical current"
+  },
+  {
+   "id": "electrical-engineering-025",
+   "topic": "DC: Charge & Current",
+   "type": "concept",
+   "question": "What three conditions are needed for a current to flow in a circuit?",
+   "answer": "The circuit must be closed, a voltage must be present as driving force, and free charge carriers (electrons) must be available.",
+   "keywords": [
+    "closed",
+    "voltage",
+    "free"
+   ],
+   "synonyms": {
+    "free": [
+     "mobile"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Voltage: conditions for a circuit"
+  },
+  {
+   "id": "electrical-engineering-026",
+   "topic": "DC: Charge & Current",
+   "type": "concept",
+   "question": "In the water analogy, what corresponds to voltage, current, resistance and the pump?",
+   "answer": "Pressure difference is voltage, water flow is current, a throttle is resistance, and the pump is the voltage source.",
+   "keywords": [
+    "pressure",
+    "flow",
+    "throttle",
+    "pump"
+   ],
+   "synonyms": {
+    "throttle": [
+     "valve"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Water analogy"
+  },
+  {
+   "id": "electrical-engineering-027",
+   "topic": "DC: Charge & Current",
+   "type": "concept",
+   "question": "How do insulators, semiconductors and conductors differ?",
+   "answer": "Insulators have firmly bound electrons and very low conductivity. Semiconductors like silicon can change conductivity with voltage or control current. Conductors like copper have freely movable charge carriers and high conductivity.",
+   "keywords": [
+    "insulator",
+    "semiconductor",
+    "conductor"
+   ],
+   "synonyms": {},
+   "source": "2. DC (DC-Circuits), Conductivity ranges"
+  },
+  {
+   "id": "electrical-engineering-028",
+   "topic": "DC: Charge & Current",
+   "type": "concept",
+   "question": "What is current density and what does it tell you about a conductor?",
+   "answer": "Current per cross-sectional area (J = I/A), in A/m² or A/mm². It describes the load on a conductor and limits heating, so it sets the current carrying capacity.",
+   "keywords": [
+    "current per area",
+    "heating",
+    "carrying capacity"
+   ],
+   "synonyms": {
+    "current per area": [
+     "I over A",
+     "current divided by area"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Current density"
+  },
+  {
+   "id": "electrical-engineering-029",
+   "topic": "DC: Charge & Current",
+   "type": "concept",
+   "question": "Why may a coiled-up cable drum overheat even below rated current?",
+   "answer": "Rated current applies to an unrolled cable. When rolled, the layers hinder heat dissipation and the cable heats more, risking fire.",
+   "keywords": [
+    "heat",
+    "dissipation",
+    "unrolled"
+   ],
+   "synonyms": {
+    "dissipation": [
+     "cooling"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Current density: cable drum"
+  },
+  {
+   "id": "electrical-engineering-030",
+   "topic": "DC: Charge & Current",
+   "type": "quiz",
+   "question": "How fast do electrons move in a wire and how fast is electrical energy transferred?",
+   "answer": "Electrons drift very slowly, around fractions of a millimeter per second. The electrical energy (the field) propagates at approximately the speed of light.",
+   "keywords": [
+    "slowly",
+    "speed of light"
+   ],
+   "synonyms": {
+    "slowly": [
+     "very slow",
+     "mm per second"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Velocity of electrons"
+  },
+  {
+   "id": "electrical-engineering-031",
+   "topic": "DC: Charge & Current",
+   "type": "concept",
+   "question": "Which quantities determine the electron drift velocity?",
+   "answer": "Current, electron density, elementary charge and cross-sectional area: v = I/(e·n·A).",
+   "keywords": [
+    "current",
+    "electron density",
+    "area"
+   ],
+   "synonyms": {},
+   "source": "2. DC (DC-Circuits), Velocity of electrons"
+  },
+  {
+   "id": "electrical-engineering-032",
+   "topic": "DC: Charge & Current",
+   "type": "quiz",
+   "question": "What is the toaster statement that is true: are charges swallowed, is current destroyed, or is heat generated?",
+   "answer": "Heat is generated in the heating resistor. Neither charge nor current is used up.",
+   "keywords": [
+    "heat",
+    "resistor"
+   ],
+   "synonyms": {
+    "resistor": [
+     "heating element",
+     "filament"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Charge and current quiz"
+  },
+  {
+   "id": "electrical-engineering-033",
+   "topic": "DC: Charge & Current",
+   "type": "flashcard",
+   "question": "Roughly at what current does ventricular fibrillation become likely?",
+   "answer": "Above about 50 milliamperes.",
+   "keywords": [
+    "50",
+    "milliampere"
+   ],
+   "synonyms": {
+    "milliampere": [
+     "mA",
+     "milliamps"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), How dangerous is current"
+  },
+  {
+   "id": "electrical-engineering-034",
+   "topic": "DC: Voltage, Resistance, Power",
+   "type": "concept",
+   "question": "What is electric voltage in physical terms?",
+   "answer": "Voltage is the driving cause of charge movement: the energy converted per unit charge, W = U·Q.",
+   "keywords": [
+    "energy",
+    "charge",
+    "driving"
+   ],
+   "synonyms": {
+    "energy": [
+     "work"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Voltage"
+  },
+  {
+   "id": "electrical-engineering-035",
+   "topic": "DC: Voltage, Resistance, Power",
+   "type": "quiz",
+   "question": "Name possibilities of voltage generation.",
+   "answer": "Induction (generator), chemical (battery), thermal (thermocouple), deformation (piezo), light (solar cell) and friction.",
+   "keywords": [
+    "induction",
+    "chemical",
+    "thermal",
+    "light"
+   ],
+   "synonyms": {
+    "induction": [
+     "generator",
+     "magnetic"
+    ],
+    "chemical": [
+     "battery"
+    ],
+    "light": [
+     "solar",
+     "photo"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Possibilities of voltage generation"
+  },
+  {
+   "id": "electrical-engineering-036",
+   "topic": "DC: Voltage, Resistance, Power",
+   "type": "concept",
+   "question": "How do voltage sources in series combine?",
+   "answer": "Their voltages add, taking account of polarity.",
+   "keywords": [
+    "add",
+    "polarity"
+   ],
+   "synonyms": {
+    "add": [
+     "sum"
+    ],
+    "polarity": [
+     "direction"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Voltage: series"
+  },
+  {
+   "id": "electrical-engineering-037",
+   "topic": "DC: Voltage, Resistance, Power",
+   "type": "concept",
+   "question": "How can an electric eel produce several hundred volts?",
+   "answer": "Many cells of about 0.15 volts each are connected in series, so their voltages add up.",
+   "keywords": [
+    "series",
+    "cells",
+    "add"
+   ],
+   "synonyms": {},
+   "source": "2. DC (DC-Circuits), Electrical eel"
+  },
+  {
+   "id": "electrical-engineering-038",
+   "topic": "DC: Voltage, Resistance, Power",
+   "type": "concept",
+   "question": "Why does a tram need only one pantograph?",
+   "answer": "The rail acts as the return conductor, so the circuit closes through the rail.",
+   "keywords": [
+    "rail",
+    "return"
+   ],
+   "synonyms": {
+    "rail": [
+     "track"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Voltage: tramway"
+  },
+  {
+   "id": "electrical-engineering-039",
+   "topic": "DC: Voltage, Resistance, Power",
+   "type": "flashcard",
+   "question": "State Ohm's law and what it says about linear resistors.",
+   "answer": "U = I·R; for a linear resistor voltage is proportional to current.",
+   "keywords": [
+    "voltage",
+    "current",
+    "resistance",
+    "proportional"
+   ],
+   "synonyms": {},
+   "source": "2. DC (DC-Circuits), Electrical resistance"
+  },
+  {
+   "id": "electrical-engineering-040",
+   "topic": "DC: Voltage, Resistance, Power",
+   "type": "flashcard",
+   "question": "What is conductance and its unit?",
+   "answer": "Conductance G is the reciprocal of resistance (G = 1/R), measured in siemens.",
+   "keywords": [
+    "reciprocal",
+    "siemens"
+   ],
+   "synonyms": {},
+   "source": "2. DC (DC-Circuits), Resistance/conductivity"
+  },
+  {
+   "id": "electrical-engineering-041",
+   "topic": "DC: Voltage, Resistance, Power",
+   "type": "concept",
+   "question": "On which quantities does the resistance of a wire depend?",
+   "answer": "Length, cross-sectional area and material (specific resistance): R = ρ·l/A.",
+   "keywords": [
+    "length",
+    "area",
+    "specific resistance"
+   ],
+   "synonyms": {
+    "specific resistance": [
+     "resistivity",
+     "rho"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Resistance of conductors"
+  },
+  {
+   "id": "electrical-engineering-042",
+   "topic": "DC: Voltage, Resistance, Power",
+   "type": "quiz",
+   "question": "Which materials make good connecting cables, and which make good resistors?",
+   "answer": "Good conductors like silver, copper and aluminum make cables. Poorly conducting alloys like manganin make resistors.",
+   "keywords": [
+    "copper",
+    "manganin"
+   ],
+   "synonyms": {
+    "copper": [
+     "silver",
+     "aluminum"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Specific resistance table"
+  },
+  {
+   "id": "electrical-engineering-043",
+   "topic": "DC: Voltage, Resistance, Power",
+   "type": "concept",
+   "question": "How does temperature affect metallic resistance and why?",
+   "answer": "Resistance rises approximately linearly with temperature, because stronger atomic vibration makes collisions with free electrons more likely.",
+   "keywords": [
+    "increases",
+    "vibration",
+    "collisions"
+   ],
+   "synonyms": {
+    "increases": [
+     "rises",
+     "goes up"
+    ],
+    "collisions": [
+     "collide",
+     "scattering"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Temperature dependence"
+  },
+  {
+   "id": "electrical-engineering-044",
+   "topic": "DC: Voltage, Resistance, Power",
+   "type": "quiz",
+   "question": "Which material has an almost temperature-independent resistance?",
+   "answer": "Manganin, with a very small temperature coefficient.",
+   "keywords": [
+    "manganin"
+   ],
+   "synonyms": {},
+   "source": "2. DC (DC-Circuits), Temperature coefficients"
+  },
+  {
+   "id": "electrical-engineering-045",
+   "topic": "DC: Voltage, Resistance, Power",
+   "type": "flashcard",
+   "question": "Give the three equivalent forms of electrical power.",
+   "answer": "P = U·I = U²/R = I²·R.",
+   "keywords": [
+    "U times I",
+    "U squared over R",
+    "I squared R"
+   ],
+   "synonyms": {
+    "U times I": [
+     "UI",
+     "voltage times current"
+    ],
+    "U squared over R": [
+     "U²/R",
+     "voltage squared over resistance"
+    ],
+    "I squared R": [
+     "I²R",
+     "current squared times resistance"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Work and power"
+  },
+  {
+   "id": "electrical-engineering-046",
+   "topic": "DC: Voltage, Resistance, Power",
+   "type": "flashcard",
+   "question": "How is electrical work (energy) related to power and time?",
+   "answer": "Energy equals power times time, W = U·I·t; you pay for energy in kilowatt-hours.",
+   "keywords": [
+    "power",
+    "time",
+    "kilowatt-hour"
+   ],
+   "synonyms": {
+    "kilowatt-hour": [
+     "kWh"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Work and power"
+  },
+  {
+   "id": "electrical-engineering-047",
+   "topic": "DC: Voltage, Resistance, Power",
+   "type": "quiz",
+   "question": "Two incandescent lamps on the same 230 V: the filament of G1 is twice as thick. Which shines brighter?",
+   "answer": "G1, because the thicker filament has lower resistance, so it draws more current and converts more power at the same voltage.",
+   "keywords": [
+    "G1",
+    "smaller resistance",
+    "more power"
+   ],
+   "synonyms": {
+    "smaller resistance": [
+     "lower resistance"
+    ],
+    "more power": [
+     "more current",
+     "brighter"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Work and power quiz"
+  },
+  {
+   "id": "electrical-engineering-048",
+   "topic": "DC: Voltage, Resistance, Power",
+   "type": "quiz",
+   "question": "How can the power of a hotplate be increased?",
+   "answer": "Increase the applied voltage (power grows with the square of the voltage).",
+   "keywords": [
+    "increase",
+    "voltage"
+   ],
+   "synonyms": {},
+   "source": "2. DC (DC-Circuits), Work and power quiz"
+  },
+  {
+   "id": "electrical-engineering-049",
+   "topic": "DC: Voltage, Resistance, Power",
+   "type": "concept",
+   "question": "Why should we say 'convert' rather than 'generate' or 'consume' energy?",
+   "answer": "Energy is not created or used up; it is converted from one form to another, like electrical energy into heat.",
+   "keywords": [
+    "convert",
+    "energy conservation"
+   ],
+   "synonyms": {
+    "convert": [
+     "transform",
+     "change form"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Work and power"
+  },
+  {
+   "id": "electrical-engineering-050",
+   "topic": "DC: Voltage, Resistance, Power",
+   "type": "flashcard",
+   "question": "Define efficiency and how losses relate.",
+   "answer": "Efficiency is useful output power divided by input power; input equals output plus power dissipation.",
+   "keywords": [
+    "output",
+    "input",
+    "losses"
+   ],
+   "synonyms": {
+    "losses": [
+     "dissipation",
+     "power dissipation"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Generator and motor efficiency"
+  },
+  {
+   "id": "electrical-engineering-051",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "What are an arrow system, and what happens if a reference arrow is chosen 'wrong'?",
+   "answer": "Reference arrows define the positive direction for currents and voltages. If the real direction differs, the value simply comes out negative; the solution stays correct.",
+   "keywords": [
+    "reference",
+    "negative",
+    "direction"
+   ],
+   "synonyms": {
+    "reference": [
+     "arrow"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Arrow system"
+  },
+  {
+   "id": "electrical-engineering-052",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "What is the difference between consumer and generator arrow system?",
+   "answer": "In the consumer system the current and voltage arrows point in the same direction; in the generator system they point in opposite directions.",
+   "keywords": [
+    "same direction",
+    "opposite",
+    "consumer",
+    "generator"
+   ],
+   "synonyms": {},
+   "source": "2. DC (DC-Circuits), Arrow system"
+  },
+  {
+   "id": "electrical-engineering-053",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "Define node, branch and mesh.",
+   "answer": "A node is a point where current can branch, a branch connects two nodes through a two-pole element, and a mesh is a closed loop made of branches.",
+   "keywords": [
+    "node",
+    "branch",
+    "mesh"
+   ],
+   "synonyms": {
+    "mesh": [
+     "loop"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Kirchhoff's laws"
+  },
+  {
+   "id": "electrical-engineering-054",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "flashcard",
+   "question": "State Kirchhoff's first law (current law).",
+   "answer": "The sum of all currents flowing into a node is zero; inflowing and outflowing currents carry opposite signs.",
+   "keywords": [
+    "sum",
+    "currents",
+    "node",
+    "zero"
+   ],
+   "synonyms": {},
+   "source": "2. DC (DC-Circuits), Kirchhoff's laws"
+  },
+  {
+   "id": "electrical-engineering-055",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "flashcard",
+   "question": "State Kirchhoff's second law (voltage law).",
+   "answer": "The sum of all voltages around a mesh is zero.",
+   "keywords": [
+    "sum",
+    "voltages",
+    "mesh",
+    "zero"
+   ],
+   "synonyms": {},
+   "source": "2. DC (DC-Circuits), Kirchhoff's laws"
+  },
+  {
+   "id": "electrical-engineering-056",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "How do you connect two resistors to build a voltage divider, and where does it apply?",
+   "answer": "In series; the voltage splits in proportion to the resistances. It applies only to series connections.",
+   "keywords": [
+    "series",
+    "proportional",
+    "resistances"
+   ],
+   "synonyms": {},
+   "source": "2. DC (DC-Circuits), Series connection: voltage divider"
+  },
+  {
+   "id": "electrical-engineering-057",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "What is the current divider rule?",
+   "answer": "In a parallel connection the currents split inversely proportional to the resistances; the smaller resistor carries more current. It applies only to parallel connections.",
+   "keywords": [
+    "parallel",
+    "inversely",
+    "smaller resistor"
+   ],
+   "synonyms": {
+    "inversely": [
+     "reverse"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Parallel connection: current divider"
+  },
+  {
+   "id": "electrical-engineering-058",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "flashcard",
+   "question": "How do you find the equivalent resistance of a series and a parallel connection?",
+   "answer": "Series: add the resistances. Parallel: the reciprocal of the total equals the sum of the reciprocals, or equivalently conductances add.",
+   "keywords": [
+    "add",
+    "reciprocal"
+   ],
+   "synonyms": {
+    "reciprocal": [
+     "conductance",
+     "one over R"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Connection of resistors"
+  },
+  {
+   "id": "electrical-engineering-059",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "quiz",
+   "question": "One of two bulbs in series suffers a short circuit. What happens to current and brightness of the other bulb?",
+   "answer": "Total resistance decreases, so the current rises and the remaining bulb shines brighter.",
+   "keywords": [
+    "current increases",
+    "brighter"
+   ],
+   "synonyms": {
+    "current increases": [
+     "more current",
+     "current rises",
+     "larger current"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Connection of resistors quiz"
+  },
+  {
+   "id": "electrical-engineering-060",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "quiz",
+   "question": "How are an ammeter and a voltmeter connected, and why?",
+   "answer": "Ammeter in series with the object, voltmeter in parallel across it.",
+   "keywords": [
+    "ammeter series",
+    "voltmeter parallel"
+   ],
+   "synonyms": {
+    "ammeter series": [
+     "current in series",
+     "series"
+    ],
+    "voltmeter parallel": [
+     "voltage in parallel",
+     "parallel"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Measuring current and voltage"
+  },
+  {
+   "id": "electrical-engineering-061",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "Describe a real voltage source.",
+   "answer": "An ideal voltage source with an internal resistance in series; under load the voltage at the terminals drops across the internal resistance.",
+   "keywords": [
+    "internal resistance",
+    "series",
+    "voltage drops"
+   ],
+   "synonyms": {
+    "voltage drops": [
+     "terminal voltage decreases",
+     "voltage decreases"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Real voltage source"
+  },
+  {
+   "id": "electrical-engineering-062",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "Describe a real current source.",
+   "answer": "An ideal current source with an internal resistance in parallel; part of the current flows through it, so the output current decreases.",
+   "keywords": [
+    "internal resistance",
+    "parallel",
+    "current"
+   ],
+   "synonyms": {},
+   "source": "2. DC (DC-Circuits), Real current source"
+  },
+  {
+   "id": "electrical-engineering-063",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "What is the duality principle for sources?",
+   "answer": "Any active two-pole can be replaced by a real voltage source or equivalently by a real current source; they are converted into each other.",
+   "keywords": [
+    "voltage source",
+    "current source",
+    "convert"
+   ],
+   "synonyms": {
+    "convert": [
+     "equivalent",
+     "replace"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Duality principle"
+  },
+  {
+   "id": "electrical-engineering-064",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "Name the steps of branch current analysis.",
+   "answer": "Draw currents and voltages with reference arrows, define meshes, mark nodes, write nodal equations (nodes minus one), write mesh equations, apply Ohm's law, and set up the matrix; unknowns equal equations.",
+   "keywords": [
+    "nodes minus one",
+    "mesh equations",
+    "Ohm",
+    "matrix"
+   ],
+   "synonyms": {
+    "nodes minus one": [
+     "number of nodes minus 1"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Branch current analysis"
+  },
+  {
+   "id": "electrical-engineering-065",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "Why is one node equation superfluous in branch current analysis?",
+   "answer": "The last node equation is linearly dependent on the others, so you need only nodes minus one.",
+   "keywords": [
+    "dependent",
+    "nodes minus one"
+   ],
+   "synonyms": {
+    "dependent": [
+     "redundant",
+     "superfluous"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Branch current analysis"
+  },
+  {
+   "id": "electrical-engineering-066",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "What is the mesh current method and what are mesh currents?",
+   "answer": "Fictitious currents circulating in one mesh each; you write one mesh equation per mesh, then get branch currents by superimposing mesh currents.",
+   "keywords": [
+    "fictitious",
+    "mesh",
+    "superimpose"
+   ],
+   "synonyms": {
+    "fictitious": [
+     "imaginary"
+    ],
+    "superimpose": [
+     "add",
+     "superposition"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Mesh flow analysis"
+  },
+  {
+   "id": "electrical-engineering-067",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "How is the mesh current matrix built directly from a circuit?",
+   "answer": "Own resistances of each mesh are added on the main diagonal; coupling resistors are positive if mesh currents share direction, negative otherwise; source voltages go on the right-hand side.",
+   "keywords": [
+    "diagonal",
+    "coupling",
+    "right side"
+   ],
+   "synonyms": {
+    "coupling": [
+     "shared resistor"
+    ],
+    "right side": [
+     "right-hand side"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Mesh flow: direct matrix"
+  },
+  {
+   "id": "electrical-engineering-068",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "When do you choose the mesh current method over branch current analysis?",
+   "answer": "In larger networks, since it needs fewer equations.",
+   "keywords": [
+    "larger",
+    "fewer equations"
+   ],
+   "synonyms": {
+    "fewer equations": [
+     "smaller system"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Complex networks"
+  },
+  {
+   "id": "electrical-engineering-069",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "Explain the superposition method.",
+   "answer": "Because circuits are linear, split the network into subnetworks with one source each, calculate partial currents and add them.",
+   "keywords": [
+    "linear",
+    "one source",
+    "partial currents",
+    "add"
+   ],
+   "synonyms": {},
+   "source": "2. DC (DC-Circuits), Superposition"
+  },
+  {
+   "id": "electrical-engineering-070",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "quiz",
+   "question": "How do you switch off a voltage source and a current source in superposition?",
+   "answer": "Voltage source: short-circuit it. Current source: leave it open.",
+   "keywords": [
+    "short",
+    "open"
+   ],
+   "synonyms": {
+    "short": [
+     "short-circuit"
+    ],
+    "open": [
+     "open circuit"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Superposition"
+  },
+  {
+   "id": "electrical-engineering-071",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "State the power matching condition for DC and what happens to efficiency.",
+   "answer": "Maximum power is delivered when load resistance equals the internal resistance, Ra = Ri; the efficiency is then 50 percent.",
+   "keywords": [
+    "load",
+    "internal resistance",
+    "equal",
+    "50"
+   ],
+   "synonyms": {
+    "50": [
+     "half",
+     "fifty percent"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Power matching"
+  },
+  {
+   "id": "electrical-engineering-072",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "What is a Thevenin equivalent and which two parameters must be found?",
+   "answer": "Any active two-pole is replaced by a real voltage source with source voltage Uq and internal resistance Ri.",
+   "keywords": [
+    "voltage source",
+    "Uq",
+    "internal resistance"
+   ],
+   "synonyms": {
+    "Uq": [
+     "open-circuit voltage"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Thevenin equivalent"
+  },
+  {
+   "id": "electrical-engineering-073",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "How do you determine Uq and Ri for a Thevenin equivalent?",
+   "answer": "Uq is the open-circuit voltage at the terminals. Ri is found by short-circuiting voltage sources, opening current sources and finding the resulting equivalent resistance, or as open-circuit voltage divided by short-circuit current.",
+   "keywords": [
+    "open-circuit voltage",
+    "short-circuit",
+    "equivalent resistance"
+   ],
+   "synonyms": {
+    "open-circuit voltage": [
+     "no-load voltage",
+     "no load"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Thevenin equivalent"
+  },
+  {
+   "id": "electrical-engineering-074",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "What is a Norton equivalent and how are its parameters found?",
+   "answer": "A real current source with source current Iq equal to the short-circuit current and internal resistance Ri, found the same way as in Thevenin.",
+   "keywords": [
+    "current source",
+    "short-circuit current",
+    "internal resistance"
+   ],
+   "synonyms": {},
+   "source": "2. DC (DC-Circuits), Norton equivalent"
+  },
+  {
+   "id": "electrical-engineering-075",
+   "topic": "DC: Circuit Laws & Networks",
+   "type": "concept",
+   "question": "Why is a short circuit not always usable for measuring Ri, and what is the alternative?",
+   "answer": "It can be dangerous or destructive; instead change the load resistor so output voltage is a fraction of the no-load voltage.",
+   "keywords": [
+    "dangerous",
+    "load resistor",
+    "partial"
+   ],
+   "synonyms": {
+    "dangerous": [
+     "damage",
+     "not feasible"
+    ]
+   },
+   "source": "2. DC (DC-Circuits), Determination of Ri"
+  },
+  {
+   "id": "electrical-engineering-076",
+   "topic": "DC: Exercise Methods",
+   "type": "concept",
+   "question": "Exercise 1: How do you decide the current density change when a wire's diameter doubles at constant current?",
+   "answer": "Cross-section grows by the factor four, so the current density falls to a quarter.",
+   "keywords": [
+    "quarter",
+    "area",
+    "four"
+   ],
+   "synonyms": {
+    "quarter": [
+     "divided by four",
+     "25 percent"
+    ]
+   },
+   "source": "EN_1_Gleichstrom_Übung_1 en, Task on current density"
+  },
+  {
+   "id": "electrical-engineering-077",
+   "topic": "DC: Exercise Methods",
+   "type": "concept",
+   "question": "Exercise 1: How do you find a generator winding's operating temperature from hot and cold resistance?",
+   "answer": "Use the linear temperature law R(T) = R20(1 + α20(T − 20)), solve for T with the coefficient for copper.",
+   "keywords": [
+    "temperature coefficient",
+    "R20",
+    "solve"
+   ],
+   "synonyms": {
+    "temperature coefficient": [
+     "alpha"
+    ]
+   },
+   "source": "EN_1_Gleichstrom_Übung_1 en, generator winding"
+  },
+  {
+   "id": "electrical-engineering-078",
+   "topic": "DC: Exercise Methods",
+   "type": "concept",
+   "question": "Exercise 1: How do you find how long a car battery rated in ampere-hours can run a starter motor?",
+   "answer": "Energy stored = voltage × charge capacity; divide by the motor power to get time.",
+   "keywords": [
+    "energy",
+    "capacity",
+    "power",
+    "time"
+   ],
+   "synonyms": {},
+   "source": "EN_1_Gleichstrom_Übung_1 en, car battery task"
+  },
+  {
+   "id": "electrical-engineering-079",
+   "topic": "DC: Exercise Methods",
+   "type": "concept",
+   "question": "Additional Ex. 1: How do you find the efficiency of an electric kettle?",
+   "answer": "Useful heat energy absorbed by the water (mass × specific heat × temperature rise) divided by electrical energy input (power × time).",
+   "keywords": [
+    "useful energy",
+    "electrical energy",
+    "ratio"
+   ],
+   "synonyms": {
+    "ratio": [
+     "divided"
+    ]
+   },
+   "source": "EN_1_Gleichstrom_Übung_1 - Zusatz en, kettle"
+  },
+  {
+   "id": "electrical-engineering-080",
+   "topic": "DC: Exercise Methods",
+   "type": "concept",
+   "question": "Additional Ex. 1: How do you get a battery's open-circuit voltage and internal resistance from measurements under load?",
+   "answer": "Use two operating points: terminal voltage = source voltage − I·Ri; two equations give both unknowns. The voltage drop divided by the current change is Ri.",
+   "keywords": [
+    "two measurements",
+    "internal resistance",
+    "voltage drop"
+   ],
+   "synonyms": {
+    "two measurements": [
+     "two equations",
+     "two points"
+    ]
+   },
+   "source": "EN_1_Gleichstrom_Übung_1 - Zusatz en, battery"
+  },
+  {
+   "id": "electrical-engineering-081",
+   "topic": "DC: Exercise Methods",
+   "type": "concept",
+   "question": "Additional Ex. 1: How do you dimension a charger cable for a maximum 1 percent voltage drop?",
+   "answer": "Calculate the rated current, use the allowed drop and cable length (forward and return) to get the maximum resistance, then the minimum cross-section from R = ρ·l/A; choose the next standard size.",
+   "keywords": [
+    "voltage drop",
+    "resistance",
+    "cross-section",
+    "standard"
+   ],
+   "synonyms": {},
+   "source": "EN_1_Gleichstrom_Übung_1 - Zusatz en, charger"
+  },
+  {
+   "id": "electrical-engineering-082",
+   "topic": "DC: Exercise Methods",
+   "type": "quiz",
+   "question": "Exercise 2: Christmas tree chain of identical bulbs in series on 230 V; one burns out. What happens?",
+   "answer": "Normally the voltage divides equally; when one burns out the circuit opens and the full mains voltage appears across the defective lamp, no current flows.",
+   "keywords": [
+    "equal division",
+    "full voltage",
+    "open"
+   ],
+   "synonyms": {
+    "open": [
+     "interrupted",
+     "broken"
+    ]
+   },
+   "source": "EN_1_Gleichstrom_Übung_2 en, Christmas lights"
+  },
+  {
+   "id": "electrical-engineering-083",
+   "topic": "DC: Exercise Methods",
+   "type": "concept",
+   "question": "Exercise 2: How do you calculate all currents in a mixed series-parallel resistor network?",
+   "answer": "Combine parallel and series resistors step by step to the total resistance, get the total current, then work back with the divider rules to partial currents and voltages.",
+   "keywords": [
+    "equivalent resistance",
+    "total current",
+    "divider"
+   ],
+   "synonyms": {},
+   "source": "EN_1_Gleichstrom_Übung_2 en, network"
+  },
+  {
+   "id": "electrical-engineering-084",
+   "topic": "DC: Exercise Methods",
+   "type": "concept",
+   "question": "Exercise 2: When is the output of a bridge circuit zero?",
+   "answer": "When the bridge is balanced: the ratios of the resistors in both voltage-divider branches are equal.",
+   "keywords": [
+    "balanced",
+    "ratio"
+   ],
+   "synonyms": {
+    "balanced": [
+     "equal ratios"
+    ]
+   },
+   "source": "EN_1_Gleichstrom_Übung_2 en, bridge"
+  },
+  {
+   "id": "electrical-engineering-085",
+   "topic": "DC: Exercise Methods",
+   "type": "concept",
+   "question": "Exercise 2: How does a load resistor change a voltage divider's output voltage?",
+   "answer": "The parallel connection of load and lower resistor reduces the lower resistance, so the output voltage drops compared to no load.",
+   "keywords": [
+    "parallel",
+    "decreases"
+   ],
+   "synonyms": {
+    "decreases": [
+     "drops",
+     "lower",
+     "smaller"
+    ]
+   },
+   "source": "EN_1_Gleichstrom_Übung_2 en, voltage divider"
+  },
+  {
+   "id": "electrical-engineering-086",
+   "topic": "DC: Exercise Methods",
+   "type": "concept",
+   "question": "Exercise 3: Which method would you choose to set up equations for a multi-source network, and how?",
+   "answer": "Apply Kirchhoff: nodal equations for nodes minus one and mesh equations for independent meshes, with Ohm's law; or use mesh currents for fewer equations.",
+   "keywords": [
+    "Kirchhoff",
+    "mesh",
+    "nodes"
+   ],
+   "synonyms": {},
+   "source": "EN_1_Gleichstrom_Übung_3 en and Zusatz"
+  },
+  {
+   "id": "electrical-engineering-087",
+   "topic": "DC: Exercise Methods",
+   "type": "concept",
+   "question": "Exercise 3: How do you find the load current through a resistor in a larger network efficiently?",
+   "answer": "Replace the network with a Thevenin equivalent, then the load current is Uq divided by (Ri + R load).",
+   "keywords": [
+    "Thevenin",
+    "equivalent",
+    "Ri"
+   ],
+   "synonyms": {},
+   "source": "EN_1_Gleichstrom_Übung_3 en and Zusatz"
+  },
+  {
+   "id": "electrical-engineering-088",
+   "topic": "DC: Exercise Methods",
+   "type": "concept",
+   "question": "Exercise 3: How do you choose the load resistor for maximum power and what is that power?",
+   "answer": "Choose it equal to the internal resistance of the equivalent source; maximum power is Uq squared over four Ri.",
+   "keywords": [
+    "equal",
+    "internal resistance",
+    "power matching"
+   ],
+   "synonyms": {},
+   "source": "EN_1_Gleichstrom_Übung_3 en, maximum power"
+  },
+  {
+   "id": "electrical-engineering-089",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "How do charges interact and how can charge be separated?",
+   "answer": "Like charges repel, unlike attract. Charge is separated by friction or by influence.",
+   "keywords": [
+    "repel",
+    "attract",
+    "friction"
+   ],
+   "synonyms": {},
+   "source": "3. Electric Field, Historical development"
+  },
+  {
+   "id": "electrical-engineering-090",
+   "topic": "Electric Field",
+   "type": "flashcard",
+   "question": "Who founded electrostatics and with what instrument did the force get measured?",
+   "answer": "Coulomb, with the torsion balance.",
+   "keywords": [
+    "Coulomb",
+    "torsion"
+   ],
+   "synonyms": {},
+   "source": "3. Electric Field, Historical development"
+  },
+  {
+   "id": "electrical-engineering-091",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "What do atoms consist of and when is an atom charged?",
+   "answer": "Protons (positive), neutrons (neutral), electrons (negative). Equal protons and electrons: neutral. More electrons: negative. More protons: positive.",
+   "keywords": [
+    "protons",
+    "electrons",
+    "neutral"
+   ],
+   "synonyms": {},
+   "source": "3. Electric Field, Atom model"
+  },
+  {
+   "id": "electrical-engineering-092",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "What is a field, and what are the two types?",
+   "answer": "A quantity defined at every point in space: scalar field (e.g. potential or temperature) or vector field (e.g. electric field).",
+   "keywords": [
+    "scalar",
+    "vector",
+    "every point"
+   ],
+   "synonyms": {},
+   "source": "3. Electric Field, Field"
+  },
+  {
+   "id": "electrical-engineering-093",
+   "topic": "Electric Field",
+   "type": "flashcard",
+   "question": "Define the electric field strength E.",
+   "answer": "Force on a small positive test charge divided by that charge, E = F/Q, in V/m.",
+   "keywords": [
+    "force",
+    "test charge",
+    "divided"
+   ],
+   "synonyms": {
+    "test charge": [
+     "sample charge"
+    ]
+   },
+   "source": "3. Electric Field, Electric field"
+  },
+  {
+   "id": "electrical-engineering-094",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "How do field lines run and what do they tell you?",
+   "answer": "They start at positive charge and end at negative; their direction is the field direction and density shows strength.",
+   "keywords": [
+    "positive",
+    "negative",
+    "density"
+   ],
+   "synonyms": {
+    "density": [
+     "closer",
+     "narrower"
+    ]
+   },
+   "source": "3. Electric Field, Field lines"
+  },
+  {
+   "id": "electrical-engineering-095",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "What is a homogeneous field?",
+   "answer": "A field with the same magnitude and direction at every point, with parallel equally spaced field lines.",
+   "keywords": [
+    "same magnitude",
+    "direction"
+   ],
+   "synonyms": {},
+   "source": "3. Electric Field, Homogeneous field"
+  },
+  {
+   "id": "electrical-engineering-096",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "What does it mean that the electrostatic field is conservative?",
+   "answer": "The line integral depends only on the endpoints; around any closed path it is zero.",
+   "keywords": [
+    "closed path",
+    "zero",
+    "independent"
+   ],
+   "synonyms": {
+    "independent": [
+     "endpoints",
+     "path independent"
+    ]
+   },
+   "source": "3. Electric Field, Conservative field"
+  },
+  {
+   "id": "electrical-engineering-097",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "How is voltage related to the electric field?",
+   "answer": "Voltage between two points is the line integral of E between them; equals work per charge. For parallel E and path, U = E·s.",
+   "keywords": [
+    "line integral",
+    "work per charge"
+   ],
+   "synonyms": {
+    "line integral": [
+     "integral of E"
+    ]
+   },
+   "source": "3. Electric Field, Voltage"
+  },
+  {
+   "id": "electrical-engineering-098",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "Why does lightning occur?",
+   "answer": "Charge separation and influence build up a field; when it exceeds the dielectric strength of air, charges discharge.",
+   "keywords": [
+    "charge separation",
+    "field",
+    "discharge"
+   ],
+   "synonyms": {
+    "discharge": [
+     "breakdown"
+    ]
+   },
+   "source": "3. Electric Field, Why lightning"
+  },
+  {
+   "id": "electrical-engineering-099",
+   "topic": "Electric Field",
+   "type": "flashcard",
+   "question": "What is permittivity and the permittivity number?",
+   "answer": "Permittivity ε describes a material's ability to build up an E-field; ε = ε0·εr, where εr is dimensionless and ε0 the vacuum value.",
+   "keywords": [
+    "material",
+    "vacuum",
+    "dimensionless"
+   ],
+   "synonyms": {},
+   "source": "3. Electric Field, Permittivity"
+  },
+  {
+   "id": "electrical-engineering-100",
+   "topic": "Electric Field",
+   "type": "flashcard",
+   "question": "What is electric flux density D?",
+   "answer": "D = ε·E; it describes material influence on the field; unit As/m².",
+   "keywords": [
+    "epsilon times E",
+    "material"
+   ],
+   "synonyms": {
+    "epsilon times E": [
+     "ε E",
+     "permittivity times field"
+    ]
+   },
+   "source": "3. Electric Field, Flux density"
+  },
+  {
+   "id": "electrical-engineering-101",
+   "topic": "Electric Field",
+   "type": "flashcard",
+   "question": "State Gauss' law for the electric field.",
+   "answer": "The total charge inside a closed surface equals the electric flux through it; charges are the sources of the D-field.",
+   "keywords": [
+    "charge",
+    "closed surface",
+    "flux"
+   ],
+   "synonyms": {},
+   "source": "3. Electric Field, Gauss"
+  },
+  {
+   "id": "electrical-engineering-102",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "How would you find the flux density around a charged sphere?",
+   "answer": "Use Gauss' law: flux equals enclosed charge, spread over the spherical area 4πr², so D falls as one over r squared.",
+   "keywords": [
+    "Gauss",
+    "sphere area",
+    "r squared"
+   ],
+   "synonyms": {},
+   "source": "3. Electric Field, Gauss application"
+  },
+  {
+   "id": "electrical-engineering-103",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "What is a parallel-plate capacitor and how does it hold energy?",
+   "answer": "Two non-touching conductive plates; a voltage source puts +Q on one and −Q on the other, storing energy in the electric field.",
+   "keywords": [
+    "two plates",
+    "charge",
+    "field"
+   ],
+   "synonyms": {},
+   "source": "3. Electric Field, Parallel-plate capacitor"
+  },
+  {
+   "id": "electrical-engineering-104",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "Which assumptions give a homogeneous field in a plate capacitor?",
+   "answer": "Small plate spacing compared to area, and negligible edge effects.",
+   "keywords": [
+    "small spacing",
+    "edge"
+   ],
+   "synonyms": {
+    "edge": [
+     "boundary",
+     "fringe"
+    ]
+   },
+   "source": "3. Electric Field, Parallel-plate capacitor"
+  },
+  {
+   "id": "electrical-engineering-105",
+   "topic": "Electric Field",
+   "type": "flashcard",
+   "question": "Define capacitance and give the plate capacitor formula in words.",
+   "answer": "Charge per voltage, C = Q/U. For plates, ε times plate area divided by spacing.",
+   "keywords": [
+    "Q over U",
+    "area",
+    "spacing"
+   ],
+   "synonyms": {
+    "Q over U": [
+     "charge divided by voltage",
+     "charge per volt"
+    ],
+    "spacing": [
+     "distance"
+    ]
+   },
+   "source": "3. Electric Field, Capacitance"
+  },
+  {
+   "id": "electrical-engineering-106",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "How can you increase a capacitor's capacitance?",
+   "answer": "Increase plate area, reduce spacing, use a dielectric with higher permittivity, or connect capacitors in parallel.",
+   "keywords": [
+    "area",
+    "spacing",
+    "permittivity",
+    "parallel"
+   ],
+   "synonyms": {},
+   "source": "3. Electric Field, Storing more energy"
+  },
+  {
+   "id": "electrical-engineering-107",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "What happens in a dielectric?",
+   "answer": "Dipoles orient with the field (polarization), producing an internal field that reduces total field strength, so more charge can be stored at the same voltage.",
+   "keywords": [
+    "polarization",
+    "dipoles",
+    "reduces"
+   ],
+   "synonyms": {},
+   "source": "3. Electric Field, Dielectric"
+  },
+  {
+   "id": "electrical-engineering-108",
+   "topic": "Electric Field",
+   "type": "flashcard",
+   "question": "How do capacitors combine in parallel and in series?",
+   "answer": "Parallel: same voltage, capacitances add. Series: same charge, reciprocals add.",
+   "keywords": [
+    "parallel add",
+    "series reciprocal"
+   ],
+   "synonyms": {
+    "parallel add": [
+     "capacitances add",
+     "sum"
+    ],
+    "series reciprocal": [
+     "reciprocals",
+     "one over C"
+    ]
+   },
+   "source": "3. Electric Field, Capacitor connections"
+  },
+  {
+   "id": "electrical-engineering-109",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "How do you treat a plate capacitor partly filled with a dielectric layer?",
+   "answer": "As a series connection of capacitors, one with dielectric and one vacuum or air.",
+   "keywords": [
+    "series",
+    "dielectric"
+   ],
+   "synonyms": {},
+   "source": "3. Electric Field, Capacitor topologies"
+  },
+  {
+   "id": "electrical-engineering-110",
+   "topic": "Electric Field",
+   "type": "flashcard",
+   "question": "Give the energy stored in a capacitor.",
+   "answer": "One half C U squared, equivalently one half Q U.",
+   "keywords": [
+    "half",
+    "C",
+    "U squared"
+   ],
+   "synonyms": {
+    "half": [
+     "1/2"
+    ],
+    "U squared": [
+     "voltage squared"
+    ]
+   },
+   "source": "3. Electric Field, Energy in a capacitor"
+  },
+  {
+   "id": "electrical-engineering-111",
+   "topic": "Electric Field",
+   "type": "quiz",
+   "question": "Capacitor stays connected to a voltage source and plates are moved apart: stored energy greater, smaller or same?",
+   "answer": "Smaller: capacitance falls while voltage is fixed.",
+   "keywords": [
+    "smaller"
+   ],
+   "synonyms": {
+    "smaller": [
+     "less",
+     "decreases",
+     "lower"
+    ]
+   },
+   "source": "3. Electric Field, Energy quiz"
+  },
+  {
+   "id": "electrical-engineering-112",
+   "topic": "Electric Field",
+   "type": "quiz",
+   "question": "Isolated charged capacitor, plates moved apart (charge constant): energy greater, smaller or same?",
+   "answer": "Greater: work is done pulling the plates apart; at constant charge, voltage rises as capacitance falls.",
+   "keywords": [
+    "greater",
+    "work"
+   ],
+   "synonyms": {
+    "greater": [
+     "more",
+     "increases",
+     "larger"
+    ]
+   },
+   "source": "3. Electric Field, Energy quiz"
+  },
+  {
+   "id": "electrical-engineering-113",
+   "topic": "Electric Field",
+   "type": "quiz",
+   "question": "Disconnected charged capacitor with dielectric; dielectric removed. What happens to the energy?",
+   "answer": "It increases, since capacitance falls and charge stays constant; work is required to remove it.",
+   "keywords": [
+    "increases",
+    "work"
+   ],
+   "synonyms": {
+    "increases": [
+     "greater",
+     "more",
+     "larger"
+    ]
+   },
+   "source": "3. Electric Field, Energy quiz"
+  },
+  {
+   "id": "electrical-engineering-114",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "What is dielectric strength and why does it limit capacitor design?",
+   "answer": "The maximum field strength a material withstands before breakdown; it limits voltage to field strength times plate spacing, so energy per volume is bounded.",
+   "keywords": [
+    "maximum field",
+    "breakdown",
+    "spacing"
+   ],
+   "synonyms": {
+    "breakdown": [
+     "voltage breakdown",
+     "discharge"
+    ]
+   },
+   "source": "3. Electric Field, Dielectric strength"
+  },
+  {
+   "id": "electrical-engineering-115",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "How does a condenser microphone work?",
+   "answer": "Sound moves a diaphragm, changing plate distance and so capacitance, which produces a signal.",
+   "keywords": [
+    "diaphragm",
+    "distance",
+    "capacitance"
+   ],
+   "synonyms": {
+    "diaphragm": [
+     "membrane"
+    ]
+   },
+   "source": "3. Electric Field, Condenser microphone"
+  },
+  {
+   "id": "electrical-engineering-116",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "How can a capacitor be used as a fuel level sensor?",
+   "answer": "Fuel and air have different permittivity, so capacitance changes with fill level.",
+   "keywords": [
+    "permittivity",
+    "fill level",
+    "capacitance"
+   ],
+   "synonyms": {
+    "fill level": [
+     "level"
+    ]
+   },
+   "source": "3. Electric Field, Exercise EF3"
+  },
+  {
+   "id": "electrical-engineering-117",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "What is capacitive coupling and where does it appear?",
+   "answer": "Unwanted energy transfer between two parallel lines, which form a capacitor with air; also in coaxial cables capacitance per length matters.",
+   "keywords": [
+    "unwanted",
+    "lines",
+    "capacitor"
+   ],
+   "synonyms": {},
+   "source": "3. Electric Field, Capacitive coupling"
+  },
+  {
+   "id": "electrical-engineering-118",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "What are typical capacitor applications?",
+   "answer": "Smoothing and DC link capacitors, defibrillators, filters, reactive current compensation and sensors.",
+   "keywords": [
+    "smoothing",
+    "defibrillator",
+    "filter"
+   ],
+   "synonyms": {},
+   "source": "3. Electric Field, Applications"
+  },
+  {
+   "id": "electrical-engineering-119",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "What are supercapacitors and where are they used?",
+   "answer": "Electrochemical double-layer capacitors with very large capacitance, quick charge and discharge; for example wind turbine pitch systems and electric vehicles.",
+   "keywords": [
+    "electrochemical",
+    "large capacitance",
+    "pitch"
+   ],
+   "synonyms": {},
+   "source": "3. Electric Field, Supercapacitors"
+  },
+  {
+   "id": "electrical-engineering-120",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "Exam: how do you find the voltage needed to give an astronaut Earth's weight with plates and insulator?",
+   "answer": "Set electric force Q·E equal to weight m·g to get field strength; voltage in the air gap is field × gap; add the voltage across the insulator via the series capacitor/flux density relation.",
+   "keywords": [
+    "force equals weight",
+    "field",
+    "series"
+   ],
+   "synonyms": {},
+   "source": "exam_e_field, Exercise 3"
+  },
+  {
+   "id": "electrical-engineering-121",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "Exercise EF5: what happens to energy and capacitance when an insulating plate is pushed into a disconnected charged capacitor?",
+   "answer": "Capacitance rises since permittivity increases, charge is constant, so stored energy falls.",
+   "keywords": [
+    "capacitance increases",
+    "energy decreases",
+    "charge constant"
+   ],
+   "synonyms": {
+    "capacitance increases": [
+     "capacitance rises"
+    ],
+    "energy decreases": [
+     "energy falls",
+     "energy smaller"
+    ]
+   },
+   "source": "3. Electric Field, Exercise EF5"
+  },
+  {
+   "id": "electrical-engineering-122",
+   "topic": "Electric Field",
+   "type": "concept",
+   "question": "Exercise EF1: how do you connect two capacitors to a source to store the most energy?",
+   "answer": "Parallel; capacitances add so total capacitance and energy at fixed voltage are highest.",
+   "keywords": [
+    "parallel",
+    "capacitance",
+    "energy"
+   ],
+   "synonyms": {},
+   "source": "3. Electric Field, Exercise EF1"
+  },
+  {
+   "id": "electrical-engineering-123",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "What is the physical source of a magnetic field?",
+   "answer": "Moving charge, i.e. electric current. In permanent magnets, orbiting electrons and spin act like circular currents.",
+   "keywords": [
+    "moving charge",
+    "current",
+    "spin"
+   ],
+   "synonyms": {},
+   "source": "4. Magnetic Field 1, General concepts"
+  },
+  {
+   "id": "electrical-engineering-124",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "How do field lines of a magnet run?",
+   "answer": "Outside the magnet from north to south pole; they are closed loops, continuing inside from south to north.",
+   "keywords": [
+    "north to south",
+    "closed"
+   ],
+   "synonyms": {},
+   "source": "4. Magnetic Field 1, Permanent magnets"
+  },
+  {
+   "id": "electrical-engineering-125",
+   "topic": "Magnetic Field",
+   "type": "flashcard",
+   "question": "How do you find the direction of the magnetic field around a conductor?",
+   "answer": "Right-hand screw rule: current direction is the screw's advance, field lines circle in the direction of rotation.",
+   "keywords": [
+    "right-hand",
+    "screw",
+    "current"
+   ],
+   "synonyms": {
+    "right-hand": [
+     "right hand"
+    ]
+   },
+   "source": "4. Magnetic Field 1, Right-hand screw rule"
+  },
+  {
+   "id": "electrical-engineering-126",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "What is special about the magnetic field of a toroidal coil?",
+   "answer": "The field exists only inside the toroid, not outside.",
+   "keywords": [
+    "inside",
+    "not outside"
+   ],
+   "synonyms": {},
+   "source": "4. Magnetic Field 1, Toroidal coil"
+  },
+  {
+   "id": "electrical-engineering-127",
+   "topic": "Magnetic Field",
+   "type": "flashcard",
+   "question": "What is magnetic field strength H and what does it depend on?",
+   "answer": "Current linkage per mean field-line length; depends on current, turns and length, but not on the material. Unit A/m.",
+   "keywords": [
+    "current",
+    "turns",
+    "length",
+    "not material"
+   ],
+   "synonyms": {
+    "not material": [
+     "independent of material"
+    ]
+   },
+   "source": "4. Magnetic Field 1, Magnetic field strength"
+  },
+  {
+   "id": "electrical-engineering-128",
+   "topic": "Magnetic Field",
+   "type": "flashcard",
+   "question": "What is current linkage (Theta)?",
+   "answer": "The sum of all currents through the area enclosed by a path; N times I for a coil.",
+   "keywords": [
+    "sum of currents",
+    "enclosed",
+    "N times I"
+   ],
+   "synonyms": {
+    "N times I": [
+     "turns times current"
+    ]
+   },
+   "source": "4. Magnetic Field 1, Current linkage"
+  },
+  {
+   "id": "electrical-engineering-129",
+   "topic": "Magnetic Field",
+   "type": "flashcard",
+   "question": "What is magnetic flux density B and how does it differ from H?",
+   "answer": "B = μ·H is the induction; it depends on the material, whereas H does not. Unit tesla.",
+   "keywords": [
+    "μ times H",
+    "material",
+    "tesla"
+   ],
+   "synonyms": {
+    "μ times H": [
+     "permeability times H"
+    ]
+   },
+   "source": "4. Magnetic Field 1, Flux density and permeability"
+  },
+  {
+   "id": "electrical-engineering-130",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "What are permeability and permeability number?",
+   "answer": "Permeability μ = μ0·μr describes magnetic properties of the medium; μr is dimensionless, near 1 for copper and water but hundreds to thousands for iron.",
+   "keywords": [
+    "permeability",
+    "μr",
+    "iron"
+   ],
+   "synonyms": {},
+   "source": "4. Magnetic Field 1, Permeability"
+  },
+  {
+   "id": "electrical-engineering-131",
+   "topic": "Magnetic Field",
+   "type": "flashcard",
+   "question": "What is magnetic flux Φ?",
+   "answer": "The integral of flux density through an area; how many field lines pass through it. Unit weber.",
+   "keywords": [
+    "flux density",
+    "area",
+    "weber"
+   ],
+   "synonyms": {},
+   "source": "4. Magnetic Field 1, Magnetic flux"
+  },
+  {
+   "id": "electrical-engineering-132",
+   "topic": "Magnetic Field",
+   "type": "flashcard",
+   "question": "State Ampere's law.",
+   "answer": "The line integral of H around a closed path equals the current linkage enclosed by the path.",
+   "keywords": [
+    "line integral",
+    "closed path",
+    "current linkage"
+   ],
+   "synonyms": {
+    "current linkage": [
+     "enclosed current"
+    ]
+   },
+   "source": "4. Magnetic Field 1, Ampere's law"
+  },
+  {
+   "id": "electrical-engineering-133",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "Why is the magnetic field not conservative?",
+   "answer": "Its closed-path integral of H is not zero but equals the enclosed current linkage.",
+   "keywords": [
+    "closed path",
+    "not zero",
+    "current"
+   ],
+   "synonyms": {},
+   "source": "4. Magnetic Field 1, Ampere's law"
+  },
+  {
+   "id": "electrical-engineering-134",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "How does field strength in a straight round conductor vary inside and outside?",
+   "answer": "Outside it falls like one over r; inside it grows linearly with r, because only the enclosed current counts.",
+   "keywords": [
+    "one over r",
+    "linear",
+    "enclosed"
+   ],
+   "synonyms": {
+    "one over r": [
+     "1/r",
+     "inverse"
+    ]
+   },
+   "source": "4. Magnetic Field 1, Exercise 1"
+  },
+  {
+   "id": "electrical-engineering-135",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "What is the magnetic circuit analogy to an electric circuit?",
+   "answer": "Magnetic flux corresponds to current, current linkage to voltage source, and magnetic resistance Rm to resistance: Θ = Rm·Φ.",
+   "keywords": [
+    "flux",
+    "current linkage",
+    "magnetic resistance"
+   ],
+   "synonyms": {},
+   "source": "4. Magnetic Field 1, Magnetic circuit"
+  },
+  {
+   "id": "electrical-engineering-136",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "On what does magnetic resistance depend?",
+   "answer": "Length, cross-section and permeability, Rm = l/(μ·A).",
+   "keywords": [
+    "length",
+    "area",
+    "permeability"
+   ],
+   "synonyms": {},
+   "source": "4. Magnetic Field 1, Magnetic resistance"
+  },
+  {
+   "id": "electrical-engineering-137",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "Why is calculating iron circuits difficult?",
+   "answer": "Permeability depends on magnetization and history, so magnetic resistances are non-linear and not simply additive; use the magnetization curve.",
+   "keywords": [
+    "nonlinear",
+    "magnetization curve"
+   ],
+   "synonyms": {
+    "nonlinear": [
+     "non-linear"
+    ]
+   },
+   "source": "4. Magnetic Field 1, Nonlinearity"
+  },
+  {
+   "id": "electrical-engineering-138",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "Compare hard and soft magnetic materials.",
+   "answer": "Hard: wide hysteresis curve, used for permanent magnets. Soft: narrow curve, used in transformers and electrical machines.",
+   "keywords": [
+    "hard",
+    "soft",
+    "hysteresis"
+   ],
+   "synonyms": {},
+   "source": "4. Magnetic Field 1, Matter in magnetic field"
+  },
+  {
+   "id": "electrical-engineering-139",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "How do you find the current needed for a given flux in an iron circuit with an air gap?",
+   "answer": "Flux density from flux over area; H in iron from the magnetization curve; H in air from B/μ0; Ampere's law sums H·l, giving N·I.",
+   "keywords": [
+    "flux density",
+    "magnetization curve",
+    "Ampere"
+   ],
+   "synonyms": {},
+   "source": "4. Magnetic Field 1, Iron with air gap"
+  },
+  {
+   "id": "electrical-engineering-140",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "Why is the reverse problem, given current find flux, harder?",
+   "answer": "Ampere's law has two unknowns (H in iron and in air), and the curve is nonlinear; you iterate with trial flux values.",
+   "keywords": [
+    "two unknowns",
+    "iteration"
+   ],
+   "synonyms": {
+    "iteration": [
+     "iterate",
+     "trial"
+    ]
+   },
+   "source": "4. Magnetic Field 1, Iron with air gap"
+  },
+  {
+   "id": "electrical-engineering-141",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "What is leakage flux and when matters it?",
+   "answer": "Flux that leaves the iron path; with a big air gap field lines also widen, so assumptions fail.",
+   "keywords": [
+    "leakage",
+    "air gap"
+   ],
+   "synonyms": {},
+   "source": "4. Magnetic Field 1, Iron with air gap"
+  },
+  {
+   "id": "electrical-engineering-142",
+   "topic": "Magnetic Field",
+   "type": "flashcard",
+   "question": "Give the force on a straight conductor in a magnetic field.",
+   "answer": "F = B·I·l·sin α; maximal when conductor is perpendicular to field. Direction by three-finger rule.",
+   "keywords": [
+    "B",
+    "I",
+    "l",
+    "sine"
+   ],
+   "synonyms": {
+    "sine": [
+     "sin"
+    ]
+   },
+   "source": "4. Magnetic Field 2, Forces"
+  },
+  {
+   "id": "electrical-engineering-143",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "How does an electric motor generate force?",
+   "answer": "Current-carrying conductors in a magnetic field experience Lorentz force; torque from the conductors on the rotor.",
+   "keywords": [
+    "conductor",
+    "field",
+    "force"
+   ],
+   "synonyms": {
+    "force": [
+     "Lorentz"
+    ]
+   },
+   "source": "4. Magnetic Field 2, Principle of motor"
+  },
+  {
+   "id": "electrical-engineering-144",
+   "topic": "Magnetic Field",
+   "type": "quiz",
+   "question": "What matters for the force on a motor conductor: iron, copper, or both?",
+   "answer": "Force is proportional to flux density (iron) and current (copper); only the conductor length within the field counts.",
+   "keywords": [
+    "flux density",
+    "current",
+    "length"
+   ],
+   "synonyms": {},
+   "source": "4. Magnetic Field 2, Motor quiz"
+  },
+  {
+   "id": "electrical-engineering-145",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "How does a loudspeaker work?",
+   "answer": "Alternating current in a voice coil in a permanent magnet's field produces a changing force, moving the membrane.",
+   "keywords": [
+    "coil",
+    "force",
+    "membrane"
+   ],
+   "synonyms": {},
+   "source": "4. Magnetic Field 2, Loudspeaker"
+  },
+  {
+   "id": "electrical-engineering-146",
+   "topic": "Magnetic Field",
+   "type": "flashcard",
+   "question": "What is the Lorentz force on a moving charge?",
+   "answer": "F = Q·v·B·sin α, perpendicular to velocity and field; none for a resting charge or one moving along the field.",
+   "keywords": [
+    "perpendicular",
+    "velocity",
+    "field"
+   ],
+   "synonyms": {},
+   "source": "4. Magnetic Field 2, Lorentz force"
+  },
+  {
+   "id": "electrical-engineering-147",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "Do parallel conductors with same current direction attract or repel?",
+   "answer": "They attract; opposite directions repel.",
+   "keywords": [
+    "attract",
+    "same direction",
+    "repel"
+   ],
+   "synonyms": {
+    "attract": [
+     "pull"
+    ]
+   },
+   "source": "4. Magnetic Field 2, Forces between parallel conductors"
+  },
+  {
+   "id": "electrical-engineering-148",
+   "topic": "Magnetic Field",
+   "type": "quiz",
+   "question": "Jump-start cables for positive and negative terminals lie close together. What happens?",
+   "answer": "They repel, since currents flow in opposite directions.",
+   "keywords": [
+    "repel",
+    "opposite"
+   ],
+   "synonyms": {},
+   "source": "4. Magnetic Field 2, Quiz"
+  },
+  {
+   "id": "electrical-engineering-149",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "Describe voltage induction in a moving conductor.",
+   "answer": "Lorentz force separates charges; equilibrium builds an electric field, voltage U = B·l·v for perpendicular v and B.",
+   "keywords": [
+    "Lorentz",
+    "charge separation",
+    "B l v"
+   ],
+   "synonyms": {
+    "B l v": [
+     "B times l times v"
+    ]
+   },
+   "source": "4. Magnetic Field 3, Moving conductor"
+  },
+  {
+   "id": "electrical-engineering-150",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "State the induction law.",
+   "answer": "Induced voltage equals the rate of change of flux enclosed by the loop; for a coil, multiply by turns.",
+   "keywords": [
+    "rate of change",
+    "flux",
+    "turns"
+   ],
+   "synonyms": {
+    "rate of change": [
+     "derivative",
+     "time derivative"
+    ]
+   },
+   "source": "4. Magnetic Field 3, Induction law"
+  },
+  {
+   "id": "electrical-engineering-151",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "Two ways to induce voltage in a loop?",
+   "answer": "Relative motion of loop and field (changing area), or a time-varying flux density with loop at rest.",
+   "keywords": [
+    "relative motion",
+    "time-varying"
+   ],
+   "synonyms": {
+    "time-varying": [
+     "changing field"
+    ]
+   },
+   "source": "4. Magnetic Field 3, Induction"
+  },
+  {
+   "id": "electrical-engineering-152",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "State Lenz's law.",
+   "answer": "The induced current creates a field that opposes the change causing it.",
+   "keywords": [
+    "opposes",
+    "change"
+   ],
+   "synonyms": {
+    "opposes": [
+     "counteracts"
+    ]
+   },
+   "source": "4. Magnetic Field 3, Lenz's law"
+  },
+  {
+   "id": "electrical-engineering-153",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "What is self-induction?",
+   "answer": "A changing current changes its own flux and induces a voltage in the same coil, u = L di/dt.",
+   "keywords": [
+    "own",
+    "changing current",
+    "voltage"
+   ],
+   "synonyms": {},
+   "source": "4. Magnetic Field 3, Self-induction"
+  },
+  {
+   "id": "electrical-engineering-154",
+   "topic": "Magnetic Field",
+   "type": "flashcard",
+   "question": "What does the inductance of a ring coil depend on?",
+   "answer": "L = μ·N²·A/l: turns squared, permeability, cross-section and length.",
+   "keywords": [
+    "turns squared",
+    "permeability",
+    "area"
+   ],
+   "synonyms": {
+    "turns squared": [
+     "N squared"
+    ]
+   },
+   "source": "4. Magnetic Field 3, Inductance"
+  },
+  {
+   "id": "electrical-engineering-155",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "Compare iron-core and ironless coils.",
+   "answer": "Iron-core coils have much higher inductance, but it isn't constant and depends on current via saturation.",
+   "keywords": [
+    "higher",
+    "not constant",
+    "saturation"
+   ],
+   "synonyms": {
+    "saturation": [
+     "current dependent"
+    ]
+   },
+   "source": "4. Magnetic Field 3, Iron vs ironless"
+  },
+  {
+   "id": "electrical-engineering-156",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "How does a coil respond to frequency?",
+   "answer": "Voltage-to-current ratio rises with frequency, so higher frequencies are attenuated.",
+   "keywords": [
+    "higher frequency",
+    "less current"
+   ],
+   "synonyms": {},
+   "source": "4. Magnetic Field 3, Exercise 10"
+  },
+  {
+   "id": "electrical-engineering-157",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "What is mutual induction and how does a transformer use it?",
+   "answer": "Changing current in one coil induces voltage in a second coupled coil; voltage ratio equals turns ratio.",
+   "keywords": [
+    "second coil",
+    "turns ratio"
+   ],
+   "synonyms": {
+    "turns ratio": [
+     "transformation ratio"
+    ]
+   },
+   "source": "4. Magnetic Field 3, Mutual induction, transformer"
+  },
+  {
+   "id": "electrical-engineering-158",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "How is energy stored in the magnetic field?",
+   "answer": "In the field itself; for constant permeability W = one half L I squared.",
+   "keywords": [
+    "field",
+    "half",
+    "L I squared"
+   ],
+   "synonyms": {
+    "L I squared": [
+     "LI²"
+    ]
+   },
+   "source": "4. Magnetic Field 3, Energy in magnetic field"
+  },
+  {
+   "id": "electrical-engineering-159",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "What are hysteresis losses?",
+   "answer": "Heat generated per magnetization cycle, proportional to hysteresis loop area, frequency and volume.",
+   "keywords": [
+    "loop area",
+    "frequency",
+    "heat"
+   ],
+   "synonyms": {
+    "loop area": [
+     "area enclosed"
+    ]
+   },
+   "source": "4. Magnetic Field 3, Hysteresis"
+  },
+  {
+   "id": "electrical-engineering-160",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "What are eddy currents and how limited?",
+   "answer": "Currents induced in conducting iron by a changing flux, heating it; limited by laminating the core into insulated sheets.",
+   "keywords": [
+    "induced",
+    "heat",
+    "laminated"
+   ],
+   "synonyms": {
+    "laminated": [
+     "sheets",
+     "laminate"
+    ]
+   },
+   "source": "4. Magnetic Field 3, Eddy currents"
+  },
+  {
+   "id": "electrical-engineering-161",
+   "topic": "Magnetic Field",
+   "type": "concept",
+   "question": "How does induction cooking work?",
+   "answer": "Coil creates alternating field; eddy currents and magnetization losses heat the pot, not the plate.",
+   "keywords": [
+    "eddy",
+    "pot"
+   ],
+   "synonyms": {
+    "pot": [
+     "pan"
+    ]
+   },
+   "source": "4. Magnetic Field 3, Induction plate"
+  },
+  {
+   "id": "electrical-engineering-162",
+   "topic": "AC Basics",
+   "type": "quiz",
+   "question": "Why did AC prevail in power transmission?",
+   "answer": "Transformers raise voltage cheaply, so transmission losses are low.",
+   "keywords": [
+    "transformer",
+    "voltage",
+    "losses"
+   ],
+   "synonyms": {},
+   "source": "5. AC_1, Introduction"
+  },
+  {
+   "id": "electrical-engineering-163",
+   "topic": "AC Basics",
+   "type": "concept",
+   "question": "What is an alternating quantity?",
+   "answer": "Periodic with period T and zero mean value.",
+   "keywords": [
+    "periodic",
+    "zero",
+    "mean"
+   ],
+   "synonyms": {
+    "mean": [
+     "average"
+    ]
+   },
+   "source": "5. AC_1, Periodic variables"
+  },
+  {
+   "id": "electrical-engineering-164",
+   "topic": "AC Basics",
+   "type": "flashcard",
+   "question": "Name the parameters of a sine quantity.",
+   "answer": "Peak value, frequency, period, angular frequency, phase.",
+   "keywords": [
+    "peak",
+    "frequency",
+    "period",
+    "angular"
+   ],
+   "synonyms": {},
+   "source": "5. AC_1, Sinusoidal variables"
+  },
+  {
+   "id": "electrical-engineering-165",
+   "topic": "AC Basics",
+   "type": "flashcard",
+   "question": "Relate frequency, period and angular frequency.",
+   "answer": "f = 1/T, ω = 2πf.",
+   "keywords": [
+    "one over T",
+    "2 pi f"
+   ],
+   "synonyms": {
+    "one over T": [
+     "1/T"
+    ],
+    "2 pi f": [
+     "2πf",
+     "two pi f"
+    ]
+   },
+   "source": "5. AC_1, Sinusoidal variables"
+  },
+  {
+   "id": "electrical-engineering-166",
+   "topic": "AC Basics",
+   "type": "concept",
+   "question": "Which properties make sinusoids convenient?",
+   "answer": "Sum, derivative and integral of sinusoids of equal frequency stay sinusoids of same frequency; Fourier's theorem.",
+   "keywords": [
+    "same frequency",
+    "Fourier"
+   ],
+   "synonyms": {},
+   "source": "5. AC_1, Properties of sinusoidal quantities"
+  },
+  {
+   "id": "electrical-engineering-167",
+   "topic": "AC Basics",
+   "type": "concept",
+   "question": "What is phase shift and positive sign convention?",
+   "answer": "Difference between zero phase angles of voltage and current; positive when voltage leads current.",
+   "keywords": [
+    "difference",
+    "leads"
+   ],
+   "synonyms": {
+    "leads": [
+     "precedes",
+     "ahead"
+    ]
+   },
+   "source": "5. AC_1, Phase shift"
+  },
+  {
+   "id": "electrical-engineering-168",
+   "topic": "AC Basics",
+   "type": "concept",
+   "question": "What is the rectified value?",
+   "answer": "Mean value of the magnitude; matters for rectifiers and battery charging.",
+   "keywords": [
+    "magnitude",
+    "mean",
+    "rectifier"
+   ],
+   "synonyms": {},
+   "source": "5. AC_1, Rectified value"
+  },
+  {
+   "id": "electrical-engineering-169",
+   "topic": "AC Basics",
+   "type": "concept",
+   "question": "Define the RMS value.",
+   "answer": "The DC value giving the same heat in a resistor; the square root of the mean of the squared quantity.",
+   "keywords": [
+    "same heat",
+    "root",
+    "mean square"
+   ],
+   "synonyms": {
+    "same heat": [
+     "same power",
+     "same effect"
+    ],
+    "mean square": [
+     "squared"
+    ]
+   },
+   "source": "5. AC_1, RMS value"
+  },
+  {
+   "id": "electrical-engineering-170",
+   "topic": "AC Basics",
+   "type": "flashcard",
+   "question": "Relate RMS and peak for a sine.",
+   "answer": "RMS = peak divided by square root of two.",
+   "keywords": [
+    "peak",
+    "square root of two"
+   ],
+   "synonyms": {
+    "square root of two": [
+     "sqrt 2",
+     "root 2",
+     "1.41"
+    ]
+   },
+   "source": "5. AC_1, RMS sine"
+  },
+  {
+   "id": "electrical-engineering-171",
+   "topic": "AC Basics",
+   "type": "quiz",
+   "question": "Mains 230 V is which kind of value?",
+   "answer": "RMS; peak about 325 V.",
+   "keywords": [
+    "RMS"
+   ],
+   "synonyms": {
+    "RMS": [
+     "effective"
+    ]
+   },
+   "source": "5. AC_1, RMS"
+  },
+  {
+   "id": "electrical-engineering-172",
+   "topic": "AC Basics",
+   "type": "quiz",
+   "question": "What do you pay for on an electricity bill?",
+   "answer": "Energy converted, in kilowatt-hours, not power.",
+   "keywords": [
+    "energy",
+    "kilowatt-hour"
+   ],
+   "synonyms": {
+    "kilowatt-hour": [
+     "kWh"
+    ]
+   },
+   "source": "5. AC_1, Quiz"
+  },
+  {
+   "id": "electrical-engineering-173",
+   "topic": "AC Basics",
+   "type": "concept",
+   "question": "How does a rotating coil produce AC?",
+   "answer": "Coil in homogeneous field rotates, flux B·A·cos ωt, induces sinusoidal voltage.",
+   "keywords": [
+    "rotating",
+    "flux",
+    "sinusoidal"
+   ],
+   "synonyms": {},
+   "source": "5. AC_1, Experiment 1 AC"
+  },
+  {
+   "id": "electrical-engineering-174",
+   "topic": "AC Basics",
+   "type": "concept",
+   "question": "Rotating phasors and static (RMS) phasors?",
+   "answer": "A rotating vector's vertical projection is the sine; fixed phase relations let us freeze it at RMS length.",
+   "keywords": [
+    "projection",
+    "RMS"
+   ],
+   "synonyms": {},
+   "source": "5. AC_1 and 5. AC_2, Pointer"
+  },
+  {
+   "id": "electrical-engineering-175",
+   "topic": "AC Basics",
+   "type": "concept",
+   "question": "Complex numbers: component and polar form?",
+   "answer": "Component Z = R + jX; polar magnitude and angle, convertible via cos, sin, and arctan.",
+   "keywords": [
+    "real",
+    "imaginary",
+    "magnitude",
+    "angle"
+   ],
+   "synonyms": {},
+   "source": "5. AC_2, Complex"
+  },
+  {
+   "id": "electrical-engineering-176",
+   "topic": "AC Basics",
+   "type": "concept",
+   "question": "Steps to apply complex calculation to AC?",
+   "answer": "Draw phasors with RMS length, optionally rotate to reference, add mathematically, calculate with complex numbers.",
+   "keywords": [
+    "phasors",
+    "RMS",
+    "reference"
+   ],
+   "synonyms": {
+    "phasors": [
+     "pointer",
+     "vector"
+    ]
+   },
+   "source": "5. AC_2, Steps"
+  },
+  {
+   "id": "electrical-engineering-177",
+   "topic": "AC Basics",
+   "type": "concept",
+   "question": "Multiplying by j does what?",
+   "answer": "Rotates by 90° counterclockwise.",
+   "keywords": [
+    "90",
+    "rotates"
+   ],
+   "synonyms": {},
+   "source": "5. AC_2, Complex"
+  },
+  {
+   "id": "electrical-engineering-178",
+   "topic": "AC Components & Power",
+   "type": "concept",
+   "question": "Ohmic resistor in AC: phase?",
+   "answer": "Current in phase with voltage, impedance R.",
+   "keywords": [
+    "in phase",
+    "R"
+   ],
+   "synonyms": {},
+   "source": "5. AC_3, Resistor"
+  },
+  {
+   "id": "electrical-engineering-179",
+   "topic": "AC Components & Power",
+   "type": "concept",
+   "question": "Inductor in AC: phase and reactance?",
+   "answer": "Current lags voltage by 90°; XL = ωL, ZL = jωL, grows with frequency.",
+   "keywords": [
+    "lags",
+    "90",
+    "ωL"
+   ],
+   "synonyms": {
+    "lags": [
+     "behind"
+    ],
+    "ωL": [
+     "omega L"
+    ]
+   },
+   "source": "5. AC_3, Inductor"
+  },
+  {
+   "id": "electrical-engineering-180",
+   "topic": "AC Components & Power",
+   "type": "concept",
+   "question": "Capacitor in AC: phase and reactance?",
+   "answer": "Current leads voltage by 90°; XC = −1/(ωC), shrinks with frequency.",
+   "keywords": [
+    "leads",
+    "90",
+    "1 over ωC"
+   ],
+   "synonyms": {
+    "1 over ωC": [
+     "1/(ωC)"
+    ]
+   },
+   "source": "5. AC_3, Capacitor"
+  },
+  {
+   "id": "electrical-engineering-181",
+   "topic": "AC Components & Power",
+   "type": "quiz",
+   "question": "Frequency doubles with constant voltage on inductor: current?",
+   "answer": "Halves, as reactance doubles.",
+   "keywords": [
+    "half"
+   ],
+   "synonyms": {
+    "half": [
+     "halves",
+     "50 percent"
+    ]
+   },
+   "source": "5. AC_3, Quiz"
+  },
+  {
+   "id": "electrical-engineering-182",
+   "topic": "AC Components & Power",
+   "type": "concept",
+   "question": "Impedance and reactance?",
+   "answer": "Impedance Z complex AC resistance; reactance imaginary part; unit ohm.",
+   "keywords": [
+    "impedance",
+    "reactance",
+    "ohm"
+   ],
+   "synonyms": {},
+   "source": "5. AC_3, Basic circuits"
+  },
+  {
+   "id": "electrical-engineering-183",
+   "topic": "AC Components & Power",
+   "type": "concept",
+   "question": "Do DC laws apply in AC?",
+   "answer": "Yes, with complex quantities: Ohm, Kirchhoff, dividers, equivalents.",
+   "keywords": [
+    "complex",
+    "Kirchhoff",
+    "Ohm"
+   ],
+   "synonyms": {},
+   "source": "5. AC_3 and 5. AC_5"
+  },
+  {
+   "id": "electrical-engineering-184",
+   "topic": "AC Components & Power",
+   "type": "concept",
+   "question": "Steps to calc series RL?",
+   "answer": "Impedance equations, reference quantity, mesh and node equations, total impedance, total current, partial voltages, phase shift.",
+   "keywords": [
+    "impedance",
+    "reference",
+    "total current"
+   ],
+   "synonyms": {},
+   "source": "5. AC_3, Steps"
+  },
+  {
+   "id": "electrical-engineering-185",
+   "topic": "AC Components & Power",
+   "type": "concept",
+   "question": "Instantaneous power and active power?",
+   "answer": "p(t) oscillates at twice the frequency; its mean is active power P = U I cos φ.",
+   "keywords": [
+    "twice",
+    "mean",
+    "cos φ"
+   ],
+   "synonyms": {
+    "cos φ": [
+     "cosine phi"
+    ]
+   },
+   "source": "5. AC_4, Active Power"
+  },
+  {
+   "id": "electrical-engineering-186",
+   "topic": "AC Components & Power",
+   "type": "concept",
+   "question": "What is reactive power?",
+   "answer": "Power commuting between source and field with zero mean; Q = U I sin φ, unit var.",
+   "keywords": [
+    "zero mean",
+    "sin",
+    "var"
+   ],
+   "synonyms": {
+    "zero mean": [
+     "average zero"
+    ]
+   },
+   "source": "5. AC_4, Reactive"
+  },
+  {
+   "id": "electrical-engineering-187",
+   "topic": "AC Components & Power",
+   "type": "concept",
+   "question": "Sign of reactive power?",
+   "answer": "Positive inductive, negative capacitive.",
+   "keywords": [
+    "positive",
+    "inductive",
+    "capacitive"
+   ],
+   "synonyms": {},
+   "source": "5. AC_4, Reactive"
+  },
+  {
+   "id": "electrical-engineering-188",
+   "topic": "AC Components & Power",
+   "type": "concept",
+   "question": "Apparent power and why used for sizing?",
+   "answer": "S = U I in VA; stress depends on U and I not φ, so lines and transformers are rated by S.",
+   "keywords": [
+    "VA",
+    "U I",
+    "sizing"
+   ],
+   "synonyms": {
+    "sizing": [
+     "dimensioning",
+     "rated"
+    ]
+   },
+   "source": "5. AC_4, Apparent"
+  },
+  {
+   "id": "electrical-engineering-189",
+   "topic": "AC Components & Power",
+   "type": "concept",
+   "question": "How are P, Q, S related?",
+   "answer": "Power triangle: S² = P² + Q²; complex S = P + jQ.",
+   "keywords": [
+    "triangle",
+    "P",
+    "Q"
+   ],
+   "synonyms": {},
+   "source": "5. AC_4, Power triangle"
+  },
+  {
+   "id": "electrical-engineering-190",
+   "topic": "AC Components & Power",
+   "type": "flashcard",
+   "question": "What is power factor?",
+   "answer": "cos φ = P/S, dimensionless.",
+   "keywords": [
+    "cos φ",
+    "P over S"
+   ],
+   "synonyms": {
+    "P over S": [
+     "P/S",
+     "active over apparent"
+    ]
+   },
+   "source": "5. AC_4, Power factor"
+  },
+  {
+   "id": "electrical-engineering-191",
+   "topic": "AC Components & Power",
+   "type": "quiz",
+   "question": "Can P, Q and S be added arithmetically? Why different units?",
+   "answer": "No; different nature: watt, var, voltampere.",
+   "keywords": [
+    "watt",
+    "var",
+    "voltampere"
+   ],
+   "synonyms": {},
+   "source": "5. AC_4, Units"
+  },
+  {
+   "id": "electrical-engineering-192",
+   "topic": "AC Components & Power",
+   "type": "concept",
+   "question": "Active power matching in AC?",
+   "answer": "Load impedance must equal complex conjugate of source impedance.",
+   "keywords": [
+    "conjugate",
+    "impedance"
+   ],
+   "synonyms": {},
+   "source": "5. AC_5, Power matching"
+  },
+  {
+   "id": "electrical-engineering-193",
+   "topic": "AC Components & Power",
+   "type": "concept",
+   "question": "Purpose of power factor correction?",
+   "answer": "Reduce reactive power so total current falls, active power unchanged; capacitor compensates inductive loads.",
+   "keywords": [
+    "reduce",
+    "current",
+    "capacitor",
+    "inductive"
+   ],
+   "synonyms": {},
+   "source": "5. AC_5, Reactive compensation"
+  },
+  {
+   "id": "electrical-engineering-194",
+   "topic": "AC Components & Power",
+   "type": "concept",
+   "question": "In parallel RC, which reference?",
+   "answer": "Voltage as reference; use admittance Y = 1/R + jωC.",
+   "keywords": [
+    "voltage",
+    "admittance"
+   ],
+   "synonyms": {},
+   "source": "5. AC_5, Parallel"
+  }
+ ]
+}

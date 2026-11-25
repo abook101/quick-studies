@@ -1,0 +1,2732 @@
+{
+ "course": "Engineering Mathematics 1",
+ "cards": [
+  {
+   "id": "engineering-math-1-001",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "What is an ordinary differential equation of order n?",
+   "answer": "An equation involving derivatives of an unknown function y of one variable x up to order n.",
+   "keywords": [
+    "derivatives",
+    "unknown function",
+    "one variable"
+   ],
+   "synonyms": {
+    "derivatives": [
+     "derivative"
+    ],
+    "unknown function": [
+     "function y"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.3"
+  },
+  {
+   "id": "engineering-math-1-002",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "Why is it called 'ordinary' differential equation?",
+   "answer": "Because the unknown function depends on just one variable; with more variables it would be a partial differential equation.",
+   "keywords": [
+    "one variable",
+    "partial"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.3"
+  },
+  {
+   "id": "engineering-math-1-003",
+   "topic": "1. Foundations",
+   "type": "concept",
+   "question": "If y prime equals f of x, how do you find y?",
+   "answer": "Integrate directly: y is the integral of f of x, which is an antiderivative F of x plus a constant C.",
+   "keywords": [
+    "integrate",
+    "antiderivative",
+    "constant"
+   ],
+   "synonyms": {
+    "integrate": [
+     "integral",
+     "integration"
+    ],
+    "constant": [
+     "C",
+     "integration constant"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.3"
+  },
+  {
+   "id": "engineering-math-1-004",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "Define the logarithm to base a of b.",
+   "answer": "x equals log base a of b means a to the power x equals b; a and b are positive and a is not 1.",
+   "keywords": [
+    "a to the power",
+    "positive",
+    "not 1"
+   ],
+   "synonyms": {
+    "a to the power": [
+     "exponential equation",
+     "power"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.4"
+  },
+  {
+   "id": "engineering-math-1-005",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "What does the summation sign (capital sigma) mean?",
+   "answer": "It is shorthand for adding up terms a_i from i equals 1 to n.",
+   "keywords": [
+    "adding",
+    "terms",
+    "index"
+   ],
+   "synonyms": {
+    "adding": [
+     "sum",
+     "add"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.5"
+  },
+  {
+   "id": "engineering-math-1-006",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "What does the product sign (capital pi) mean?",
+   "answer": "It is shorthand for multiplying the terms a_i from i equals 1 to n.",
+   "keywords": [
+    "multiplying",
+    "terms"
+   ],
+   "synonyms": {
+    "multiplying": [
+     "product",
+     "multiply"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.5"
+  },
+  {
+   "id": "engineering-math-1-007",
+   "topic": "1. Foundations",
+   "type": "quiz",
+   "question": "Can you pull a constant factor out of a sum? Can you split a sum of two sequences?",
+   "answer": "Yes to both: the sum of c times a_i equals c times the sum, and the sum of a_i plus b_i equals the sum of a_i plus the sum of b_i.",
+   "keywords": [
+    "constant",
+    "split",
+    "sum"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.5"
+  },
+  {
+   "id": "engineering-math-1-008",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "State the binomial theorem in words.",
+   "answer": "The nth power of a plus b is the sum over k of n choose k times a to the n minus k times b to the k, for positive integer n.",
+   "keywords": [
+    "n choose k",
+    "sum",
+    "power"
+   ],
+   "synonyms": {
+    "n choose k": [
+     "binomial coefficient"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.6"
+  },
+  {
+   "id": "engineering-math-1-009",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "How is the binomial coefficient 'n choose k' calculated?",
+   "answer": "n factorial divided by k factorial times n minus k factorial.",
+   "keywords": [
+    "n factorial",
+    "k factorial"
+   ],
+   "synonyms": {
+    "factorial": [
+     "factorials"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.6"
+  },
+  {
+   "id": "engineering-math-1-010",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "Name the three binomial identities.",
+   "answer": "First: a plus b squared; second: a minus b squared; third: a plus b times a minus b equals a squared minus b squared.",
+   "keywords": [
+    "a plus b",
+    "a minus b",
+    "difference of squares"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.6"
+  },
+  {
+   "id": "engineering-math-1-011",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "What is a proposition in the mathematical sense?",
+   "answer": "A statement for which it can be decided unambiguously whether it is true or false.",
+   "keywords": [
+    "true",
+    "false",
+    "unambiguous"
+   ],
+   "synonyms": {
+    "unambiguous": [
+     "clearly",
+     "decided"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.7"
+  },
+  {
+   "id": "engineering-math-1-012",
+   "topic": "1. Foundations",
+   "type": "quiz",
+   "question": "Is 'The film is good' a proposition? Why or why not?",
+   "answer": "No, because there are no universally accepted criteria to decide whether it is true.",
+   "keywords": [
+    "not",
+    "criteria",
+    "true"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.7"
+  },
+  {
+   "id": "engineering-math-1-013",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "What is the difference between an axiom and a theorem?",
+   "answer": "An axiom is a true proposition placed at the start of a theory without proof; a theorem follows from the axioms and must be proved.",
+   "keywords": [
+    "axiom",
+    "without proof",
+    "theorem",
+    "proved"
+   ],
+   "synonyms": {
+    "axiom": [
+     "postulate"
+    ],
+    "proved": [
+     "proof",
+     "prove"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.7"
+  },
+  {
+   "id": "engineering-math-1-014",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "Name the logical connectives.",
+   "answer": "Negation, conjunction, disjunction, implication and equivalence.",
+   "keywords": [
+    "negation",
+    "conjunction",
+    "disjunction",
+    "implication",
+    "equivalence"
+   ],
+   "synonyms": {
+    "conjunction": [
+     "and"
+    ],
+    "disjunction": [
+     "or"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.7,8"
+  },
+  {
+   "id": "engineering-math-1-015",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "What is a definition, and can it be true or false?",
+   "answer": "An unambiguous specification of terms; it is not a proposition, so it is neither true nor false.",
+   "keywords": [
+    "specification",
+    "not a proposition"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.8"
+  },
+  {
+   "id": "engineering-math-1-016",
+   "topic": "1. Foundations",
+   "type": "concept",
+   "question": "What are the usual steps in presenting a proof of a theorem?",
+   "answer": "State the assumptions, state the claim, then give the actual proof.",
+   "keywords": [
+    "assumptions",
+    "claim",
+    "proof"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.8"
+  },
+  {
+   "id": "engineering-math-1-017",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "Explain a direct proof.",
+   "answer": "Assume A is true and derive B step by step, proving A implies B.",
+   "keywords": [
+    "assume",
+    "derive",
+    "implies"
+   ],
+   "synonyms": {
+    "implies": [
+     "implication"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.9"
+  },
+  {
+   "id": "engineering-math-1-018",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "Explain an indirect proof (contrapositive).",
+   "answer": "To prove A implies B, prove the equivalent statement: not B implies not A.",
+   "keywords": [
+    "not B",
+    "not A",
+    "equivalent"
+   ],
+   "synonyms": {
+    "equivalent": [
+     "contrapositive"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.9"
+  },
+  {
+   "id": "engineering-math-1-019",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "Explain proof by contradiction.",
+   "answer": "Assume A and not B both hold and derive a contradiction, which shows that not B and A cannot happen together.",
+   "keywords": [
+    "assume",
+    "contradiction"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.9"
+  },
+  {
+   "id": "engineering-math-1-020",
+   "topic": "1. Foundations",
+   "type": "concept",
+   "question": "When do you use mathematical induction and what are its three steps?",
+   "answer": "For statements about natural numbers n: formulate the claim, show it for the starting value n0, and show that if it holds for n it holds for n plus 1.",
+   "keywords": [
+    "natural numbers",
+    "starting value",
+    "n plus 1"
+   ],
+   "synonyms": {
+    "starting value": [
+     "base case",
+     "initial value",
+     "n0"
+    ],
+    "n plus 1": [
+     "n+1",
+     "next"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.10"
+  },
+  {
+   "id": "engineering-math-1-021",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "What is a set?",
+   "answer": "Any collection of distinct objects regarded as a whole; its objects are called elements.",
+   "keywords": [
+    "collection",
+    "distinct",
+    "elements"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.11"
+  },
+  {
+   "id": "engineering-math-1-022",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "Two ways of defining a set.",
+   "answer": "List its elements, or specify a characteristic property of its elements.",
+   "keywords": [
+    "list",
+    "property"
+   ],
+   "synonyms": {
+    "property": [
+     "characteristic"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.11"
+  },
+  {
+   "id": "engineering-math-1-023",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "Name the operations on sets.",
+   "answer": "Intersection, union and difference.",
+   "keywords": [
+    "intersection",
+    "union",
+    "difference"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.11"
+  },
+  {
+   "id": "engineering-math-1-024",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "What is an interval?",
+   "answer": "A subset of the number line, the real numbers.",
+   "keywords": [
+    "subset",
+    "number line"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.11"
+  },
+  {
+   "id": "engineering-math-1-025",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "Name the important subsets of the real numbers.",
+   "answer": "Natural numbers, integers and rational numbers.",
+   "keywords": [
+    "natural",
+    "integers",
+    "rational"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.12"
+  },
+  {
+   "id": "engineering-math-1-026",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "What are the field axioms of the real numbers (examples)?",
+   "answer": "Commutative laws, associative laws, distributive law, existence of identity elements and existence of inverse elements.",
+   "keywords": [
+    "commutative",
+    "associative",
+    "distributive",
+    "identity",
+    "inverse"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.12"
+  },
+  {
+   "id": "engineering-math-1-027",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "What are the order axioms of the real numbers?",
+   "answer": "Trichotomy law, transitive law and monotonicity laws.",
+   "keywords": [
+    "trichotomy",
+    "transitive",
+    "monotonicity"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.12"
+  },
+  {
+   "id": "engineering-math-1-028",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "State the trichotomy law.",
+   "answer": "For any two real numbers a and b, exactly one holds: a is less than b, a equals b, or a is greater than b.",
+   "keywords": [
+    "exactly one",
+    "less",
+    "equal",
+    "greater"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.12"
+  },
+  {
+   "id": "engineering-math-1-029",
+   "topic": "1. Foundations",
+   "type": "flashcard",
+   "question": "What is an abelian group?",
+   "answer": "A set with an operation that is associative, commutative, has an identity element and an inverse for every element.",
+   "keywords": [
+    "associative",
+    "commutative",
+    "identity",
+    "inverse"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.13"
+  },
+  {
+   "id": "engineering-math-1-030",
+   "topic": "1. Foundations",
+   "type": "quiz",
+   "question": "Give an example of an abelian group.",
+   "answer": "The integers under addition, or the nonzero rational numbers under multiplication.",
+   "keywords": [
+    "integers",
+    "addition"
+   ],
+   "synonyms": {
+    "integers": [
+     "Z",
+     "rational"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.13"
+  },
+  {
+   "id": "engineering-math-1-031",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "Define a function from A to B.",
+   "answer": "A mapping where every x in the domain A is assigned exactly one y in B.",
+   "keywords": [
+    "every",
+    "exactly one",
+    "domain"
+   ],
+   "synonyms": {
+    "exactly one": [
+     "one value",
+     "single-valued",
+     "unique"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.14"
+  },
+  {
+   "id": "engineering-math-1-032",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "Name domain, range, independent and dependent variable.",
+   "answer": "Domain A is the set of arguments, range B the set of values; x is the independent variable and y the dependent variable.",
+   "keywords": [
+    "domain",
+    "range",
+    "independent",
+    "dependent"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.14"
+  },
+  {
+   "id": "engineering-math-1-033",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "What are the representations of a function?",
+   "answer": "Explicit form, implicit form, parametric form, table of values and function graph.",
+   "keywords": [
+    "explicit",
+    "implicit",
+    "parametric",
+    "table",
+    "graph"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.15"
+  },
+  {
+   "id": "engineering-math-1-034",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "What is a polynomial of degree n?",
+   "answer": "A sum of powers of x with coefficients a_i, where the highest coefficient a_n is not zero.",
+   "keywords": [
+    "powers",
+    "coefficients",
+    "highest"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.15"
+  },
+  {
+   "id": "engineering-math-1-035",
+   "topic": "2. Functions",
+   "type": "quiz",
+   "question": "What does the discriminant of a quadratic tell you?",
+   "answer": "If positive, two real roots; if zero, a double root; if negative, no real solution and the parabola does not cross the x-axis but there are complex solutions.",
+   "keywords": [
+    "two real",
+    "double",
+    "complex",
+    "no real"
+   ],
+   "synonyms": {
+    "complex": [
+     "imaginary"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.15"
+  },
+  {
+   "id": "engineering-math-1-036",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "What is a rational function and when is it proper?",
+   "answer": "A quotient of two polynomials; proper when the numerator degree n is less than the denominator degree m.",
+   "keywords": [
+    "quotient",
+    "polynomials",
+    "degree less"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.16"
+  },
+  {
+   "id": "engineering-math-1-037",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "What do you do with an improper rational function?",
+   "answer": "Divide the polynomials to get a polynomial plus a proper rational function.",
+   "keywords": [
+    "division",
+    "polynomial",
+    "proper"
+   ],
+   "synonyms": {
+    "division": [
+     "divide"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.16"
+  },
+  {
+   "id": "engineering-math-1-038",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "What is a pole of a rational function?",
+   "answer": "A point where the denominator is zero but the numerator is not, so the function is undefined and grows without bound.",
+   "keywords": [
+    "denominator zero",
+    "numerator",
+    "without bound"
+   ],
+   "synonyms": {
+    "denominator zero": [
+     "denominator is zero",
+     "denominator"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.16"
+  },
+  {
+   "id": "engineering-math-1-039",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "What is the horizontal asymptote of every proper rational function?",
+   "answer": "The x-axis, because the limit at infinity is zero.",
+   "keywords": [
+    "x-axis",
+    "zero"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.16"
+  },
+  {
+   "id": "engineering-math-1-040",
+   "topic": "2. Functions",
+   "type": "quiz",
+   "question": "How do you recognise and handle a removable discontinuity in a rational function?",
+   "answer": "Factor numerator and denominator; a common factor cancels, leaving a missing point (a hole) rather than a pole.",
+   "keywords": [
+    "factor",
+    "cancel",
+    "hole"
+   ],
+   "synonyms": {
+    "hole": [
+     "missing point",
+     "removable"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.17"
+  },
+  {
+   "id": "engineering-math-1-041",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "What is the asymptote of an improper rational function?",
+   "answer": "The polynomial part after division, which is not necessarily a straight line.",
+   "keywords": [
+    "polynomial",
+    "division"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.17"
+  },
+  {
+   "id": "engineering-math-1-042",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "Period and symmetry of sine and cosine.",
+   "answer": "Both have period 2 pi; sine is an odd function, cosine is an even function.",
+   "keywords": [
+    "2 pi",
+    "odd",
+    "even"
+   ],
+   "synonyms": {
+    "2 pi": [
+     "two pi"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.18"
+  },
+  {
+   "id": "engineering-math-1-043",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "Name the Pythagorean identity for sine and cosine.",
+   "answer": "Cosine squared x plus sine squared x equals one.",
+   "keywords": [
+    "cosine squared",
+    "sine squared",
+    "one"
+   ],
+   "synonyms": {
+    "one": [
+     "1"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.18"
+  },
+  {
+   "id": "engineering-math-1-044",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "State the addition theorem for sine.",
+   "answer": "Sine of a plus b equals sine a cosine b plus cosine a sine b.",
+   "keywords": [
+    "sine a cosine b",
+    "cosine a sine b"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.18"
+  },
+  {
+   "id": "engineering-math-1-045",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "State the addition theorem for cosine.",
+   "answer": "Cosine of a plus b equals cosine a cosine b minus sine a sine b.",
+   "keywords": [
+    "cosine a cosine b",
+    "minus",
+    "sine a sine b"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.18"
+  },
+  {
+   "id": "engineering-math-1-046",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "Double angle formulas.",
+   "answer": "Sine of 2a equals 2 sine a cosine a; cosine of 2a equals cosine squared a minus sine squared a.",
+   "keywords": [
+    "2 sine a cosine a",
+    "cosine squared",
+    "minus sine squared"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.18"
+  },
+  {
+   "id": "engineering-math-1-047",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "Define a monotonically increasing function.",
+   "answer": "For x less than y, f of x is less than or equal to f of y; strictly increasing if strictly less, which holds if f prime is positive.",
+   "keywords": [
+    "x less than y",
+    "f prime",
+    "positive"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.19"
+  },
+  {
+   "id": "engineering-math-1-048",
+   "topic": "2. Functions",
+   "type": "quiz",
+   "question": "Which functions have an inverse function?",
+   "answer": "Every strictly monotonic function.",
+   "keywords": [
+    "strictly monotonic"
+   ],
+   "synonyms": {
+    "strictly monotonic": [
+     "strictly increasing",
+     "strictly decreasing",
+     "monotone"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.19"
+  },
+  {
+   "id": "engineering-math-1-049",
+   "topic": "2. Functions",
+   "type": "concept",
+   "question": "How do you find an inverse function and how is its graph related?",
+   "answer": "Interchange x and y, then solve for y; the graph is the reflection of f across the line y equals x.",
+   "keywords": [
+    "interchange",
+    "solve",
+    "reflection",
+    "y equals x"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.20"
+  },
+  {
+   "id": "engineering-math-1-050",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "Define the exponential function and Euler's number.",
+   "answer": "y equals a to the x with a positive; with base e (Euler's number) it is exp of x; a to the x equals e to the x ln a.",
+   "keywords": [
+    "base a",
+    "Euler",
+    "e to the x"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.20"
+  },
+  {
+   "id": "engineering-math-1-051",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "How are exponential function and logarithm related?",
+   "answer": "The logarithm is the inverse function of the exponential function; log base a of a to the x equals x.",
+   "keywords": [
+    "inverse",
+    "logarithm"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.20"
+  },
+  {
+   "id": "engineering-math-1-052",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "Define the hyperbolic sine and cosine.",
+   "answer": "Sinh x is half of e to the x minus e to the minus x; cosh x is half of e to the x plus e to the minus x.",
+   "keywords": [
+    "half",
+    "e to the x",
+    "minus"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.21"
+  },
+  {
+   "id": "engineering-math-1-053",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "Define hyperbolic tangent and cotangent.",
+   "answer": "Tanh is sinh over cosh, that is e to the x minus e to the minus x over their sum; coth is the reciprocal.",
+   "keywords": [
+    "sinh over cosh",
+    "reciprocal"
+   ],
+   "synonyms": {
+    "sinh over cosh": [
+     "quotient"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.21"
+  },
+  {
+   "id": "engineering-math-1-054",
+   "topic": "2. Functions",
+   "type": "concept",
+   "question": "Why do engineers need hyperbolic functions? Name examples.",
+   "answer": "They appear as solutions of certain ODEs in physical problems, such as the catenary and temperature distribution in a cooling fin.",
+   "keywords": [
+    "ODE",
+    "catenary",
+    "fin"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.21"
+  },
+  {
+   "id": "engineering-math-1-055",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "Express arsinh in terms of the natural logarithm.",
+   "answer": "Arsinh x equals ln of x plus the square root of x squared plus one, for all real x.",
+   "keywords": [
+    "ln",
+    "square root",
+    "x squared plus one"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.22"
+  },
+  {
+   "id": "engineering-math-1-056",
+   "topic": "2. Functions",
+   "type": "flashcard",
+   "question": "Domains of arcosh, artanh and arcoth.",
+   "answer": "Arcosh needs x at least 1, artanh needs absolute value of x below 1, arcoth needs absolute value of x above 1.",
+   "keywords": [
+    "at least 1",
+    "below 1",
+    "above 1"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.22"
+  },
+  {
+   "id": "engineering-math-1-057",
+   "topic": "3. Complex numbers",
+   "type": "flashcard",
+   "question": "Why were complex numbers introduced?",
+   "answer": "To solve polynomial equations like x squared plus one equals zero, which have no real solution.",
+   "keywords": [
+    "polynomial",
+    "no real solution"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.23"
+  },
+  {
+   "id": "engineering-math-1-058",
+   "topic": "3. Complex numbers",
+   "type": "flashcard",
+   "question": "Define a complex number, its real and imaginary part and i.",
+   "answer": "z equals a plus b i, a is the real part, b the imaginary part, i the imaginary unit with i squared equal to minus one.",
+   "keywords": [
+    "real part",
+    "imaginary part",
+    "i squared",
+    "minus one"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.23"
+  },
+  {
+   "id": "engineering-math-1-059",
+   "topic": "3. Complex numbers",
+   "type": "flashcard",
+   "question": "What is the complex plane?",
+   "answer": "The Argand or Gauss plane, with the real part on the horizontal axis and the imaginary part on the vertical axis.",
+   "keywords": [
+    "Argand",
+    "real",
+    "imaginary"
+   ],
+   "synonyms": {
+    "Argand": [
+     "Gauss",
+     "gaussian"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.23"
+  },
+  {
+   "id": "engineering-math-1-060",
+   "topic": "3. Complex numbers",
+   "type": "flashcard",
+   "question": "How do you add complex numbers?",
+   "answer": "Component by component, like vector addition: add real parts and add imaginary parts.",
+   "keywords": [
+    "component",
+    "real parts",
+    "imaginary parts"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.23"
+  },
+  {
+   "id": "engineering-math-1-061",
+   "topic": "3. Complex numbers",
+   "type": "quiz",
+   "question": "Describe how to divide two complex numbers.",
+   "answer": "Multiply numerator and denominator by the complex conjugate of the denominator so the denominator becomes real.",
+   "keywords": [
+    "conjugate",
+    "denominator",
+    "real"
+   ],
+   "synonyms": {
+    "conjugate": [
+     "complex conjugate"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.24"
+  },
+  {
+   "id": "engineering-math-1-062",
+   "topic": "3. Complex numbers",
+   "type": "concept",
+   "question": "Why do the usual arithmetic rules hold for complex numbers?",
+   "answer": "The complex numbers form a field: addition and multiplication satisfy the same axioms as for real numbers.",
+   "keywords": [
+    "field",
+    "axioms",
+    "same"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.25"
+  },
+  {
+   "id": "engineering-math-1-063",
+   "topic": "3. Complex numbers",
+   "type": "flashcard",
+   "question": "Define modulus and argument of a complex number.",
+   "answer": "Modulus r is the absolute value, the distance from the origin; argument phi is the angle to the positive real axis.",
+   "keywords": [
+    "modulus",
+    "distance",
+    "angle"
+   ],
+   "synonyms": {
+    "modulus": [
+     "absolute value",
+     "r"
+    ],
+    "angle": [
+     "argument",
+     "phi"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.26"
+  },
+  {
+   "id": "engineering-math-1-064",
+   "topic": "3. Complex numbers",
+   "type": "flashcard",
+   "question": "Write the polar and exponential form of z.",
+   "answer": "Polar: z equals r times cosine phi plus i sine phi; exponential: z equals r times e to the i phi.",
+   "keywords": [
+    "cosine",
+    "sine",
+    "e to the i phi"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.26,27"
+  },
+  {
+   "id": "engineering-math-1-065",
+   "topic": "3. Complex numbers",
+   "type": "flashcard",
+   "question": "How do you multiply complex numbers in exponential form?",
+   "answer": "Multiply the moduli and add the angles.",
+   "keywords": [
+    "multiply moduli",
+    "add angles"
+   ],
+   "synonyms": {
+    "multiply moduli": [
+     "moduli multiply",
+     "multiply the moduli"
+    ],
+    "add angles": [
+     "add the angles",
+     "angles add",
+     "sum of angles"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.27"
+  },
+  {
+   "id": "engineering-math-1-066",
+   "topic": "3. Complex numbers",
+   "type": "flashcard",
+   "question": "How do you divide complex numbers in exponential form?",
+   "answer": "Divide the moduli and subtract the angles.",
+   "keywords": [
+    "divide",
+    "subtract"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.28"
+  },
+  {
+   "id": "engineering-math-1-067",
+   "topic": "3. Complex numbers",
+   "type": "flashcard",
+   "question": "State De Moivre's formula in words.",
+   "answer": "The nth power of a complex number has modulus r to the n and angle n times phi.",
+   "keywords": [
+    "power",
+    "n times phi",
+    "modulus"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.28"
+  },
+  {
+   "id": "engineering-math-1-068",
+   "topic": "3. Complex numbers",
+   "type": "flashcard",
+   "question": "What is the complex conjugate and what do z plus z-bar and z times z-bar give?",
+   "answer": "Flip the sign of the imaginary part; the sum is twice the real part, the product is the modulus squared.",
+   "keywords": [
+    "sign",
+    "imaginary",
+    "twice the real",
+    "modulus squared"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.28"
+  },
+  {
+   "id": "engineering-math-1-069",
+   "topic": "3. Complex numbers",
+   "type": "flashcard",
+   "question": "When does z equal its own conjugate?",
+   "answer": "If and only if z is a real number.",
+   "keywords": [
+    "real"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.28"
+  },
+  {
+   "id": "engineering-math-1-070",
+   "topic": "3. Complex numbers",
+   "type": "flashcard",
+   "question": "State the triangle inequality for complex numbers.",
+   "answer": "The modulus of a sum is at most the sum of the moduli.",
+   "keywords": [
+    "modulus",
+    "sum",
+    "at most"
+   ],
+   "synonyms": {
+    "at most": [
+     "less than or equal",
+     "smaller or equal"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.28,30"
+  },
+  {
+   "id": "engineering-math-1-071",
+   "topic": "3. Complex numbers",
+   "type": "quiz",
+   "question": "What geometric effect does multiplying by a complex number have?",
+   "answer": "A rotation by its argument combined with a scaling by its modulus.",
+   "keywords": [
+    "rotation",
+    "scaling",
+    "argument"
+   ],
+   "synonyms": {
+    "scaling": [
+     "scale",
+     "stretch"
+    ],
+    "rotation": [
+     "rotate"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.27"
+  },
+  {
+   "id": "engineering-math-1-072",
+   "topic": "3. Complex numbers",
+   "type": "quiz",
+   "question": "What does multiplying by i do geometrically?",
+   "answer": "Rotates anticlockwise by 90 degrees (pi over 2) about the origin, leaving the modulus unchanged.",
+   "keywords": [
+    "anticlockwise",
+    "pi over 2",
+    "modulus unchanged"
+   ],
+   "synonyms": {
+    "pi over 2": [
+     "90 degrees",
+     "ninety"
+    ]
+   },
+   "source": "mathematics_solutions_1.pdf p.2"
+  },
+  {
+   "id": "engineering-math-1-073",
+   "topic": "3. Complex numbers",
+   "type": "flashcard",
+   "question": "State the fundamental theorem of algebra.",
+   "answer": "An algebraic equation of degree n has exactly n solutions in the complex numbers, counting multiplicities.",
+   "keywords": [
+    "degree n",
+    "n solutions",
+    "multiplicity"
+   ],
+   "synonyms": {
+    "multiplicity": [
+     "multiplicities",
+     "multiple"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.29"
+  },
+  {
+   "id": "engineering-math-1-074",
+   "topic": "3. Complex numbers",
+   "type": "flashcard",
+   "question": "What is the factorisation theorem for polynomials?",
+   "answer": "Every polynomial of degree n equals a_n times the product of z minus z_i over its n complex zeros.",
+   "keywords": [
+    "linear factors",
+    "n zeros",
+    "complex"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.29"
+  },
+  {
+   "id": "engineering-math-1-075",
+   "topic": "3. Complex numbers",
+   "type": "quiz",
+   "question": "A real polynomial has a complex zero. What else must be a zero?",
+   "answer": "Its complex conjugate, and together they give a real quadratic factor.",
+   "keywords": [
+    "conjugate",
+    "zero"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.29"
+  },
+  {
+   "id": "engineering-math-1-076",
+   "topic": "3. Complex numbers",
+   "type": "concept",
+   "question": "Describe how to divide a polynomial by a linear factor.",
+   "answer": "Use polynomial long division, school method; if x0 is a zero the remainder is zero.",
+   "keywords": [
+    "long division",
+    "remainder zero",
+    "zero"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.29"
+  },
+  {
+   "id": "engineering-math-1-077",
+   "topic": "3. Complex numbers",
+   "type": "quiz",
+   "question": "Why must a real cubic polynomial have at least one real root?",
+   "answer": "Complex roots come in conjugate pairs, so with three roots at least one is real.",
+   "keywords": [
+    "conjugate pairs",
+    "odd degree"
+   ],
+   "synonyms": {
+    "conjugate pairs": [
+     "pairs",
+     "conjugate"
+    ],
+    "odd degree": [
+     "three",
+     "odd",
+     "cubic"
+    ]
+   },
+   "source": "Exercise Sheet 2 Ex.6c"
+  },
+  {
+   "id": "engineering-math-1-078",
+   "topic": "3. Complex numbers",
+   "type": "flashcard",
+   "question": "What region does |z minus z0| less than R describe?",
+   "answer": "An open disc of radius R centred at z0.",
+   "keywords": [
+    "disc",
+    "radius",
+    "centre"
+   ],
+   "synonyms": {
+    "disc": [
+     "circle"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.30"
+  },
+  {
+   "id": "engineering-math-1-079",
+   "topic": "3. Complex numbers",
+   "type": "flashcard",
+   "question": "Which symbol replaces i in electrical engineering and why use phasors?",
+   "answer": "j replaces i; phasors give a symbolic representation of harmonic oscillations like AC voltage and current as rotating pointers.",
+   "keywords": [
+    "j",
+    "rotating",
+    "oscillations"
+   ],
+   "synonyms": {
+    "rotating": [
+     "phasor",
+     "pointer"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.31"
+  },
+  {
+   "id": "engineering-math-1-080",
+   "topic": "3. Complex numbers",
+   "type": "flashcard",
+   "question": "Name the parameters of a harmonic oscillation.",
+   "answer": "Amplitude A, angular frequency omega, phase angle phi and period T.",
+   "keywords": [
+    "amplitude",
+    "angular frequency",
+    "phase",
+    "period"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.31"
+  },
+  {
+   "id": "engineering-math-1-081",
+   "topic": "4. Sequences and series",
+   "type": "flashcard",
+   "question": "Define a numerical sequence.",
+   "answer": "A mapping from the natural numbers into the reals that assigns an element a_n to each index n.",
+   "keywords": [
+    "mapping",
+    "natural numbers",
+    "index"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.32"
+  },
+  {
+   "id": "engineering-math-1-082",
+   "topic": "4. Sequences and series",
+   "type": "flashcard",
+   "question": "What is the defining rule of a sequence? Give an example.",
+   "answer": "A formula for the nth term a_n, for example a_n equals n gives 1, 2, 3, 4.",
+   "keywords": [
+    "nth term",
+    "formula"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.32"
+  },
+  {
+   "id": "engineering-math-1-083",
+   "topic": "4. Sequences and series",
+   "type": "flashcard",
+   "question": "When is a sequence monotonically increasing or decreasing?",
+   "answer": "Increasing if a_n is at most a_n+1 for all n; decreasing if a_n+1 is at most a_n; strict if equality is excluded.",
+   "keywords": [
+    "a_n+1",
+    "for all n",
+    "strict"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.32,37"
+  },
+  {
+   "id": "engineering-math-1-084",
+   "topic": "4. Sequences and series",
+   "type": "flashcard",
+   "question": "What is a series and a partial sum?",
+   "answer": "A series is the sequence of partial sums; the partial sum s_k is the sum of the first k terms.",
+   "keywords": [
+    "sequence of partial sums",
+    "first k terms"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.32"
+  },
+  {
+   "id": "engineering-math-1-085",
+   "topic": "4. Sequences and series",
+   "type": "flashcard",
+   "question": "Define an arithmetic sequence.",
+   "answer": "The difference between consecutive terms is constant, called d.",
+   "keywords": [
+    "difference",
+    "constant"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.33"
+  },
+  {
+   "id": "engineering-math-1-086",
+   "topic": "4. Sequences and series",
+   "type": "flashcard",
+   "question": "Give the nth term and series formula of an arithmetic sequence.",
+   "answer": "x_n equals x_1 plus n minus 1 times d; the sum of k terms is k over 2 times first plus last term.",
+   "keywords": [
+    "x_1",
+    "n minus 1",
+    "d",
+    "k over 2"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.33"
+  },
+  {
+   "id": "engineering-math-1-087",
+   "topic": "4. Sequences and series",
+   "type": "flashcard",
+   "question": "Define a null sequence.",
+   "answer": "A sequence where for every epsilon above zero, all terms from some index onward have absolute value less than epsilon.",
+   "keywords": [
+    "epsilon",
+    "absolute value",
+    "all terms"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.33"
+  },
+  {
+   "id": "engineering-math-1-088",
+   "topic": "4. Sequences and series",
+   "type": "flashcard",
+   "question": "Define a geometric sequence.",
+   "answer": "a_n equals a_0 times q to the n; each term is the previous times the ratio q.",
+   "keywords": [
+    "a_0",
+    "q to the n",
+    "ratio"
+   ],
+   "synonyms": {
+    "ratio": [
+     "quotient",
+     "q"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.34"
+  },
+  {
+   "id": "engineering-math-1-089",
+   "topic": "4. Sequences and series",
+   "type": "flashcard",
+   "question": "When does an infinite geometric series converge and what is its sum?",
+   "answer": "When the absolute value of q is below 1; the sum is a_0 over one minus q.",
+   "keywords": [
+    "absolute value of q below 1",
+    "a_0 over 1 minus q"
+   ],
+   "synonyms": {
+    "absolute value of q below 1": [
+     "|q| less than 1",
+     "q less than 1",
+     "less than one"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.34"
+  },
+  {
+   "id": "engineering-math-1-090",
+   "topic": "4. Sequences and series",
+   "type": "flashcard",
+   "question": "State the finite geometric series formula.",
+   "answer": "The sum from n equals 0 to k of a_0 q to the n equals a_0 times 1 minus q to the k plus 1 over 1 minus q, for q not 1.",
+   "keywords": [
+    "1 minus q to the k plus 1",
+    "q not 1"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.34"
+  },
+  {
+   "id": "engineering-math-1-091",
+   "topic": "4. Sequences and series",
+   "type": "flashcard",
+   "question": "Define the limit of a sequence.",
+   "answer": "g is the limit if for every epsilon above zero there is an index after which all terms satisfy absolute value x_n minus g less than epsilon.",
+   "keywords": [
+    "epsilon",
+    "index",
+    "all n"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.35"
+  },
+  {
+   "id": "engineering-math-1-092",
+   "topic": "4. Sequences and series",
+   "type": "flashcard",
+   "question": "What is a convergent versus divergent sequence?",
+   "answer": "Convergent if it has a limit g; divergent if it has no limit.",
+   "keywords": [
+    "limit",
+    "no limit"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.35"
+  },
+  {
+   "id": "engineering-math-1-093",
+   "topic": "4. Sequences and series",
+   "type": "flashcard",
+   "question": "State the limit laws for sequences.",
+   "answer": "Limits of sums, differences, products and quotients are the sums, differences, products and quotients of the limits, provided the denominator limit is nonzero.",
+   "keywords": [
+    "sum",
+    "product",
+    "quotient",
+    "nonzero"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.36"
+  },
+  {
+   "id": "engineering-math-1-094",
+   "topic": "4. Sequences and series",
+   "type": "flashcard",
+   "question": "State the theorem on bounded monotonic sequences.",
+   "answer": "A bounded monotonically increasing or decreasing sequence converges.",
+   "keywords": [
+    "bounded",
+    "monotonic",
+    "converges"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.37"
+  },
+  {
+   "id": "engineering-math-1-095",
+   "topic": "4. Sequences and series",
+   "type": "flashcard",
+   "question": "State the squeeze theorem.",
+   "answer": "If a_n is at most c_n is at most b_n and a_n and b_n converge to the same limit A, then c_n converges to A.",
+   "keywords": [
+    "squeeze",
+    "same limit",
+    "between"
+   ],
+   "synonyms": {
+    "squeeze": [
+     "sandwich",
+     "trapped",
+     "between"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch1-4 p.37"
+  },
+  {
+   "id": "engineering-math-1-096",
+   "topic": "4. Sequences and series",
+   "type": "quiz",
+   "question": "What is the limit of 1/n to the r for r above 1 and which tool shows it?",
+   "answer": "Zero, by the squeeze theorem.",
+   "keywords": [
+    "zero",
+    "squeeze"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.37"
+  },
+  {
+   "id": "engineering-math-1-097",
+   "topic": "4. Sequences and series",
+   "type": "flashcard",
+   "question": "What is the Mandelbrot set?",
+   "answer": "The set of complex parameters c for which a certain complex sequence z_n remains bounded; it is a fractal.",
+   "keywords": [
+    "complex parameters",
+    "bounded",
+    "fractal"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch1-4 p.38"
+  },
+  {
+   "id": "engineering-math-1-098",
+   "topic": "5a. Limits and continuity",
+   "type": "flashcard",
+   "question": "Define the limit of a function as x approaches x0.",
+   "answer": "g is the limit if for every sequence x_n converging to x0 with x_n not equal to x0, the function values converge to g.",
+   "keywords": [
+    "every sequence",
+    "x0",
+    "function values"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.1"
+  },
+  {
+   "id": "engineering-math-1-099",
+   "topic": "5a. Limits and continuity",
+   "type": "quiz",
+   "question": "Does a function have to be defined at x0 for its limit to exist?",
+   "answer": "No, the limit only looks at x approaching x0 but never equal to it.",
+   "keywords": [
+    "no",
+    "approaching",
+    "not equal"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.2"
+  },
+  {
+   "id": "engineering-math-1-100",
+   "topic": "5a. Limits and continuity",
+   "type": "flashcard",
+   "question": "When does a limit exist in terms of one-sided limits?",
+   "answer": "When the left-hand limit and the right-hand limit agree.",
+   "keywords": [
+    "left-hand",
+    "right-hand",
+    "agree"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.1"
+  },
+  {
+   "id": "engineering-math-1-101",
+   "topic": "5a. Limits and continuity",
+   "type": "flashcard",
+   "question": "Which indeterminate forms can be treated with l'Hopital's rule?",
+   "answer": "Zero over zero and infinity over infinity.",
+   "keywords": [
+    "zero over zero",
+    "infinity over infinity"
+   ],
+   "synonyms": {
+    "zero over zero": [
+     "0/0"
+    ],
+    "infinity over infinity": [
+     "∞/∞"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.3,15"
+  },
+  {
+   "id": "engineering-math-1-102",
+   "topic": "5a. Limits and continuity",
+   "type": "flashcard",
+   "question": "Define continuity at a point.",
+   "answer": "The limit as x approaches x0 exists and equals the function value at x0.",
+   "keywords": [
+    "limit exists",
+    "equals function value"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.4"
+  },
+  {
+   "id": "engineering-math-1-103",
+   "topic": "5a. Limits and continuity",
+   "type": "flashcard",
+   "question": "Epsilon-delta definition of continuity in words.",
+   "answer": "For every epsilon there is a delta such that closeness of x to x0 within delta gives f of x within epsilon of f of x0.",
+   "keywords": [
+    "epsilon",
+    "delta",
+    "close"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.4"
+  },
+  {
+   "id": "engineering-math-1-104",
+   "topic": "5a. Limits and continuity",
+   "type": "flashcard",
+   "question": "What is a removable discontinuity?",
+   "answer": "A point where the function is undefined but the limit exists, for example after cancelling a common factor.",
+   "keywords": [
+    "undefined",
+    "limit exists"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.4"
+  },
+  {
+   "id": "engineering-math-1-105",
+   "topic": "5a. Limits and continuity",
+   "type": "flashcard",
+   "question": "Which operations preserve continuity?",
+   "answer": "Constant multiples, sums, differences, products, and quotients where the denominator is nonzero.",
+   "keywords": [
+    "sums",
+    "products",
+    "quotients"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.5"
+  },
+  {
+   "id": "engineering-math-1-106",
+   "topic": "5a. Limits and continuity",
+   "type": "flashcard",
+   "question": "State the intermediate value theorem.",
+   "answer": "A continuous function on a closed interval takes every value between f of a and f of b at least once.",
+   "keywords": [
+    "continuous",
+    "closed interval",
+    "every value between"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.5"
+  },
+  {
+   "id": "engineering-math-1-107",
+   "topic": "5a. Limits and continuity",
+   "type": "flashcard",
+   "question": "State Bolzano's zero theorem.",
+   "answer": "If f is continuous on an interval and has opposite signs at two points, there is at least one zero between them.",
+   "keywords": [
+    "continuous",
+    "opposite signs",
+    "zero"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.5"
+  },
+  {
+   "id": "engineering-math-1-108",
+   "topic": "5a. Limits and continuity",
+   "type": "flashcard",
+   "question": "State the extreme value theorem.",
+   "answer": "A continuous function on a closed interval attains a minimum and a maximum, possibly at the endpoints.",
+   "keywords": [
+    "continuous",
+    "closed interval",
+    "minimum",
+    "maximum"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.5"
+  },
+  {
+   "id": "engineering-math-1-109",
+   "topic": "5a. Limits and continuity",
+   "type": "quiz",
+   "question": "How would you show without calculating that ln x minus sin x has a zero on 1 to e?",
+   "answer": "Show the function is continuous with opposite signs at the endpoints, then apply Bolzano's zero theorem.",
+   "keywords": [
+    "continuous",
+    "opposite signs",
+    "Bolzano"
+   ],
+   "synonyms": {
+    "Bolzano": [
+     "zero theorem",
+     "intermediate value"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.5"
+  },
+  {
+   "id": "engineering-math-1-110",
+   "topic": "5a. Limits and continuity",
+   "type": "concept",
+   "question": "Describe the bisection method step by step.",
+   "answer": "Start with an interval whose endpoints have opposite signs, take the midpoint, evaluate there, keep the half where the sign changes, and repeat until accurate enough.",
+   "keywords": [
+    "opposite signs",
+    "midpoint",
+    "half",
+    "repeat"
+   ],
+   "synonyms": {
+    "midpoint": [
+     "middle",
+     "halve"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.6"
+  },
+  {
+   "id": "engineering-math-1-111",
+   "topic": "5a. Limits and continuity",
+   "type": "quiz",
+   "question": "Which assumption does the bisection method need?",
+   "answer": "A continuous function with opposite signs at the interval endpoints.",
+   "keywords": [
+    "continuous",
+    "opposite signs"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.6"
+  },
+  {
+   "id": "engineering-math-1-112",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "What is the difference quotient geometrically?",
+   "answer": "The slope of the secant through two neighbouring points of the graph.",
+   "keywords": [
+    "slope",
+    "secant"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.8"
+  },
+  {
+   "id": "engineering-math-1-113",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "What is linear interpolation?",
+   "answer": "Approximating values between measured points using the secant line through them.",
+   "keywords": [
+    "secant",
+    "between"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.8"
+  },
+  {
+   "id": "engineering-math-1-114",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "Define the derivative.",
+   "answer": "The limit of the difference quotient, the slope of the tangent at the point.",
+   "keywords": [
+    "limit",
+    "difference quotient",
+    "tangent"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.9"
+  },
+  {
+   "id": "engineering-math-1-115",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "What does it mean for a function to be differentiable?",
+   "answer": "The limit of the difference quotient exists at the point.",
+   "keywords": [
+    "limit",
+    "exists"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.9"
+  },
+  {
+   "id": "engineering-math-1-116",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "Give interpretations of the derivative.",
+   "answer": "Slope of the tangent, slope of the function, and the rate of change, for example velocity as rate of change of displacement.",
+   "keywords": [
+    "tangent",
+    "rate of change"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.9"
+  },
+  {
+   "id": "engineering-math-1-117",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "What is the differential operator and the differential dy?",
+   "answer": "The operator d over dx turns f into its derivative; dy equals f prime times dx.",
+   "keywords": [
+    "derivative",
+    "f prime",
+    "dx"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.9,10"
+  },
+  {
+   "id": "engineering-math-1-118",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "What is linearisation?",
+   "answer": "Approximating a function near a point by its tangent line, valid for small increments.",
+   "keywords": [
+    "tangent",
+    "small"
+   ],
+   "synonyms": {
+    "tangent": [
+     "tangent line"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.11"
+  },
+  {
+   "id": "engineering-math-1-119",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "What is true about the tangent at an extremum?",
+   "answer": "It is horizontal, so the derivative is zero.",
+   "keywords": [
+    "horizontal",
+    "zero"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.11"
+  },
+  {
+   "id": "engineering-math-1-120",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "State the product rule.",
+   "answer": "The derivative of f times g is f prime g plus f g prime.",
+   "keywords": [
+    "f prime g",
+    "f g prime"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.12"
+  },
+  {
+   "id": "engineering-math-1-121",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "State the quotient rule.",
+   "answer": "The derivative of f over g is f prime g minus f g prime, all over g squared.",
+   "keywords": [
+    "f prime g",
+    "minus",
+    "g squared"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.12"
+  },
+  {
+   "id": "engineering-math-1-122",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "State the chain rule.",
+   "answer": "Outer derivative times inner derivative.",
+   "keywords": [
+    "outer",
+    "inner"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.12"
+  },
+  {
+   "id": "engineering-math-1-123",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "What is logarithmic differentiation?",
+   "answer": "Use the derivative of ln f, which equals f prime over f, to handle products and powers.",
+   "keywords": [
+    "ln",
+    "f prime over f"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.12"
+  },
+  {
+   "id": "engineering-math-1-124",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "How do you find the derivative of an inverse function?",
+   "answer": "It is one over the derivative of f, evaluated at the inverse function value.",
+   "keywords": [
+    "one over",
+    "inverse"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.13"
+  },
+  {
+   "id": "engineering-math-1-125",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "Does differentiability imply continuity? And the converse?",
+   "answer": "Differentiable implies continuous; but continuous functions need not be differentiable everywhere.",
+   "keywords": [
+    "differentiable implies continuous",
+    "not everywhere"
+   ],
+   "synonyms": {
+    "not everywhere": [
+     "converse false",
+     "not the converse"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.13"
+  },
+  {
+   "id": "engineering-math-1-126",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "State Rolle's theorem.",
+   "answer": "If f is continuous on a to b, differentiable inside, and f of a equals f of b, then some point has derivative zero.",
+   "keywords": [
+    "f of a equals f of b",
+    "derivative zero"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.13"
+  },
+  {
+   "id": "engineering-math-1-127",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "State the mean value theorem of differential calculus.",
+   "answer": "For continuous differentiable f there is a point where the tangent slope equals the secant slope between a and b.",
+   "keywords": [
+    "tangent slope",
+    "secant slope"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.14"
+  },
+  {
+   "id": "engineering-math-1-128",
+   "topic": "5b. Derivatives",
+   "type": "concept",
+   "question": "How is the mean value theorem proved from Rolle's theorem?",
+   "answer": "Define the auxiliary function h as f minus the secant line; h has equal values at a and b, so Rolle gives a zero derivative.",
+   "keywords": [
+    "auxiliary function",
+    "Rolle",
+    "secant"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.14"
+  },
+  {
+   "id": "engineering-math-1-129",
+   "topic": "5b. Derivatives",
+   "type": "quiz",
+   "question": "What does a positive derivative on an interval tell you?",
+   "answer": "The function is strictly increasing there.",
+   "keywords": [
+    "strictly increasing"
+   ],
+   "synonyms": {
+    "strictly increasing": [
+     "increasing",
+     "monotonically increasing"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.14"
+  },
+  {
+   "id": "engineering-math-1-130",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "State l'Hopital's rule.",
+   "answer": "For an indeterminate form zero over zero or infinity over infinity, the limit of f over g equals the limit of f prime over g prime.",
+   "keywords": [
+    "indeterminate",
+    "derivatives",
+    "limit"
+   ],
+   "synonyms": {
+    "derivatives": [
+     "f prime over g prime",
+     "differentiate"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.15"
+  },
+  {
+   "id": "engineering-math-1-131",
+   "topic": "5b. Derivatives",
+   "type": "concept",
+   "question": "List the steps of a curve analysis.",
+   "answer": "Domain, symmetry, zeros, poles, behaviour at infinity, sign, monotonicity, extrema, inflection points, curvature, then the graph.",
+   "keywords": [
+    "domain",
+    "symmetry",
+    "zeros",
+    "poles",
+    "extrema",
+    "inflection"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.16"
+  },
+  {
+   "id": "engineering-math-1-132",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "Test for local maximum and minimum with derivatives.",
+   "answer": "First derivative zero with second derivative negative is a maximum; second derivative positive is a minimum.",
+   "keywords": [
+    "second derivative",
+    "negative",
+    "maximum",
+    "positive",
+    "minimum"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.16"
+  },
+  {
+   "id": "engineering-math-1-133",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "Test for an inflection point and meaning of curvature.",
+   "answer": "Second derivative zero with nonzero third derivative; positive second derivative is convex, negative is concave.",
+   "keywords": [
+    "third derivative",
+    "convex",
+    "concave"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.16"
+  },
+  {
+   "id": "engineering-math-1-134",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "How do you check for even or odd symmetry?",
+   "answer": "Even if f of minus x equals f of x, mirrored in the y-axis; odd if f of minus x equals minus f of x, symmetric about the origin.",
+   "keywords": [
+    "even",
+    "odd",
+    "y-axis",
+    "origin"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.16"
+  },
+  {
+   "id": "engineering-math-1-135",
+   "topic": "5b. Derivatives",
+   "type": "concept",
+   "question": "Describe Newton's method.",
+   "answer": "Start near the zero, draw the tangent, take its intersection with the x-axis as the next estimate: x_n+1 equals x_n minus f over f prime, and repeat.",
+   "keywords": [
+    "tangent",
+    "x-axis",
+    "f over f prime",
+    "repeat"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.17"
+  },
+  {
+   "id": "engineering-math-1-136",
+   "topic": "5b. Derivatives",
+   "type": "quiz",
+   "question": "Compare Newton's method with the bisection method and name its pitfalls.",
+   "answer": "Usually faster, but needs a good starting point, may not converge, and fails if the derivative is zero.",
+   "keywords": [
+    "faster",
+    "starting point",
+    "derivative zero"
+   ],
+   "synonyms": {
+    "derivative zero": [
+     "f prime zero",
+     "zero derivative"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.17"
+  },
+  {
+   "id": "engineering-math-1-137",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "What are Taylor polynomials T0, T1 and T2?",
+   "answer": "Approximations of f by a constant, by the tangent line, and by a parabola through the point.",
+   "keywords": [
+    "constant",
+    "tangent",
+    "parabola"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.19"
+  },
+  {
+   "id": "engineering-math-1-138",
+   "topic": "5b. Derivatives",
+   "type": "flashcard",
+   "question": "What is the remainder in Taylor's formula?",
+   "answer": "The difference between f and the nth Taylor polynomial, which can often be estimated.",
+   "keywords": [
+    "difference",
+    "estimated"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.19"
+  },
+  {
+   "id": "engineering-math-1-139",
+   "topic": "6. Series and power series",
+   "type": "flashcard",
+   "question": "When does an infinite series converge?",
+   "answer": "When its sequence of partial sums converges to a limit.",
+   "keywords": [
+    "partial sums",
+    "converge"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.20"
+  },
+  {
+   "id": "engineering-math-1-140",
+   "topic": "6. Series and power series",
+   "type": "flashcard",
+   "question": "State the necessary condition for series convergence.",
+   "answer": "If the series converges, the terms a_n tend to zero; so if they do not, it diverges.",
+   "keywords": [
+    "terms",
+    "zero",
+    "diverges"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.20"
+  },
+  {
+   "id": "engineering-math-1-141",
+   "topic": "6. Series and power series",
+   "type": "quiz",
+   "question": "Does a_n tending to zero guarantee convergence?",
+   "answer": "No, it is necessary but not sufficient, so you need further tests.",
+   "keywords": [
+    "not sufficient",
+    "necessary"
+   ],
+   "synonyms": {
+    "not sufficient": [
+     "no",
+     "not enough"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.20"
+  },
+  {
+   "id": "engineering-math-1-142",
+   "topic": "6. Series and power series",
+   "type": "flashcard",
+   "question": "State Leibniz's test for alternating series.",
+   "answer": "If the positive terms decrease and tend to zero, the alternating series converges.",
+   "keywords": [
+    "decrease",
+    "zero",
+    "alternating"
+   ],
+   "synonyms": {
+    "decrease": [
+     "monotonically decreasing"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.20"
+  },
+  {
+   "id": "engineering-math-1-143",
+   "topic": "6. Series and power series",
+   "type": "flashcard",
+   "question": "What is absolute convergence and what follows from it?",
+   "answer": "The series of absolute values converges; then the series itself converges.",
+   "keywords": [
+    "absolute values",
+    "converges"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.20"
+  },
+  {
+   "id": "engineering-math-1-144",
+   "topic": "6. Series and power series",
+   "type": "flashcard",
+   "question": "State the comparison test.",
+   "answer": "If absolute a_n is at most b_n and the series of b_n converges, then the series of a_n converges absolutely.",
+   "keywords": [
+    "smaller",
+    "converges",
+    "absolutely"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.21"
+  },
+  {
+   "id": "engineering-math-1-145",
+   "topic": "6. Series and power series",
+   "type": "flashcard",
+   "question": "State the ratio test.",
+   "answer": "If the limit of absolute a_n+1 over a_n is below 1, the series converges absolutely.",
+   "keywords": [
+    "a_n+1 over a_n",
+    "below 1"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.21"
+  },
+  {
+   "id": "engineering-math-1-146",
+   "topic": "6. Series and power series",
+   "type": "flashcard",
+   "question": "State the root test.",
+   "answer": "If the limit of the nth root of absolute a_n is below 1, the series converges absolutely.",
+   "keywords": [
+    "nth root",
+    "below 1"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.21"
+  },
+  {
+   "id": "engineering-math-1-147",
+   "topic": "6. Series and power series",
+   "type": "flashcard",
+   "question": "What is a power series?",
+   "answer": "An infinite series of coefficients a_n times x minus x0 to the n, with expansion point x0.",
+   "keywords": [
+    "coefficients",
+    "expansion point"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.22"
+  },
+  {
+   "id": "engineering-math-1-148",
+   "topic": "6. Series and power series",
+   "type": "flashcard",
+   "question": "What is a Maclaurin series?",
+   "answer": "A power series with expansion point zero.",
+   "keywords": [
+    "expansion point zero"
+   ],
+   "synonyms": {
+    "expansion point zero": [
+     "x0 equals 0",
+     "zero"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.22"
+  },
+  {
+   "id": "engineering-math-1-149",
+   "topic": "6. Series and power series",
+   "type": "flashcard",
+   "question": "What is the power series of the exponential function?",
+   "answer": "Sum of x to the n over n factorial, converging for all real x.",
+   "keywords": [
+    "x to the n",
+    "n factorial",
+    "all real"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.22"
+  },
+  {
+   "id": "engineering-math-1-150",
+   "topic": "6. Series and power series",
+   "type": "flashcard",
+   "question": "What is the domain of convergence of a power series?",
+   "answer": "The set of x for which it converges: either all reals or a finite interval centred at x0.",
+   "keywords": [
+    "interval",
+    "centred",
+    "expansion point"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.22"
+  },
+  {
+   "id": "engineering-math-1-151",
+   "topic": "6. Series and power series",
+   "type": "flashcard",
+   "question": "How is the radius of convergence found?",
+   "answer": "From the ratio test: the limit of absolute a_n over a_n+1.",
+   "keywords": [
+    "ratio",
+    "a_n over a_n+1"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.23"
+  },
+  {
+   "id": "engineering-math-1-152",
+   "topic": "6. Series and power series",
+   "type": "quiz",
+   "question": "How can you differentiate or integrate a power series?",
+   "answer": "Term by term, but only inside the domain of convergence.",
+   "keywords": [
+    "term by term",
+    "domain of convergence"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.22"
+  },
+  {
+   "id": "engineering-math-1-153",
+   "topic": "6. Series and power series",
+   "type": "flashcard",
+   "question": "What is an analytic function?",
+   "answer": "A function that can be represented as a power series about an expansion point.",
+   "keywords": [
+    "power series"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.23"
+  },
+  {
+   "id": "engineering-math-1-154",
+   "topic": "7. Integral calculus",
+   "type": "flashcard",
+   "question": "How is the definite integral defined?",
+   "answer": "Divide into subintervals, sum the areas, and take the limit as the subintervals get finer.",
+   "keywords": [
+    "subintervals",
+    "sum",
+    "limit"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.24"
+  },
+  {
+   "id": "engineering-math-1-155",
+   "topic": "7. Integral calculus",
+   "type": "flashcard",
+   "question": "How do areas below the x-axis contribute to the integral?",
+   "answer": "Negatively.",
+   "keywords": [
+    "negative"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.24"
+  },
+  {
+   "id": "engineering-math-1-156",
+   "topic": "7. Integral calculus",
+   "type": "flashcard",
+   "question": "Name the calculation rules for definite integrals.",
+   "answer": "Linearity (sum and constant factor), reversing the limits changes the sign, and splitting the interval.",
+   "keywords": [
+    "linearity",
+    "limits",
+    "splitting"
+   ],
+   "synonyms": {
+    "linearity": [
+     "sum",
+     "constant factor"
+    ],
+    "splitting": [
+     "split",
+     "additivity"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.25"
+  },
+  {
+   "id": "engineering-math-1-157",
+   "topic": "7. Integral calculus",
+   "type": "flashcard",
+   "question": "Which functions are integrable?",
+   "answer": "Every continuous function.",
+   "keywords": [
+    "continuous"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.25"
+  },
+  {
+   "id": "engineering-math-1-158",
+   "topic": "7. Integral calculus",
+   "type": "flashcard",
+   "question": "What is the integral function?",
+   "answer": "The integral from a to x of f of t, with a variable upper limit.",
+   "keywords": [
+    "variable upper limit"
+   ],
+   "synonyms": {
+    "variable upper limit": [
+     "upper limit",
+     "varies"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.25"
+  },
+  {
+   "id": "engineering-math-1-159",
+   "topic": "7. Integral calculus",
+   "type": "flashcard",
+   "question": "State part 1 of the fundamental theorem of calculus.",
+   "answer": "The integral function of a continuous f is an antiderivative: F prime of x equals f of x.",
+   "keywords": [
+    "antiderivative",
+    "F prime equals f"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.26"
+  },
+  {
+   "id": "engineering-math-1-160",
+   "topic": "7. Integral calculus",
+   "type": "flashcard",
+   "question": "State part 2 of the fundamental theorem of calculus.",
+   "answer": "The definite integral equals the antiderivative at the upper limit minus the antiderivative at the lower limit.",
+   "keywords": [
+    "antiderivative",
+    "upper",
+    "minus",
+    "lower"
+   ],
+   "synonyms": {
+    "minus": [
+     "difference"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.28"
+  },
+  {
+   "id": "engineering-math-1-161",
+   "topic": "7. Integral calculus",
+   "type": "flashcard",
+   "question": "What is the indefinite integral?",
+   "answer": "The family of all antiderivatives of f, differing by a constant C.",
+   "keywords": [
+    "antiderivatives",
+    "constant"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.28"
+  },
+  {
+   "id": "engineering-math-1-162",
+   "topic": "7. Integral calculus",
+   "type": "flashcard",
+   "question": "What is the relationship between integration and differentiation?",
+   "answer": "They are inverse operations.",
+   "keywords": [
+    "inverse"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.28"
+  },
+  {
+   "id": "engineering-math-1-163",
+   "topic": "7. Integral calculus",
+   "type": "concept",
+   "question": "Describe integration by substitution.",
+   "answer": "Replace x by g of t, change the limits via the inverse function, and multiply by g prime of t; it follows from the chain rule.",
+   "keywords": [
+    "g of t",
+    "limits",
+    "chain rule"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.29"
+  },
+  {
+   "id": "engineering-math-1-164",
+   "topic": "7. Integral calculus",
+   "type": "concept",
+   "question": "Describe integration by parts and where it comes from.",
+   "answer": "The integral of f g prime equals f g minus the integral of f prime g; it follows from the product rule.",
+   "keywords": [
+    "f g",
+    "product rule"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.29"
+  },
+  {
+   "id": "engineering-math-1-165",
+   "topic": "7. Integral calculus",
+   "type": "quiz",
+   "question": "When do you use partial fraction decomposition?",
+   "answer": "To integrate proper rational functions; if improper, divide first to get polynomial plus proper part.",
+   "keywords": [
+    "proper rational",
+    "improper",
+    "divide"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.29"
+  },
+  {
+   "id": "engineering-math-1-166",
+   "topic": "7. Integral calculus",
+   "type": "concept",
+   "question": "Describe partial fraction decomposition with real zeros.",
+   "answer": "Find the zeros of the denominator; each zero of multiplicity k gets k partial fractions with powers up to k; find constants by comparing coefficients; integrate.",
+   "keywords": [
+    "zeros",
+    "multiplicity",
+    "comparing coefficients"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.30"
+  },
+  {
+   "id": "engineering-math-1-167",
+   "topic": "7. Integral calculus",
+   "type": "quiz",
+   "question": "What trial form is used for complex conjugate zeros of the denominator?",
+   "answer": "A linear numerator C x plus D over the quadratic factor x minus xn squared plus yn squared.",
+   "keywords": [
+    "linear numerator",
+    "quadratic"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.30"
+  },
+  {
+   "id": "engineering-math-1-168",
+   "topic": "7. Integral calculus",
+   "type": "flashcard",
+   "question": "What is an improper integral?",
+   "answer": "An integral with an unbounded limit or a singularity, defined as a limit; it converges if that limit exists.",
+   "keywords": [
+    "limit",
+    "converges",
+    "infinity"
+   ],
+   "synonyms": {
+    "infinity": [
+     "unbounded",
+     "singularity"
+    ]
+   },
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.31"
+  },
+  {
+   "id": "engineering-math-1-169",
+   "topic": "7. Integral calculus",
+   "type": "flashcard",
+   "question": "Define the Laplace transform.",
+   "answer": "F of s equals the integral from 0 to infinity of e to the minus s x times f of x dx, for all s where it converges.",
+   "keywords": [
+    "integral",
+    "e to the minus s x",
+    "zero to infinity"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.32"
+  },
+  {
+   "id": "engineering-math-1-170",
+   "topic": "7. Integral calculus",
+   "type": "flashcard",
+   "question": "What is the Laplace transform used for?",
+   "answer": "Solving differential equations.",
+   "keywords": [
+    "differential equations"
+   ],
+   "synonyms": {},
+   "source": "Babak Mathematics 1 Ch5-7 Part 2 p.32"
+  },
+  {
+   "id": "engineering-math-1-171",
+   "topic": "Quiz-style concepts",
+   "type": "quiz",
+   "question": "State the contrapositive of 'if x is greater than 2 then x squared is greater than 4', and is its converse true?",
+   "answer": "Contrapositive: if x squared is at most 4 then x is at most 2; the converse is false, for example x equals minus 3.",
+   "keywords": [
+    "contrapositive",
+    "converse false",
+    "counterexample"
+   ],
+   "synonyms": {
+    "converse false": [
+     "false",
+     "not true"
+    ]
+   },
+   "source": "mathematics_solutions_1.pdf p.1"
+  },
+  {
+   "id": "engineering-math-1-172",
+   "topic": "Quiz-style concepts",
+   "type": "quiz",
+   "question": "Which statements are always equivalent: an implication or its converse or its contrapositive?",
+   "answer": "An implication is equivalent to its contrapositive, not to its converse.",
+   "keywords": [
+    "contrapositive",
+    "not converse"
+   ],
+   "synonyms": {},
+   "source": "mathematics_solutions_1.pdf p.1"
+  },
+  {
+   "id": "engineering-math-1-173",
+   "topic": "Quiz-style concepts",
+   "type": "quiz",
+   "question": "For a transformation T of z equals a z plus b, how can you tell if repeated application returns points to start?",
+   "answer": "Find the fixed point c; T of z minus c equals a times z minus c, so n applications return to start only if a to the n equals one, otherwise only the fixed point does.",
+   "keywords": [
+    "fixed point",
+    "a to the n",
+    "only fixed point"
+   ],
+   "synonyms": {},
+   "source": "mathematics_solutions_1.pdf p.2"
+  },
+  {
+   "id": "engineering-math-1-174",
+   "topic": "Quiz-style concepts",
+   "type": "quiz",
+   "question": "How do you find all complex numbers with given real part sum and modulus?",
+   "answer": "Use z plus z-bar equals twice the real part to get x, and the modulus squared to find y, giving a conjugate pair.",
+   "keywords": [
+    "real part",
+    "modulus",
+    "conjugate pair"
+   ],
+   "synonyms": {},
+   "source": "mathematics_solutions_1.pdf p.2"
+  },
+  {
+   "id": "engineering-math-1-175",
+   "topic": "Quiz-style concepts",
+   "type": "quiz",
+   "question": "Why is the modulus of a sum not generally equal to the sum of the moduli?",
+   "answer": "Because of the triangle inequality: the modulus of the sum is at most the sum of the moduli, with equality only when the numbers point in the same direction.",
+   "keywords": [
+    "triangle inequality",
+    "at most",
+    "direction"
+   ],
+   "synonyms": {},
+   "source": "mathematics_solutions_1.pdf p.2"
+  },
+  {
+   "id": "engineering-math-1-176",
+   "topic": "Quiz-style concepts",
+   "type": "quiz",
+   "question": "How can complex numbers prove the sine addition theorem?",
+   "answer": "Multiply e to the i alpha by e to the i beta, equate with e to the i alpha plus beta using Euler's formula, and compare imaginary parts.",
+   "keywords": [
+    "Euler",
+    "multiply",
+    "imaginary parts"
+   ],
+   "synonyms": {},
+   "source": "Exercise Sheet 2 Ex.5"
+  },
+  {
+   "id": "engineering-math-1-177",
+   "topic": "Quiz-style concepts",
+   "type": "quiz",
+   "question": "How do you find the roots of z to the fourth plus one equals zero?",
+   "answer": "Write minus one in exponential form and take fourth roots: four points spaced equally on the unit circle at 90 degree intervals.",
+   "keywords": [
+    "exponential form",
+    "fourth roots",
+    "unit circle"
+   ],
+   "synonyms": {},
+   "source": "Exercise Sheet 2 Ex.6b"
+  }
+ ]
+}

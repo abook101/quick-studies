@@ -1,0 +1,2292 @@
+{
+ "course": "Energy Systems and Energy Economics",
+ "cards": [
+  {
+   "id": "energy-systems-001",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "Who introduced 'energy' into physics in its modern sense, and when?",
+   "answer": "The Scottish physicist William Rankine, in 1852.",
+   "keywords": [
+    "Rankine",
+    "1852"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 4"
+  },
+  {
+   "id": "energy-systems-002",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "What does 'energy' denote?",
+   "answer": "The ability of a system to produce an (external) effect.",
+   "keywords": [
+    "ability",
+    "system",
+    "effect"
+   ],
+   "synonyms": {
+    "effect": [
+     "work",
+     "action"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 4"
+  },
+  {
+   "id": "energy-systems-003",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "Name the four kinds of energy the lecture distinguishes.",
+   "answer": "Mechanical, thermal, electrical and chemical energy.",
+   "keywords": [
+    "mechanical",
+    "thermal",
+    "electrical",
+    "chemical"
+   ],
+   "synonyms": {
+    "thermal": [
+     "heat"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 4"
+  },
+  {
+   "id": "energy-systems-004",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "What is a kilowatt-hour in joules, and why is it used?",
+   "answer": "1 kWh is 3.6 million joules; it is the billing unit for electricity, gas, etc.",
+   "keywords": [
+    "3.6 million joules",
+    "billing unit"
+   ],
+   "synonyms": {
+    "3.6 million joules": [
+     "3.6 megajoules",
+     "3.6 MJ"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 4"
+  },
+  {
+   "id": "energy-systems-005",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "What is 1 kg SKE (coal equivalent)?",
+   "answer": "The energy released by burning 1 kg of hard coal (8.141 kWh, 29 MJ); a common unit for stating primary energy quantities.",
+   "keywords": [
+    "hard coal",
+    "1 kg",
+    "primary energy"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 4"
+  },
+  {
+   "id": "energy-systems-006",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "Roughly how much electricity does a European household need per year?",
+   "answer": "About 3,500 to 5,000 kWh per year.",
+   "keywords": [
+    "3,500",
+    "5,000",
+    "kWh"
+   ],
+   "synonyms": {
+    "3,500": [
+     "3500",
+     "three and a half thousand"
+    ],
+    "5,000": [
+     "5000"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 4"
+  },
+  {
+   "id": "energy-systems-007",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "concept",
+   "question": "List the four stages of the energy chain from source to use.",
+   "answer": "Primary energy, secondary energy, final energy, useful energy.",
+   "keywords": [
+    "primary",
+    "secondary",
+    "final",
+    "useful"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 6"
+  },
+  {
+   "id": "energy-systems-008",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "What is primary energy?",
+   "answer": "The energy resource in its natural form, e.g. crude oil.",
+   "keywords": [
+    "resource",
+    "natural",
+    "crude oil"
+   ],
+   "synonyms": {
+    "resource": [
+     "source",
+     "raw"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 7"
+  },
+  {
+   "id": "energy-systems-009",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "What is secondary energy?",
+   "answer": "Transformed primary energy.",
+   "keywords": [
+    "transformed",
+    "primary energy"
+   ],
+   "synonyms": {
+    "transformed": [
+     "converted",
+     "processed"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 8"
+  },
+  {
+   "id": "energy-systems-010",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "What is final energy?",
+   "answer": "The energy delivered to the end user.",
+   "keywords": [
+    "delivered",
+    "end user"
+   ],
+   "synonyms": {
+    "end user": [
+     "consumer",
+     "customer"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 9"
+  },
+  {
+   "id": "energy-systems-011",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "What is useful energy?",
+   "answer": "The energy that actually serves the need at the end of the chain, e.g. heat, light or motion, after the last conversion.",
+   "keywords": [
+    "useful",
+    "last conversion"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 10"
+  },
+  {
+   "id": "energy-systems-012",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "concept",
+   "question": "What is the difference between the higher and the lower heating value?",
+   "answer": "Higher (gross) heating value: the water in the exhaust is liquid, so condensation heat is included. Lower (net) heating value: the water stays gaseous.",
+   "keywords": [
+    "higher",
+    "liquid",
+    "lower",
+    "gaseous"
+   ],
+   "synonyms": {
+    "higher": [
+     "gross"
+    ],
+    "lower": [
+     "net"
+    ],
+    "liquid": [
+     "condensed"
+    ],
+    "gaseous": [
+     "vapour",
+     "steam",
+     "gas"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 11"
+  },
+  {
+   "id": "energy-systems-013",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "Why must you be careful with units when comparing fuels?",
+   "answer": "Fuels are quoted per kg or per m³ and with higher or lower heating value, so values are not directly comparable.",
+   "keywords": [
+    "units",
+    "per kg",
+    "per m³",
+    "heating value"
+   ],
+   "synonyms": {
+    "per m³": [
+     "per cubic metre",
+     "volume"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 11"
+  },
+  {
+   "id": "energy-systems-014",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "quiz",
+   "question": "Which fossil fuel has the lowest CO₂ emissions per kWh: hard coal, lignite, natural gas, oil or wood?",
+   "answer": "Natural gas, at about 0.2 kg CO₂ per kWh.",
+   "keywords": [
+    "natural gas",
+    "0.2"
+   ],
+   "synonyms": {
+    "natural gas": [
+     "gas",
+     "methane"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 12"
+  },
+  {
+   "id": "energy-systems-015",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "quiz",
+   "question": "Why can wood have CO₂ emissions of zero in the fuel table?",
+   "answer": "Because its carbon was taken from the air while the tree grew, so it can be counted as climate-neutral.",
+   "keywords": [
+    "carbon",
+    "taken from the air",
+    "neutral"
+   ],
+   "synonyms": {
+    "neutral": [
+     "zero",
+     "closed loop",
+     "renewable"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 12"
+  },
+  {
+   "id": "energy-systems-016",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "State the first law of thermodynamics.",
+   "answer": "The total energy of an isolated system is constant; energy can be converted between forms but neither created nor destroyed.",
+   "keywords": [
+    "total energy",
+    "constant",
+    "neither created nor destroyed"
+   ],
+   "synonyms": {
+    "constant": [
+     "conserved"
+    ],
+    "neither created nor destroyed": [
+     "conservation",
+     "cannot be created",
+     "cannot be destroyed"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 16"
+  },
+  {
+   "id": "energy-systems-017",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "concept",
+   "question": "Describe the first law for a system without matter transfer: what changes the internal energy?",
+   "answer": "The change in internal energy equals heat gained from outside minus the work the system does on its surroundings.",
+   "keywords": [
+    "internal energy",
+    "heat",
+    "work",
+    "minus"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 18"
+  },
+  {
+   "id": "energy-systems-018",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "State the second law of thermodynamics.",
+   "answer": "The total entropy of an isolated system never decreases and stays constant only if all processes are reversible; changes proceed towards equilibrium, the state of maximum entropy.",
+   "keywords": [
+    "entropy",
+    "never decreases",
+    "equilibrium"
+   ],
+   "synonyms": {
+    "never decreases": [
+     "increases",
+     "cannot decrease"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 22"
+  },
+  {
+   "id": "energy-systems-019",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "What is entropy?",
+   "answer": "A measure of the thermal energy per unit temperature that is not available for doing useful work.",
+   "keywords": [
+    "thermal energy",
+    "not available",
+    "useful work"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 21"
+  },
+  {
+   "id": "energy-systems-020",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "summary",
+   "question": "Summarise the first and second law in one sentence each.",
+   "answer": "First law: the total amount of energy is conserved. Second law: the overall quality of energy decreases over time (entropy).",
+   "keywords": [
+    "conserved",
+    "quality",
+    "entropy"
+   ],
+   "synonyms": {
+    "quality": [
+     "usefulness"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 26"
+  },
+  {
+   "id": "energy-systems-021",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "concept",
+   "question": "Give an example of an irreversible process.",
+   "answer": "When a hot and a cold body touch, heat flows from hot to cold until equilibrium; it never reverses spontaneously.",
+   "keywords": [
+    "hot",
+    "cold",
+    "equilibrium",
+    "never reverses"
+   ],
+   "synonyms": {
+    "never reverses": [
+     "irreversible",
+     "not spontaneously"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 23"
+  },
+  {
+   "id": "energy-systems-022",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "What is a reversible process, and does it exist in reality?",
+   "answer": "A process that can go to another state and back to the initial state with no change to system or surroundings; it is idealised and never truly achieved.",
+   "keywords": [
+    "back to initial state",
+    "idealised",
+    "never achieved"
+   ],
+   "synonyms": {
+    "idealised": [
+     "ideal",
+     "theoretical"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 25"
+  },
+  {
+   "id": "energy-systems-023",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "concept",
+   "question": "What does the Carnot efficiency limit say, and what does it depend on?",
+   "answer": "The maximum efficiency of a heat engine is always below Carnot efficiency, which depends only on the hot and cold temperatures (one minus cold over hot, in kelvin).",
+   "keywords": [
+    "maximum efficiency",
+    "heat engine",
+    "hot",
+    "cold temperature"
+   ],
+   "synonyms": {
+    "hot": [
+     "high temperature",
+     "TH"
+    ],
+    "cold": [
+     "low temperature",
+     "TC"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 27"
+  },
+  {
+   "id": "energy-systems-024",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "concept",
+   "question": "In the heating-chain exercise, why is a heat pump on CCGT electricity better than burning gas directly, and an electric heating element on CCGT electricity worse?",
+   "answer": "A heat pump multiplies the electricity by its COP of 3, using less gas than direct burning; resistance heating at 60 % CCGT efficiency needs more gas than direct burning.",
+   "keywords": [
+    "heat pump",
+    "COP",
+    "less gas",
+    "heating element"
+   ],
+   "synonyms": {
+    "COP": [
+     "coefficient of performance"
+    ],
+    "heating element": [
+     "resistance heater",
+     "electric heater"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 28"
+  },
+  {
+   "id": "energy-systems-025",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "concept",
+   "question": "In the renewable-electricity chain exercise, which route needs the least electricity and which are to be avoided?",
+   "answer": "Direct electric heating (or heat pump) needs least; routes via methane or hydrogen and back to electricity waste the most and should not be pursued for heat.",
+   "keywords": [
+    "direct",
+    "least",
+    "hydrogen",
+    "methane",
+    "waste"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 30"
+  },
+  {
+   "id": "energy-systems-026",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "concept",
+   "question": "What is the substitution method for primary energy demand?",
+   "answer": "Renewable and nuclear electricity is counted as the fossil fuel that would have been needed to produce it at typical plant efficiency.",
+   "keywords": [
+    "substitution",
+    "fossil fuel",
+    "electricity",
+    "efficiency"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 38"
+  },
+  {
+   "id": "energy-systems-027",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "concept",
+   "question": "Why can the situation be viewed more optimistically than primary energy demand suggests?",
+   "answer": "Primary energy counts large conversion losses of fossil fuels; renewable electricity and electrification are far more efficient, so final and primary demand fall.",
+   "keywords": [
+    "losses",
+    "electrification",
+    "efficient",
+    "renewable"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 38"
+  },
+  {
+   "id": "energy-systems-028",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "quiz",
+   "question": "Rank battery electric, fuel cell hydrogen and PtL combustion cars by how much renewable electricity reaches the wheels.",
+   "answer": "Battery electric vehicles are best (about 69 %), then hydrogen fuel cell (about 26 %), then combustion on power-to-liquid fuel (about 13 %).",
+   "keywords": [
+    "battery electric",
+    "fuel cell",
+    "combustion",
+    "best"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 41"
+  },
+  {
+   "id": "energy-systems-029",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "concept",
+   "question": "Why is the battery electric car so much more efficient than the hydrogen or PtL car?",
+   "answer": "It avoids the conversion losses of electrolysis, hydrogen compression and transport, and fuel cell or combustion engine.",
+   "keywords": [
+    "electrolysis",
+    "conversion losses",
+    "fewer steps"
+   ],
+   "synonyms": {
+    "conversion losses": [
+     "losses",
+     "efficiency losses"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 41"
+  },
+  {
+   "id": "energy-systems-030",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "quiz",
+   "question": "What are new drivers of energy demand growth mentioned in the lecture?",
+   "answer": "Data centers are major new drivers of electricity demand.",
+   "keywords": [
+    "data centers",
+    "electricity demand"
+   ],
+   "synonyms": {
+    "data centers": [
+     "data centres",
+     "AI"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 44"
+  },
+  {
+   "id": "energy-systems-031",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "summary",
+   "question": "Give the key findings about the global energy system.",
+   "answer": "Fossil fuels still dominate; electricity has made good progress with renewables and nuclear; decarbonisation is huge; electrification gives big efficiency gains; data centers raise demand.",
+   "keywords": [
+    "fossil",
+    "electricity",
+    "decarbonisation",
+    "electrification",
+    "data centers"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 54"
+  },
+  {
+   "id": "energy-systems-032",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "What is OPEC?",
+   "answer": "The Organization of Petroleum Exporting Countries: a cartel of 14 oil-producing countries founded in Baghdad in 1960.",
+   "keywords": [
+    "oil",
+    "exporting",
+    "cartel",
+    "1960"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 33"
+  },
+  {
+   "id": "energy-systems-033",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "What is the IEA, when was it founded and why?",
+   "answer": "The International Energy Agency, representing 28 industrialised countries, founded in 1973 in response to the first oil crisis; main publication: World Energy Outlook.",
+   "keywords": [
+    "International Energy Agency",
+    "1973",
+    "oil crisis",
+    "World Energy Outlook"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 33"
+  },
+  {
+   "id": "energy-systems-034",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "What are the Energy Watch Group and dena?",
+   "answer": "EWG: an international network of independent scientists and parliamentarians studying resource depletion and renewable scenarios. dena: the German Energy Agency, a majority state-owned competence center for efficiency and renewables.",
+   "keywords": [
+    "independent scientists",
+    "German Energy Agency",
+    "efficiency"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 35"
+  },
+  {
+   "id": "energy-systems-035",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "flashcard",
+   "question": "What are the UBA and the AGEB?",
+   "answer": "UBA: the German Environment Agency, Europe's largest environmental authority. AGEB: the Working Group on Energy Balances, which publishes Germany's annual energy balance.",
+   "keywords": [
+    "Environment Agency",
+    "Energy Balances",
+    "annual"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 36"
+  },
+  {
+   "id": "energy-systems-036",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "quiz",
+   "question": "In Germany's public net electricity generation in 2025, which source was number one and what share was renewable?",
+   "answer": "Onshore wind was number one, and renewables were about 55.9 % of public net generation.",
+   "keywords": [
+    "wind",
+    "55.9",
+    "renewables"
+   ],
+   "synonyms": {
+    "55.9": [
+     "56",
+     "fifty-six"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 65"
+  },
+  {
+   "id": "energy-systems-037",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "quiz",
+   "question": "What happened to photovoltaics in Germany's 2025 electricity ranking?",
+   "answer": "PV moved into second place for the first time, ahead of lignite.",
+   "keywords": [
+    "PV",
+    "second",
+    "lignite"
+   ],
+   "synonyms": {
+    "PV": [
+     "photovoltaics",
+     "solar"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 65"
+  },
+  {
+   "id": "energy-systems-038",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "quiz",
+   "question": "What milestone did renewables reach in global electricity generation in 2025?",
+   "answer": "Renewables (33.8 %) exceeded coal (33.0 %) for the first time in over 100 years.",
+   "keywords": [
+    "renewables",
+    "exceed",
+    "coal"
+   ],
+   "synonyms": {
+    "exceed": [
+     "overtake",
+     "overtook",
+     "surpass"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 78"
+  },
+  {
+   "id": "energy-systems-039",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "concept",
+   "question": "What does 'clean power has decoupled demand from fossils' mean?",
+   "answer": "Demand growth is now met by clean sources while fossil generation stalls, unlike the early 2000s when fossil growth met demand growth.",
+   "keywords": [
+    "clean",
+    "demand growth",
+    "fossil",
+    "stalls"
+   ],
+   "synonyms": {
+    "stalls": [
+     "flat",
+     "stagnates"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 77"
+  },
+  {
+   "id": "energy-systems-040",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "concept",
+   "question": "What are full-load hours and the capacity factor?",
+   "answer": "Full-load hours are the hours per year a plant would need at full power to produce its annual energy; capacity factor is that divided by the 8760 hours in a year.",
+   "keywords": [
+    "full power",
+    "hours",
+    "8760",
+    "capacity factor"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 80"
+  },
+  {
+   "id": "energy-systems-041",
+   "topic": "Ch2 Fundamentals & Energy Consumption",
+   "type": "quiz",
+   "question": "A plant runs the whole year at half power. How does that compare with running half the year at full power?",
+   "answer": "The two are equivalent: both give 4380 full-load hours and a capacity factor of 0.5.",
+   "keywords": [
+    "same",
+    "4380",
+    "0.5"
+   ],
+   "synonyms": {
+    "same": [
+     "equivalent",
+     "equal"
+    ]
+   },
+   "source": "WS26_ESYS_Ch02_Fundamentals-and-Energy-Consumption_EN.pdf, slide 80"
+  },
+  {
+   "id": "energy-systems-042",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "concept",
+   "question": "What are the key levers for decarbonising heat, transport and industry?",
+   "answer": "Expansion of renewable energies, electrification, efficiency, and synthetic fuels where reasonable.",
+   "keywords": [
+    "renewable",
+    "electrification",
+    "efficiency",
+    "synthetic fuels"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 5"
+  },
+  {
+   "id": "energy-systems-043",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "concept",
+   "question": "What happens to electricity demand by 2045 in the German scenario although final energy falls in every sector?",
+   "answer": "Net electricity consumption roughly doubles (507 to 993 TWh), because electrification and hydrogen/PtX move demand to electricity.",
+   "keywords": [
+    "electricity",
+    "rises",
+    "electrification",
+    "doubles"
+   ],
+   "synonyms": {
+    "rises": [
+     "increases",
+     "up",
+     "grows"
+    ],
+    "doubles": [
+     "roughly double",
+     "96"
+    ]
+   },
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 7"
+  },
+  {
+   "id": "energy-systems-044",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "concept",
+   "question": "Why could final energy demand in transport and buildings fall so sharply?",
+   "answer": "Efficiency chains: electric motors and heat pumps are much more efficient than combustion engines and boilers.",
+   "keywords": [
+    "electric motors",
+    "heat pumps",
+    "efficiency"
+   ],
+   "synonyms": {
+    "efficiency": [
+     "efficient"
+    ]
+   },
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 8"
+  },
+  {
+   "id": "energy-systems-045",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "flashcard",
+   "question": "Name the four global decarbonisation steps in order.",
+   "answer": "Improve efficiency everywhere; 100 % renewable electricity; electrify transport and heating as far as possible; Power-to-X for what cannot be electrified.",
+   "keywords": [
+    "efficiency",
+    "renewable electricity",
+    "electrification",
+    "Power-to-X"
+   ],
+   "synonyms": {
+    "Power-to-X": [
+     "PtX",
+     "power to x"
+    ]
+   },
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 9"
+  },
+  {
+   "id": "energy-systems-046",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "flashcard",
+   "question": "Define energy efficiency.",
+   "answer": "Providing the same level of service with less energy input, or better service for the same energy.",
+   "keywords": [
+    "same service",
+    "less energy"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 14"
+  },
+  {
+   "id": "energy-systems-047",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "concept",
+   "question": "Contrast the goals of the thermal insulation ordinances and the heating systems ordinances.",
+   "answer": "Insulation ordinances reduce useful energy demand through structural building measures; heating systems ordinances reduce final energy through technical improvements such as boiler efficiency.",
+   "keywords": [
+    "useful energy",
+    "structural",
+    "final energy",
+    "technical"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 17"
+  },
+  {
+   "id": "energy-systems-048",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "flashcard",
+   "question": "Name examples of structural measures to reduce a building's useful energy demand.",
+   "answer": "Improved insulation, avoiding leaks, and double-glazed windows.",
+   "keywords": [
+    "insulation",
+    "leaks",
+    "double-glazed windows"
+   ],
+   "synonyms": {
+    "double-glazed windows": [
+     "windows",
+     "glazing"
+    ]
+   },
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 17"
+  },
+  {
+   "id": "energy-systems-049",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "concept",
+   "question": "How did the 2026 Buildings Energy Act change (GModG) differ from the earlier 65 % rule?",
+   "answer": "The old rule regulated the appliance (at least 65 % renewable heating); the new law allows gas or oil boilers again but regulates the fuel, which must become climate-neutral step by step until 100 % by 2045.",
+   "keywords": [
+    "appliance",
+    "fuel",
+    "climate-neutral",
+    "2045"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 18"
+  },
+  {
+   "id": "energy-systems-050",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "flashcard",
+   "question": "How much has the allowed primary energy demand of new German residential buildings fallen since 1977?",
+   "answer": "By roughly a factor of six, from about 270 to about 45 kWh per square metre per year.",
+   "keywords": [
+    "factor of six",
+    "tightened"
+   ],
+   "synonyms": {
+    "factor of six": [
+     "six",
+     "sixfold"
+    ]
+   },
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 19"
+  },
+  {
+   "id": "energy-systems-051",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "flashcard",
+   "question": "Name the demonstration building standards that were ahead of the law.",
+   "answer": "Low-energy house, 3-litre house, passive house, zero-energy and plus-energy house.",
+   "keywords": [
+    "low-energy",
+    "passive house",
+    "plus-energy"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 19"
+  },
+  {
+   "id": "energy-systems-052",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "concept",
+   "question": "Why did German industrial emissions fall towards the 2030 target according to UBA, and is that real progress?",
+   "answer": "Mainly because of production declines and lower energy use, not decarbonisation; the fuel mix barely changed.",
+   "keywords": [
+    "production declines",
+    "not decarbonisation",
+    "fuel mix"
+   ],
+   "synonyms": {
+    "production declines": [
+     "lower production",
+     "contraction",
+     "less production"
+    ]
+   },
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 22"
+  },
+  {
+   "id": "energy-systems-053",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "flashcard",
+   "question": "Which two industries are named as hard to decarbonise, with their global CO₂ share?",
+   "answer": "Iron and steel (over 7 % of emissions) and cement (about 3 % of global emissions).",
+   "keywords": [
+    "steel",
+    "cement"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 24"
+  },
+  {
+   "id": "energy-systems-054",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "concept",
+   "question": "Why is carbon in the blast furnace route a reagent rather than just a fuel?",
+   "answer": "Carbon removes the oxygen from iron ore, producing CO₂ as a product of the reaction, so running on wind power would not remove the CO₂.",
+   "keywords": [
+    "reagent",
+    "oxygen",
+    "iron ore",
+    "CO₂"
+   ],
+   "synonyms": {
+    "reagent": [
+     "reducing agent"
+    ]
+   },
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 26"
+  },
+  {
+   "id": "energy-systems-055",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "concept",
+   "question": "What is 'green steel' and what comes out instead of CO₂?",
+   "answer": "Steel made by direct reduction of iron ore with hydrogen; the by-product is water vapour (steam) instead of carbon dioxide.",
+   "keywords": [
+    "hydrogen",
+    "direct reduction",
+    "steam"
+   ],
+   "synonyms": {
+    "steam": [
+     "water",
+     "water vapour"
+    ]
+   },
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 26"
+  },
+  {
+   "id": "energy-systems-056",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "flashcard",
+   "question": "Give an example of a green-steel project mentioned in the lecture.",
+   "answer": "The Swedish HYBRIT project (SSAB), reducing iron with hydrogen.",
+   "keywords": [
+    "Sweden",
+    "HYBRIT",
+    "hydrogen"
+   ],
+   "synonyms": {
+    "HYBRIT": [
+     "SSAB",
+     "hybrid"
+    ]
+   },
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 27"
+  },
+  {
+   "id": "energy-systems-057",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "concept",
+   "question": "Where does the CO₂ in cement production come from, and which part can renewable electricity fix?",
+   "answer": "About one third from the fuel (fixable with renewable electricity), about two thirds from the rock (limestone calcination, CaCO₃ to CaO and CO₂), which is process-related.",
+   "keywords": [
+    "fuel",
+    "rock",
+    "limestone",
+    "process",
+    "CCS"
+   ],
+   "synonyms": {
+    "rock": [
+     "limestone",
+     "raw material",
+     "chemical process"
+    ]
+   },
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 29"
+  },
+  {
+   "id": "energy-systems-058",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "flashcard",
+   "question": "What option remains for unavoidable cement CO₂ emissions?",
+   "answer": "Carbon capture and storage (CCS).",
+   "keywords": [
+    "carbon capture",
+    "storage"
+   ],
+   "synonyms": {
+    "carbon capture": [
+     "CCS"
+    ]
+   },
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 29"
+  },
+  {
+   "id": "energy-systems-059",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "quiz",
+   "question": "Comparing a 250 km trip, which has the lowest CO₂: diesel car, electric car on the German grid mix, or the train?",
+   "answer": "The train, with an electric car on the grid mix in between, and the diesel car the highest; occupancy also matters.",
+   "keywords": [
+    "train",
+    "lowest",
+    "diesel highest"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 36"
+  },
+  {
+   "id": "energy-systems-060",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "concept",
+   "question": "Why do we need Power-to-X?",
+   "answer": "For applications where electrification is not possible, such as aviation, shipping and some industrial processes.",
+   "keywords": [
+    "not possible",
+    "electrification",
+    "aviation",
+    "shipping"
+   ],
+   "synonyms": {
+    "aviation": [
+     "flights",
+     "aircraft",
+     "planes"
+    ],
+    "shipping": [
+     "ships",
+     "maritime"
+    ]
+   },
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 43"
+  },
+  {
+   "id": "energy-systems-061",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "concept",
+   "question": "What is the misconception in listing fossil and renewable energy sources only?",
+   "answer": "Storage was missing: fossil fuels are stored solar energy of the past; renewables need storage to provide energy on demand.",
+   "keywords": [
+    "storage",
+    "stored"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 46"
+  },
+  {
+   "id": "energy-systems-062",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "flashcard",
+   "question": "What is the 'residue cycle of energy and materials'?",
+   "answer": "Recycling in the energy sector: moving from one-way fossil use to synthetic fuels and Power-to-X so residues and CO₂ are recycled.",
+   "keywords": [
+    "recycling",
+    "synthetic fuel",
+    "CO₂",
+    "cycle"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 47"
+  },
+  {
+   "id": "energy-systems-063",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "flashcard",
+   "question": "What is the 'colour theory' of hydrogen about?",
+   "answer": "Classifying hydrogen by its production route, e.g. green from renewable electricity versus grey from fossil gas.",
+   "keywords": [
+    "colour",
+    "production",
+    "green",
+    "grey"
+   ],
+   "synonyms": {
+    "colour": [
+     "color"
+    ]
+   },
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 48"
+  },
+  {
+   "id": "energy-systems-064",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "concept",
+   "question": "What is Power-to-X and what does it need besides renewable electricity?",
+   "answer": "Converting renewable electricity into hydrogen and further products such as fuels and chemicals; the carbon-based ones need renewable carbon, e.g. CO₂ from air or biomass.",
+   "keywords": [
+    "renewable electricity",
+    "hydrogen",
+    "renewable carbon",
+    "fuels"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 49"
+  },
+  {
+   "id": "energy-systems-065",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "concept",
+   "question": "Why are full-load hours decisive for the cost of renewable PtX?",
+   "answer": "High full-load hours mean the expensive electrolysers run more, so sites with hybrid PV and wind (and hydro or geothermal) are best.",
+   "keywords": [
+    "full-load hours",
+    "hybrid",
+    "PV",
+    "wind"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 50"
+  },
+  {
+   "id": "energy-systems-066",
+   "topic": "Ch3 Sectors & Decarbonisation",
+   "type": "concept",
+   "question": "Where should hydrogen be used most effectively?",
+   "answer": "Where direct electrification is hard, such as industry feedstock, steel, shipping and aviation, not in passenger cars.",
+   "keywords": [
+    "industry",
+    "not cars",
+    "hard to electrify"
+   ],
+   "synonyms": {
+    "not cars": [
+     "inefficient in cars",
+     "cars are inefficient"
+    ]
+   },
+   "source": "WS26_ESYS_Ch03_Sectors-and-Decarbonisation_EN_.pdf, slide 51"
+  },
+  {
+   "id": "energy-systems-067",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "concept",
+   "question": "Name the four fossil conversion machines in Chapter 4 and their output.",
+   "answer": "Steam turbine (electricity and heat), gas turbine (electricity and heat), boiler (heat only) and refinery (fuel).",
+   "keywords": [
+    "steam turbine",
+    "gas turbine",
+    "boiler",
+    "refinery"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 5"
+  },
+  {
+   "id": "energy-systems-068",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "quiz",
+   "question": "Which two machines convert heat into electricity and what limits their efficiency?",
+   "answer": "The steam turbine and the gas turbine; the temperature (Carnot limit).",
+   "keywords": [
+    "steam turbine",
+    "gas turbine",
+    "temperature"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 5"
+  },
+  {
+   "id": "energy-systems-069",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "concept",
+   "question": "Why does raising the steam temperature or lowering the cooling temperature raise the Carnot limit?",
+   "answer": "The Carnot efficiency is one minus cold over hot temperature in kelvin, so hotter heat source or colder sink gives a higher limit.",
+   "keywords": [
+    "hot temperature",
+    "cold temperature",
+    "kelvin",
+    "higher"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 19"
+  },
+  {
+   "id": "energy-systems-070",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "flashcard",
+   "question": "Why must temperatures be in kelvin in the Carnot formula?",
+   "answer": "Because the formula needs absolute temperature; 0 K is -273.15 °C, and a change of 1 °C equals a change of 1 K.",
+   "keywords": [
+    "absolute",
+    "kelvin"
+   ],
+   "synonyms": {
+    "absolute": [
+     "absolute zero"
+    ]
+   },
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 20"
+  },
+  {
+   "id": "energy-systems-071",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "quiz",
+   "question": "Order geothermal, nuclear, hard coal and combustion turbine by Carnot efficiency.",
+   "answer": "Geothermal lowest (about 37 %), nuclear (50 %), hard coal (62 %), combustion turbine highest (78 %).",
+   "keywords": [
+    "geothermal lowest",
+    "combustion turbine highest"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 20"
+  },
+  {
+   "id": "energy-systems-072",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "flashcard",
+   "question": "Which cycle describes a steam turbine and how does it work in one line?",
+   "answer": "The Clausius-Rankine cycle: burn fuel outside the loop, boil water, spin the turbine.",
+   "keywords": [
+    "Rankine",
+    "boil water",
+    "turbine"
+   ],
+   "synonyms": {
+    "Rankine": [
+     "Clausius-Rankine"
+    ]
+   },
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 22"
+  },
+  {
+   "id": "energy-systems-073",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "concept",
+   "question": "List the four steps of the Clausius-Rankine cycle.",
+   "answer": "Pump the liquid to high pressure; heat it in the boiler to vapour; expand it through the turbine; condense it in the condenser and release heat to the heat sink.",
+   "keywords": [
+    "pump",
+    "boiler",
+    "turbine",
+    "condenser"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 26"
+  },
+  {
+   "id": "energy-systems-074",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "flashcard",
+   "question": "Why does the pump in the Rankine cycle need little energy?",
+   "answer": "Because the working fluid is a liquid at that stage.",
+   "keywords": [
+    "liquid"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 26"
+  },
+  {
+   "id": "energy-systems-075",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "flashcard",
+   "question": "Why should steam remain vapour in the turbine?",
+   "answer": "To avoid damage to the turbine (pitting) from droplets, which limits how much enthalpy can be extracted.",
+   "keywords": [
+    "droplets",
+    "damage",
+    "pitting"
+   ],
+   "synonyms": {
+    "droplets": [
+     "liquid",
+     "water"
+    ]
+   },
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 28"
+  },
+  {
+   "id": "energy-systems-076",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "quiz",
+   "question": "What are the Carnot and real efficiency of a hard coal steam plant?",
+   "answer": "Carnot about 62.5 %, real about 33 to 45 %.",
+   "keywords": [
+    "62.5",
+    "33",
+    "45"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 30"
+  },
+  {
+   "id": "energy-systems-077",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "flashcard",
+   "question": "Which cycle describes a gas turbine and how does it work in one line?",
+   "answer": "The Brayton cycle: burn the fuel inside the machine and let the hot gas spin the turbine directly.",
+   "keywords": [
+    "Brayton",
+    "burn inside",
+    "hot gas"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 31"
+  },
+  {
+   "id": "energy-systems-078",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "concept",
+   "question": "List the steps of the Brayton cycle.",
+   "answer": "Compressor compresses the air; fuel is burned at constant pressure in the combustion chamber; hot gas expands in the turbine; hot exhaust leaves to the heat sink.",
+   "keywords": [
+    "compressor",
+    "combustion chamber",
+    "turbine",
+    "exhaust"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 37"
+  },
+  {
+   "id": "energy-systems-079",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "flashcard",
+   "question": "Why is air compressed before combustion in a gas turbine?",
+   "answer": "Compressing the fuel-air mixture greatly improves the thermodynamic efficiency.",
+   "keywords": [
+    "compress",
+    "efficiency"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 37"
+  },
+  {
+   "id": "energy-systems-080",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "concept",
+   "question": "What are the material limits of gas turbines and how are they handled?",
+   "answer": "Inlet temperatures up to about 1,500 °C exceed the melting point of nickel superalloys (around 1,300 °C); air film cooling and thermal barrier coatings such as yttrium or zirconium oxide are used.",
+   "keywords": [
+    "1,500",
+    "nickel superalloy",
+    "air film cooling",
+    "thermal barrier coating"
+   ],
+   "synonyms": {
+    "1,500": [
+     "1500"
+    ]
+   },
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 41"
+  },
+  {
+   "id": "energy-systems-081",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "concept",
+   "question": "Why does a gas turbine only reach about 40 % although its Carnot limit is about 80 %?",
+   "answer": "Material limits keep the temperature low, and the hot exhaust (450 to 650 °C) is thrown away as waste heat.",
+   "keywords": [
+    "material limits",
+    "exhaust",
+    "waste heat"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 43"
+  },
+  {
+   "id": "energy-systems-082",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "flashcard",
+   "question": "What is a combined cycle gas turbine (CCGT) plant?",
+   "answer": "A gas turbine (Brayton) whose hot exhaust drives a steam (Rankine) bottoming cycle through a heat recovery steam generator.",
+   "keywords": [
+    "gas turbine",
+    "exhaust",
+    "steam",
+    "heat recovery steam generator"
+   ],
+   "synonyms": {
+    "heat recovery steam generator": [
+     "HRSG"
+    ]
+   },
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 45"
+  },
+  {
+   "id": "energy-systems-083",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "quiz",
+   "question": "What real efficiency does a CCGT reach compared with a single gas turbine?",
+   "answer": "About 50 to 63 % for a CCGT versus about 35 to 42 % for a gas turbine alone.",
+   "keywords": [
+    "50",
+    "63",
+    "35",
+    "42"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 49"
+  },
+  {
+   "id": "energy-systems-084",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "concept",
+   "question": "Which turbines can run on hydrogen, and how?",
+   "answer": "Gas turbines can burn hydrogen in the combustor (with modifications), steam turbines can use hydrogen-fired boilers; also CCGTs.",
+   "keywords": [
+    "gas turbine",
+    "combustor",
+    "boiler"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 50"
+  },
+  {
+   "id": "energy-systems-085",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "flashcard",
+   "question": "What does a boiler produce and why is it efficient?",
+   "answer": "Heat only; it has no turbine, so there are no heat-to-electricity losses.",
+   "keywords": [
+    "heat only",
+    "no turbine"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 52"
+  },
+  {
+   "id": "energy-systems-086",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "flashcard",
+   "question": "Name the main components of a central heating system with a boiler.",
+   "answer": "The boiler, a distribution system (pipes, pumps, valves) and a heat sink such as radiators.",
+   "keywords": [
+    "boiler",
+    "distribution",
+    "radiators"
+   ],
+   "synonyms": {
+    "radiators": [
+     "heating surfaces",
+     "heat sink"
+    ]
+   },
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 52"
+  },
+  {
+   "id": "energy-systems-087",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "flashcard",
+   "question": "What does a refinery do?",
+   "answer": "It does not burn crude oil but re-shapes it into fuels and other products.",
+   "keywords": [
+    "crude oil",
+    "fuels",
+    "not burn"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 53"
+  },
+  {
+   "id": "energy-systems-088",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "flashcard",
+   "question": "How does a nuclear plant differ from a coal steam plant?",
+   "answer": "Same steam turbine process, only the heat source changes: fission in a reactor instead of a fire.",
+   "keywords": [
+    "reactor",
+    "fission",
+    "steam"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 56"
+  },
+  {
+   "id": "energy-systems-089",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "concept",
+   "question": "What is the engineering problem in a nuclear chain reaction?",
+   "answer": "Control, not release: holding the chain reaction at exactly one (critical).",
+   "keywords": [
+    "control",
+    "chain reaction",
+    "one"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 59"
+  },
+  {
+   "id": "energy-systems-090",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "concept",
+   "question": "Compare boiling water and pressurised water reactors.",
+   "answer": "BWR: water boils inside the reactor in one loop and steam goes directly to the turbine. PWR: water stays liquid under high pressure and a second, separate loop makes the steam.",
+   "keywords": [
+    "BWR",
+    "one loop",
+    "PWR",
+    "second loop"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 60"
+  },
+  {
+   "id": "energy-systems-091",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "concept",
+   "question": "Why can nuclear plants not simply run hotter?",
+   "answer": "Fuel cladding limits the steam temperature to about 300 °C, so nuclear trades efficiency for safety margin.",
+   "keywords": [
+    "cladding",
+    "300",
+    "efficiency",
+    "margin"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 61"
+  },
+  {
+   "id": "energy-systems-092",
+   "topic": "Ch4 Fossil Power Generation",
+   "type": "concept",
+   "question": "What is the economics of nuclear power versus gas?",
+   "answer": "Nuclear is the mirror image of gas: high capital cost paid before any kWh and very low fuel cost; gas has low capital cost and high fuel cost.",
+   "keywords": [
+    "capital cost",
+    "fuel cost",
+    "mirror image"
+   ],
+   "synonyms": {
+    "capital cost": [
+     "investment",
+     "upfront"
+    ]
+   },
+   "source": "WS26_ESYS_Ch04_Fossil-Power-Generation_-EN.pdf, slide 63"
+  },
+  {
+   "id": "energy-systems-093",
+   "topic": "Ch5 Photovoltaics",
+   "type": "concept",
+   "question": "Name the primary energies and conversion technologies in the overview of renewable conversion.",
+   "answer": "Sun (PV, solar thermal power, solar heat), wind (wind turbine), water (hydropower, ocean), biomass (power plant, biofuel, pellet heating), geothermal (power or heat plant).",
+   "keywords": [
+    "sun",
+    "wind",
+    "water",
+    "biomass",
+    "geothermal"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 4"
+  },
+  {
+   "id": "energy-systems-094",
+   "topic": "Ch5 Photovoltaics",
+   "type": "flashcard",
+   "question": "What does 'global radiation' mean?",
+   "answer": "Total radiation on a horizontal surface: direct plus diffuse, not 'worldwide'.",
+   "keywords": [
+    "total",
+    "direct",
+    "diffuse"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 7"
+  },
+  {
+   "id": "energy-systems-095",
+   "topic": "Ch5 Photovoltaics",
+   "type": "quiz",
+   "question": "Roughly how much does a desert site receive compared to Germany?",
+   "answer": "About twice as much (about 2,300 versus 1,100 kWh/m² per year).",
+   "keywords": [
+    "twice",
+    "2,300",
+    "1,100"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 7"
+  },
+  {
+   "id": "energy-systems-096",
+   "topic": "Ch5 Photovoltaics",
+   "type": "concept",
+   "question": "Why does PV work in Bavaria but concentrated solar needs a desert?",
+   "answer": "Panels use diffuse light; mirrors can only concentrate direct radiation.",
+   "keywords": [
+    "diffuse",
+    "direct",
+    "mirror"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 7"
+  },
+  {
+   "id": "energy-systems-097",
+   "topic": "Ch5 Photovoltaics",
+   "type": "concept",
+   "question": "Why silicon, with a band gap of 1.12 eV?",
+   "answer": "It is in the middle of the solar spectrum: loose enough for sunlight to free electrons, tight enough that each electron carries useful voltage.",
+   "keywords": [
+    "band gap",
+    "1.12",
+    "spectrum",
+    "voltage"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 8"
+  },
+  {
+   "id": "energy-systems-098",
+   "topic": "Ch5 Photovoltaics",
+   "type": "concept",
+   "question": "Explain how a solar cell makes electricity in one line.",
+   "answer": "Light creates charge carriers via the photoelectric effect and the junction turns them into a current.",
+   "keywords": [
+    "light",
+    "charge",
+    "junction",
+    "current"
+   ],
+   "synonyms": {
+    "photoelectric effect": [
+     "photovoltaic effect"
+    ]
+   },
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 8"
+  },
+  {
+   "id": "energy-systems-099",
+   "topic": "Ch5 Photovoltaics",
+   "type": "flashcard",
+   "question": "What is the Shockley-Queisser limit?",
+   "answer": "The maximum efficiency of a single-junction solar cell, about 33 %, set by the band gap compromise.",
+   "keywords": [
+    "33",
+    "single junction",
+    "band gap"
+   ],
+   "synonyms": {
+    "33": [
+     "a third",
+     "one third",
+     "thirty-three"
+    ]
+   },
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 9"
+  },
+  {
+   "id": "energy-systems-100",
+   "topic": "Ch5 Photovoltaics",
+   "type": "quiz",
+   "question": "Give the three numbers: theoretical limit, best cell ever, module typical.",
+   "answer": "33 % physics limit, 27 % best cell ever made, about 20.7 % for a commercial module.",
+   "keywords": [
+    "33",
+    "27",
+    "20.7"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 9"
+  },
+  {
+   "id": "energy-systems-101",
+   "topic": "Ch5 Photovoltaics",
+   "type": "concept",
+   "question": "Why does a band gap set too low or too high lose energy?",
+   "answer": "Too low: nearly all photons absorbed but most of each is wasted as heat. Too high: each photon pays well but most pass straight through.",
+   "keywords": [
+    "low",
+    "heat",
+    "high",
+    "pass through"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 9"
+  },
+  {
+   "id": "energy-systems-102",
+   "topic": "Ch5 Photovoltaics",
+   "type": "concept",
+   "question": "Why are solar cells connected in series, and what is the catch?",
+   "answer": "Voltage adds up (72 cells give about 41 V) which an inverter can use; but all cells carry the same current, so the weakest or shaded cell limits the string.",
+   "keywords": [
+    "series",
+    "voltage adds",
+    "same current",
+    "shaded"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 10"
+  },
+  {
+   "id": "energy-systems-103",
+   "topic": "Ch5 Photovoltaics",
+   "type": "flashcard",
+   "question": "What are the commercial solar cell types and their module efficiencies?",
+   "answer": "Monocrystalline 20-22 %, polycrystalline 15-20 %, thin-film 5-15 %, tandem over 30 % (lab 44 %), organic about 10 %.",
+   "keywords": [
+    "monocrystalline",
+    "polycrystalline",
+    "thin-film",
+    "tandem",
+    "organic"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 12"
+  },
+  {
+   "id": "energy-systems-104",
+   "topic": "Ch5 Photovoltaics",
+   "type": "concept",
+   "question": "What are the advantages of thin-film modules?",
+   "answer": "Simple production (vapour deposition), can be applied to glass or flexible lightweight materials, but lower efficiency.",
+   "keywords": [
+    "simple production",
+    "flexible",
+    "lightweight",
+    "lower efficiency"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 12"
+  },
+  {
+   "id": "energy-systems-105",
+   "topic": "Ch5 Photovoltaics",
+   "type": "concept",
+   "question": "List the components of a PV system from modules to grid.",
+   "answer": "PV modules, MPP tracker, inverter, bidirectional meter, grid and household loads; optional charge controller and battery.",
+   "keywords": [
+    "modules",
+    "MPP tracker",
+    "inverter",
+    "meter"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 15"
+  },
+  {
+   "id": "energy-systems-106",
+   "topic": "Ch5 Photovoltaics",
+   "type": "flashcard",
+   "question": "Where does direct current end in a PV system?",
+   "answer": "At the inverter, which is the boundary between DC and AC.",
+   "keywords": [
+    "inverter",
+    "DC",
+    "AC"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 15"
+  },
+  {
+   "id": "energy-systems-107",
+   "topic": "Ch5 Photovoltaics",
+   "type": "concept",
+   "question": "What can you do with surplus PV electricity?",
+   "answer": "Feed it into the grid at the EEG tariff, sell it via direct marketing, charge a battery, use it thermally, or curtail.",
+   "keywords": [
+    "feed-in",
+    "battery",
+    "heat",
+    "curtail"
+   ],
+   "synonyms": {
+    "feed-in": [
+     "grid",
+     "EEG"
+    ]
+   },
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 18"
+  },
+  {
+   "id": "energy-systems-108",
+   "topic": "Ch5 Photovoltaics",
+   "type": "concept",
+   "question": "Why do batteries sell with home PV?",
+   "answer": "Direct use is worth the retail price while exported electricity earns the much lower feed-in tariff; a battery moves midday surplus to the evening.",
+   "keywords": [
+    "retail price",
+    "feed-in tariff",
+    "evening"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 17"
+  },
+  {
+   "id": "energy-systems-109",
+   "topic": "Ch5 Photovoltaics",
+   "type": "flashcard",
+   "question": "Does a battery generate extra electricity?",
+   "answer": "No, it only shifts the same electricity in time.",
+   "keywords": [
+    "no",
+    "shifts",
+    "time"
+   ],
+   "synonyms": {
+    "shifts": [
+     "moves",
+     "stores"
+    ]
+   },
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 19"
+  },
+  {
+   "id": "energy-systems-110",
+   "topic": "Ch5 Photovoltaics",
+   "type": "flashcard",
+   "question": "What are PV tracking systems?",
+   "answer": "Systems that follow the sun with one axis or two axes to increase yield.",
+   "keywords": [
+    "follow the sun",
+    "one axis",
+    "two axes"
+   ],
+   "synonyms": {
+    "follow the sun": [
+     "track"
+    ]
+   },
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 23"
+  },
+  {
+   "id": "energy-systems-111",
+   "topic": "Ch5 Photovoltaics",
+   "type": "flashcard",
+   "question": "What are standard test conditions (STC) for PV modules?",
+   "answer": "Cell temperature 25 °C, irradiance 1,000 W/m², and spectrum AM 1.5.",
+   "keywords": [
+    "25",
+    "1,000",
+    "AM 1.5"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 33"
+  },
+  {
+   "id": "energy-systems-112",
+   "topic": "Ch5 Photovoltaics",
+   "type": "flashcard",
+   "question": "What does kWp mean?",
+   "answer": "Kilowatt peak: the rated power under standard test conditions.",
+   "keywords": [
+    "rated power",
+    "standard test conditions"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 33"
+  },
+  {
+   "id": "energy-systems-113",
+   "topic": "Ch5 Photovoltaics",
+   "type": "concept",
+   "question": "Describe the I-V curve of a solar module and its four key numbers.",
+   "answer": "Isc (short-circuit current, no voltage) and Voc (open-circuit voltage, no current) are the ends; Vmp and Imp give the maximum power point Pmax, the biggest rectangle under the curve.",
+   "keywords": [
+    "short-circuit current",
+    "open-circuit voltage",
+    "maximum power point"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 34"
+  },
+  {
+   "id": "energy-systems-114",
+   "topic": "Ch5 Photovoltaics",
+   "type": "flashcard",
+   "question": "What does an MPP tracker do?",
+   "answer": "It adjusts current and voltage so the module always delivers maximum power for the current irradiance.",
+   "keywords": [
+    "maximum power",
+    "adjusts",
+    "irradiance"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 36"
+  },
+  {
+   "id": "energy-systems-115",
+   "topic": "Ch5 Photovoltaics",
+   "type": "concept",
+   "question": "How does temperature affect PV output?",
+   "answer": "Power falls with higher cell temperature (about -0.34 % per °C); a cold clear spring day beats a hot summer day, and deserts are not the easy answer.",
+   "keywords": [
+    "temperature",
+    "falls",
+    "cold",
+    "spring"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 39"
+  },
+  {
+   "id": "energy-systems-116",
+   "topic": "Ch5 Photovoltaics",
+   "type": "flashcard",
+   "question": "What is NMOT and why is it printed on the datasheet?",
+   "answer": "Nominal module operating temperature conditions (800 W/m², 20 °C air, 1 m/s wind): a realistic day, giving about 25 % less power than at STC.",
+   "keywords": [
+    "800",
+    "20 °C",
+    "realistic"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 40"
+  },
+  {
+   "id": "energy-systems-117",
+   "topic": "Ch5 Photovoltaics",
+   "type": "concept",
+   "question": "What affects the PV orientation yield, and what do south, flat and east/west roofs give?",
+   "answer": "South at about 37° tilt is optimal; flat and east or west lose some yield but are not far off; even north gives yield thanks to diffuse radiation.",
+   "keywords": [
+    "south",
+    "optimal",
+    "diffuse"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 44"
+  },
+  {
+   "id": "energy-systems-118",
+   "topic": "Ch5 Photovoltaics",
+   "type": "concept",
+   "question": "What four groups of influences determine PV feed-in power?",
+   "answer": "Earth geometry and rotation, surrounding terrain, atmospheric attenuation, and ambient temperature.",
+   "keywords": [
+    "earth geometry",
+    "terrain",
+    "atmospheric",
+    "temperature"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 47"
+  },
+  {
+   "id": "energy-systems-119",
+   "topic": "Ch5 Photovoltaics",
+   "type": "concept",
+   "question": "Describe the variability of PV generation.",
+   "answer": "Fluctuations up to 80 % in under a minute, summer about four times winter, and strong day-to-day fluctuations.",
+   "keywords": [
+    "80",
+    "summer",
+    "winter",
+    "fluctuations"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 51"
+  },
+  {
+   "id": "energy-systems-120",
+   "topic": "Ch5 Photovoltaics",
+   "type": "concept",
+   "question": "Why do full-load hours of PV differ by location?",
+   "answer": "Southern Germany about 900-1130 kWh/kWp, desert regions over 2,000, because of irradiation.",
+   "keywords": [
+    "irradiation",
+    "location",
+    "kWh per kWp"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_PV_EN.pdf, slide 56"
+  },
+  {
+   "id": "energy-systems-121",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "concept",
+   "question": "Contrast low-temperature solar heat with high-temperature solar thermal power.",
+   "answer": "Low temperature (60-90 °C) uses collectors for direct heat with no Carnot limit; high temperature (400-600 °C) uses concentrating mirrors for steam and a turbine, which is Carnot-limited.",
+   "keywords": [
+    "60 to 90",
+    "collector",
+    "400 to 600",
+    "Carnot"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 5"
+  },
+  {
+   "id": "energy-systems-122",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "flashcard",
+   "question": "What does concentration of sunlight achieve?",
+   "answer": "It does not collect more light, it raises the temperature, which a heat engine needs.",
+   "keywords": [
+    "temperature",
+    "heat engine"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 5"
+  },
+  {
+   "id": "energy-systems-123",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "concept",
+   "question": "Compare solar thermal and PV on the same roof.",
+   "answer": "Solar thermal gives heat at 40-60 % efficiency with cheap storage but local use only; PV gives electricity at about 21 % with expensive storage but grid transport.",
+   "keywords": [
+    "heat",
+    "40 to 60",
+    "electricity",
+    "21"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 10"
+  },
+  {
+   "id": "energy-systems-124",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "flashcard",
+   "question": "What is concentrated solar power (CSP)?",
+   "answer": "Concentrating sunlight to boil water and drive a steam turbine, like a coal plant with mirrors.",
+   "keywords": [
+    "mirrors",
+    "steam turbine"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 12"
+  },
+  {
+   "id": "energy-systems-125",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "flashcard",
+   "question": "What is the advantage of a parabolic trough plant with storage?",
+   "answer": "It stores heat rather than electricity, so it can generate after sunset.",
+   "keywords": [
+    "stores heat",
+    "after sunset"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 14"
+  },
+  {
+   "id": "energy-systems-126",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "concept",
+   "question": "Why did CSP growth stop?",
+   "answer": "PV fell in price faster than CSP; CSP is more complex and needs direct radiation, about half of which in Germany is diffuse.",
+   "keywords": [
+    "PV price",
+    "complex",
+    "direct radiation"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 15"
+  },
+  {
+   "id": "energy-systems-127",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "concept",
+   "question": "State the power law of wind energy.",
+   "answer": "Power is proportional to air density, rotor area and the cube of wind speed.",
+   "keywords": [
+    "cube",
+    "wind speed",
+    "area",
+    "density"
+   ],
+   "synonyms": {
+    "cube": [
+     "third power",
+     "cubed",
+     "v cubed"
+    ]
+   },
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 17"
+  },
+  {
+   "id": "energy-systems-128",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "concept",
+   "question": "How does wind speed change with height, and what is surface roughness?",
+   "answer": "It increases logarithmically with height; rough surfaces such as forest or city brake the wind, so taller towers pay off.",
+   "keywords": [
+    "logarithmic",
+    "height",
+    "roughness",
+    "tower"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 18"
+  },
+  {
+   "id": "energy-systems-129",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "flashcard",
+   "question": "What is the Betz limit?",
+   "answer": "59.3 % (16/27): the maximum share of wind kinetic energy any turbine can extract; real turbines get about 45-50 %.",
+   "keywords": [
+    "59.3",
+    "kinetic energy",
+    "maximum"
+   ],
+   "synonyms": {
+    "59.3": [
+     "16/27",
+     "sixteen twenty-sevenths"
+    ]
+   },
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 19"
+  },
+  {
+   "id": "energy-systems-130",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "concept",
+   "question": "Why does the Betz limit exist?",
+   "answer": "Extracting all kinetic energy would leave the air at rest behind the rotor, so no further air could pass through; the optimum slows the wind to one third.",
+   "keywords": [
+    "air at rest",
+    "one third",
+    "no air passes"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 19"
+  },
+  {
+   "id": "energy-systems-131",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "concept",
+   "question": "Describe the power characteristic of a wind turbine.",
+   "answer": "No output below cut-in speed, rising with wind speed to rated power, constant to cut-out speed (storm shutdown).",
+   "keywords": [
+    "cut-in",
+    "rated power",
+    "cut-out"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 20"
+  },
+  {
+   "id": "energy-systems-132",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "concept",
+   "question": "Why is wind better near the coast?",
+   "answer": "Unobstructed wind over smooth water and local compensation flows from land-sea temperature differences.",
+   "keywords": [
+    "smooth water",
+    "temperature differences",
+    "compensation"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 21"
+  },
+  {
+   "id": "energy-systems-133",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "quiz",
+   "question": "Order PV rooftop, PV ground, onshore wind, offshore wind and biomass by full-load hours.",
+   "answer": "PV rooftop lowest, then PV ground, onshore wind, offshore wind, biomass highest.",
+   "keywords": [
+    "PV rooftop",
+    "biomass highest"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 22"
+  },
+  {
+   "id": "energy-systems-134",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "concept",
+   "question": "How does a solid biomass power plant work and why does it count as renewable?",
+   "answer": "Wood chips are burned, boiler steam drives a Rankine turbine (33 % electricity, 52 % heat); the carbon was taken from the air by the growing trees.",
+   "keywords": [
+    "wood chips",
+    "steam",
+    "33",
+    "carbon neutral"
+   ],
+   "synonyms": {
+    "carbon neutral": [
+     "closed loop",
+     "climate-neutral"
+    ]
+   },
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 24"
+  },
+  {
+   "id": "energy-systems-135",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "concept",
+   "question": "How does a biogas plant work?",
+   "answer": "Bacteria digest wet biomass in a digester without air to make biogas (55 % methane); a gas engine CHP burns it for 40 % electricity and 44 % heat.",
+   "keywords": [
+    "bacteria",
+    "digester",
+    "methane",
+    "CHP"
+   ],
+   "synonyms": {
+    "CHP": [
+     "combined heat and power",
+     "gas engine"
+    ]
+   },
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 25"
+  },
+  {
+   "id": "energy-systems-136",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "flashcard",
+   "question": "Why can biogas cut emissions that would have happened anyway?",
+   "answer": "It captures methane from slurry and burns it to CO₂; methane warms the planet about 80 times more than CO₂ over 20 years.",
+   "keywords": [
+    "methane",
+    "slurry",
+    "80"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 25"
+  },
+  {
+   "id": "energy-systems-137",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "concept",
+   "question": "Eight of twelve generation technologies share one principle. What is it?",
+   "answer": "Make something hot, boil water, spin a turbine; only PV skips the heat engine.",
+   "keywords": [
+    "hot",
+    "boil water",
+    "turbine",
+    "PV"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 27"
+  },
+  {
+   "id": "energy-systems-138",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "quiz",
+   "question": "What limits wind, PV and coal efficiency respectively?",
+   "answer": "Wind: Betz limit; PV: Shockley-Queisser limit; coal: Carnot with the steam temperature capped by materials near 600 °C.",
+   "keywords": [
+    "Betz",
+    "Shockley-Queisser",
+    "Carnot"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 27"
+  },
+  {
+   "id": "energy-systems-139",
+   "topic": "Ch5 Renewable Energies (Solar thermal, CSP, Wind, Biomass)",
+   "type": "quiz",
+   "question": "Which generation technology has the highest efficiency, and which has the highest full-load hours?",
+   "answer": "Hydropower (85-90 %); geothermal has the highest full-load hours, about 7,500.",
+   "keywords": [
+    "hydropower",
+    "geothermal"
+   ],
+   "synonyms": {},
+   "source": "WS26_ESYS_Ch05_RE_EN.pdf, slide 27"
+  }
+ ]
+}

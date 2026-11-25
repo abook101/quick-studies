@@ -1,0 +1,2529 @@
+{
+ "course": "Computer Science for Renewable Energies and Energy Systems",
+ "cards": [
+  {
+   "id": "computer-science-001",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "What is computer science, according to Tucker et al.?",
+   "answer": "The study of computers and algorithmic processes, including their principles, hardware and software designs, applications and impact on society.",
+   "keywords": [
+    "computers",
+    "algorithmic processes",
+    "hardware",
+    "software"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, What is Computer Science"
+  },
+  {
+   "id": "computer-science-002",
+   "topic": "Data representation",
+   "type": "concept",
+   "question": "Name the four subfields of computer science and say what each focuses on.",
+   "answer": "Theoretical CS gives the mathematical and logical foundations; Applied CS applies methods to other disciplines; Technical CS covers hardware; Practical CS develops methods, tools and languages for implementing algorithms.",
+   "keywords": [
+    "theoretical",
+    "applied",
+    "technical",
+    "practical"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Tasks and Subfields of Computer Science"
+  },
+  {
+   "id": "computer-science-003",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "Which topics belong to theoretical computer science?",
+   "answer": "Automata theory, formal languages, computability theory and complexity theory.",
+   "keywords": [
+    "automata theory",
+    "formal languages",
+    "computability",
+    "complexity"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Tasks and Subfields"
+  },
+  {
+   "id": "computer-science-004",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "What does Natural Language Processing (NLP) do? Give an example.",
+   "answer": "It enables computers to understand and generate human language, for example Siri, Alexa or ChatGPT.",
+   "keywords": [
+    "understand",
+    "generate",
+    "human language"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Specialized Areas of Applied CS"
+  },
+  {
+   "id": "computer-science-005",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "What does computer vision do?",
+   "answer": "It teaches computers to analyze and understand images and videos, e.g. facial recognition or medical imaging.",
+   "keywords": [
+    "analyze",
+    "images",
+    "videos"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Specialized Areas of Applied CS"
+  },
+  {
+   "id": "computer-science-006",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "What is data science, and what is cybersecurity?",
+   "answer": "Data science extracts insights from large datasets using statistics and machine learning. Cybersecurity protects information systems from attacks, damage or unauthorized access.",
+   "keywords": [
+    "insights",
+    "datasets",
+    "protect",
+    "attacks"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Specialized Areas of Applied CS"
+  },
+  {
+   "id": "computer-science-007",
+   "topic": "Data representation",
+   "type": "concept",
+   "question": "What is the input-processing-output principle?",
+   "answer": "Data is entered, processed by an information-processing system, and then output. Computer science is about how information and data are represented and processed.",
+   "keywords": [
+    "input",
+    "processing",
+    "output"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, The Basics of Data Encoding"
+  },
+  {
+   "id": "computer-science-008",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "What is the difference between encoding and decoding?",
+   "answer": "Encoding transforms information into a machine-readable format; decoding converts encoded data back into a human-readable form.",
+   "keywords": [
+    "encoding",
+    "machine-readable",
+    "decoding",
+    "human-readable"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Coding of Information"
+  },
+  {
+   "id": "computer-science-009",
+   "topic": "Data representation",
+   "type": "concept",
+   "question": "Why do computers use the binary system?",
+   "answer": "They are built from transistors with two electrical states, on (1) and off (0). Binary arithmetic is simple, cost-efficient and easy to implement in hardware.",
+   "keywords": [
+    "transistors",
+    "two states",
+    "on",
+    "off"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Why Do Computers Use the Binary System"
+  },
+  {
+   "id": "computer-science-010",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "What are a bit and a byte, and how many values can n bits represent?",
+   "answer": "A bit is the smallest unit of binary information, 0 or 1. A byte is 8 bits. n bits can represent 2 to the power n values.",
+   "keywords": [
+    "bit",
+    "byte",
+    "8 bits",
+    "2 to the power n"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Fundamentals: Bit and Byte"
+  },
+  {
+   "id": "computer-science-011",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "How many values can one byte hold, and how large is a KB in computer science?",
+   "answer": "A byte holds 256 values (2 to the power 8). One KB is 2 to the power 10, so 1024 bytes.",
+   "keywords": [
+    "256",
+    "1024",
+    "2 to the power 8"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Fundamentals: Bit and Byte"
+  },
+  {
+   "id": "computer-science-012",
+   "topic": "Data representation",
+   "type": "concept",
+   "question": "What is the difference between binary prefixes and the prefixes used by storage manufacturers?",
+   "answer": "Computer science uses binary prefixes (powers of 2, e.g. 1024 bytes per KB), while storage manufacturers use decimal prefixes (powers of 10).",
+   "keywords": [
+    "powers of 2",
+    "decimal",
+    "manufacturers"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Fundamentals: Bit and Byte"
+  },
+  {
+   "id": "computer-science-013",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "What is ASCII and what are its limits?",
+   "answer": "American Standard Code for Information Interchange, from 1963. It uses 7 bits for 128 characters (English letters, digits, punctuation) and has no special characters like ä, ö, ü, ß.",
+   "keywords": [
+    "7-bit",
+    "128 characters",
+    "no special characters"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Character Encoding"
+  },
+  {
+   "id": "computer-science-014",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "What is UTF-8?",
+   "answer": "The dominant Unicode encoding on the Internet, a variable-length encoding where each character takes 1 to 4 bytes (8 to 32 bits). The first 128 characters are identical to ASCII.",
+   "keywords": [
+    "unicode",
+    "variable-length",
+    "4 bytes",
+    "ascii"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Modern Character Encodings"
+  },
+  {
+   "id": "computer-science-015",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "What is ISO 8859-1 (Latin-1)?",
+   "answer": "An 8-bit encoding with 256 characters that includes Western European special characters; the first 128 characters equal ASCII.",
+   "keywords": [
+    "8-bit",
+    "256",
+    "western european"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Modern Character Encodings"
+  },
+  {
+   "id": "computer-science-016",
+   "topic": "Data representation",
+   "type": "concept",
+   "question": "How are colors and images represented in a computer?",
+   "answer": "Colors use RGB, with one byte (0-255) per channel, giving 16.7 million colors. An image is a matrix of pixels, each storing three RGB values; resolution gives the number of pixels.",
+   "keywords": [
+    "rgb",
+    "one byte",
+    "pixels",
+    "matrix"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Encoding Colors, Images, and Videos"
+  },
+  {
+   "id": "computer-science-017",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "How is a video represented, and why is compression used?",
+   "answer": "A video is a sequence of images (frames) shown quickly, typically 24 to 30 frames per second. Compression, e.g. JPEG or MP4, reduces file size and speeds up storage and transmission.",
+   "keywords": [
+    "frames",
+    "24-30 fps",
+    "compression",
+    "file size"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Encoding Colors, Images, and Videos"
+  },
+  {
+   "id": "computer-science-018",
+   "topic": "Data representation",
+   "type": "concept",
+   "question": "How does a computer know whether a bit sequence means text, numbers, or a color?",
+   "answer": "It depends on context: how the program interprets the data.",
+   "keywords": [
+    "context",
+    "interprets"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Data Interpretation"
+  },
+  {
+   "id": "computer-science-019",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "How do you convert a binary number to decimal?",
+   "answer": "Multiply each digit by 2 to the power of its position (starting at 0 on the right) and add up the results.",
+   "keywords": [
+    "power of 2",
+    "position",
+    "add"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, The Binary System"
+  },
+  {
+   "id": "computer-science-020",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "Why is hexadecimal used, and which digits does it use?",
+   "answer": "Base 16 with digits 0-9 and A-F. It is a compact way to write binary numbers because 4 bits equal one hex digit.",
+   "keywords": [
+    "base 16",
+    "a-f",
+    "4 bits",
+    "compact"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, The Hexadecimal System"
+  },
+  {
+   "id": "computer-science-021",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "What is the division method for base conversion?",
+   "answer": "To convert a decimal number to another base, divide by the target base, remember the remainder, repeat with the result until it is 0, then read the remainders in reverse order.",
+   "keywords": [
+    "divide",
+    "remainder",
+    "reverse order",
+    "target base"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Division Method for Base Conversion"
+  },
+  {
+   "id": "computer-science-022",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "What are the four binary addition rules?",
+   "answer": "0+0=0, 0+1=1, 1+0=1, and 1+1=0 with a carry of 1 (since 1+1 is 10 in binary).",
+   "keywords": [
+    "carry",
+    "1+1=0"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Binary Addition"
+  },
+  {
+   "id": "computer-science-023",
+   "topic": "Data representation",
+   "type": "concept",
+   "question": "What is an overflow in binary arithmetic?",
+   "answer": "The result exceeds the number of bits available for storage, which can cause incorrect results or system errors.",
+   "keywords": [
+    "exceeds",
+    "bits available",
+    "incorrect results"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Binary Addition"
+  },
+  {
+   "id": "computer-science-024",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "What value range can n-bit signed integers represent, and what is the 4-bit signed range?",
+   "answer": "From minus 2 to the power n-1 up to plus 2 to the power n-1 minus 1. With 4 bits: minus 8 to plus 7 (unsigned is 0 to 15).",
+   "keywords": [
+    "-2^(n-1)",
+    "2^(n-1)-1",
+    "-8",
+    "7"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Representation of Negative Numbers"
+  },
+  {
+   "id": "computer-science-025",
+   "topic": "Data representation",
+   "type": "concept",
+   "question": "How do you get the two's complement of a binary number, and why is it used?",
+   "answer": "Invert every bit, then add 1. It lets subtraction be implemented as addition of the negative number, which is easier in hardware.",
+   "keywords": [
+    "invert",
+    "add 1",
+    "subtraction",
+    "addition"
+   ],
+   "synonyms": {
+    "invert": [
+     "flip",
+     "negate"
+    ]
+   },
+   "source": "CS2 Introduction to Computer Science and Data Representation, Rule for Two's Complement"
+  },
+  {
+   "id": "computer-science-026",
+   "topic": "Data representation",
+   "type": "concept",
+   "question": "What is a floating-point number and why do computers use it?",
+   "answer": "A representation of real numbers as a fraction (mantissa) times a base to the power of an exponent, so very large and very small numbers can be stored. It has a sign bit, exponent and fraction, but limited precision (about 7 decimal digits in 32 bit).",
+   "keywords": [
+    "fraction",
+    "exponent",
+    "sign bit",
+    "limited precision"
+   ],
+   "synonyms": {
+    "fraction": [
+     "mantissa",
+     "significand"
+    ]
+   },
+   "source": "CS2 Introduction to Computer Science and Data Representation, Binary Floating-Point Numbers"
+  },
+  {
+   "id": "computer-science-027",
+   "topic": "Data representation",
+   "type": "concept",
+   "question": "What caused the Ariane 5 crash in 1996 and what is the lesson?",
+   "answer": "A 64-bit floating-point velocity value was converted into a 16-bit integer and overflowed because it was too large. The conversion was unprotected and the software was reused from the slower Ariane 4. Small conversion errors can be catastrophic in real-time systems.",
+   "keywords": [
+    "overflow",
+    "64-bit",
+    "16-bit",
+    "ariane 4"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, The Most Expensive Computer Error in History"
+  },
+  {
+   "id": "computer-science-028",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "Who built the Z1 and why is it significant?",
+   "answer": "Konrad Zuse in 1937; the first functional mechanical, program-controlled calculating machine and the first computer to use binary numbers.",
+   "keywords": [
+    "konrad zuse",
+    "binary",
+    "program-controlled"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, A Journey Through the Evolution of Computers"
+  },
+  {
+   "id": "computer-science-029",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "Who is regarded as the first computer programmer and why?",
+   "answer": "Ada Lovelace, who wrote the first algorithms for Babbage's Analytical Engine.",
+   "keywords": [
+    "ada lovelace",
+    "analytical engine",
+    "babbage"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, A Journey Through the Evolution of Computers"
+  },
+  {
+   "id": "computer-science-030",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "What was ENIAC?",
+   "answer": "The first fully electronic universal computer, built in 1946 by Eckert and Mauchly in the USA (27 tons).",
+   "keywords": [
+    "1946",
+    "electronic",
+    "eckert",
+    "mauchly"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Computers in Wartime"
+  },
+  {
+   "id": "computer-science-031",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "Which computer first used transistors, and what was the first microprocessor?",
+   "answer": "TRADIC (1955, AT&T Bell Labs) was the first transistor computer; the Intel 4004 (1971) was the first microprocessor.",
+   "keywords": [
+    "tradic",
+    "intel 4004",
+    "transistors"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Integrated Circuits"
+  },
+  {
+   "id": "computer-science-032",
+   "topic": "Data representation",
+   "type": "flashcard",
+   "question": "Why were integrated circuits developed in the 1960s?",
+   "answer": "NASA needed smaller, lighter and more reliable computers for space exploration, so multiple components were put on a single chip.",
+   "keywords": [
+    "nasa",
+    "smaller",
+    "single chip"
+   ],
+   "synonyms": {},
+   "source": "CS2 Introduction to Computer Science and Data Representation, Integrated Circuits"
+  },
+  {
+   "id": "computer-science-033",
+   "topic": "Algorithms",
+   "type": "concept",
+   "question": "Define an algorithm.",
+   "answer": "A procedure for solving a class of problems: a finite sequence of unambiguous, executable steps that compute output from input, deterministically giving the same result under the same conditions.",
+   "keywords": [
+    "finite",
+    "unambiguous",
+    "input",
+    "output",
+    "deterministic"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Algorithm - Definition"
+  },
+  {
+   "id": "computer-science-034",
+   "topic": "Algorithms",
+   "type": "concept",
+   "question": "Name the seven fundamental properties of an algorithm.",
+   "answer": "Finiteness, unambiguity, input, output, determinism, effectiveness (executability), and generality.",
+   "keywords": [
+    "finiteness",
+    "unambiguity",
+    "determinism",
+    "effectiveness",
+    "generality"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Fundamental Properties"
+  },
+  {
+   "id": "computer-science-035",
+   "topic": "Algorithms",
+   "type": "flashcard",
+   "question": "What does finiteness mean for an algorithm?",
+   "answer": "It must terminate after a finite number of steps and must not run indefinitely.",
+   "keywords": [
+    "terminate",
+    "finite"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Fundamental Properties"
+  },
+  {
+   "id": "computer-science-036",
+   "topic": "Algorithms",
+   "type": "flashcard",
+   "question": "What does determinism mean for an algorithm?",
+   "answer": "For the same input it always produces the same output.",
+   "keywords": [
+    "same input",
+    "same output"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Fundamental Properties"
+  },
+  {
+   "id": "computer-science-037",
+   "topic": "Algorithms",
+   "type": "flashcard",
+   "question": "What does generality mean for an algorithm? Give an example.",
+   "answer": "It should work for a broad set of inputs, not one specific case, e.g. a sorting algorithm must sort any list.",
+   "keywords": [
+    "broad",
+    "inputs",
+    "sorting"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Fundamental Properties"
+  },
+  {
+   "id": "computer-science-038",
+   "topic": "Algorithms",
+   "type": "concept",
+   "question": "Can every mathematically definable function be executed by a computer? Explain with the examples from the lecture.",
+   "answer": "No. Computing the primes up to 100 is easy. Doubling repeatedly is computable but f(6) already has about 19,000 digits, so it is infeasible on a real computer. Computing all real numbers in [0,1] is mathematically non-computable.",
+   "keywords": [
+    "computable",
+    "infeasible",
+    "non-computable"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Are There Algorithms That Cannot Be Executed"
+  },
+  {
+   "id": "computer-science-039",
+   "topic": "Algorithms",
+   "type": "concept",
+   "question": "What is the difference between effective and efficient?",
+   "answer": "Effective means doing the right thing: the algorithm solves the problem. Efficient means doing it the right way: with minimal time, energy and resources.",
+   "keywords": [
+    "effective",
+    "right thing",
+    "efficient",
+    "resources"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Effective vs. Efficient"
+  },
+  {
+   "id": "computer-science-040",
+   "topic": "Algorithms",
+   "type": "concept",
+   "question": "Compare three ways of searching a phone book and their step counts.",
+   "answer": "Page by page takes n steps; every second page about n/2+1 and may skip the name; opening in the middle and continuing with the relevant half takes log2(n) steps. The last is divide and conquer.",
+   "keywords": [
+    "n steps",
+    "log2(n)",
+    "divide and conquer",
+    "halved"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Searching for a Name in a Phone Book"
+  },
+  {
+   "id": "computer-science-041",
+   "topic": "Algorithms",
+   "type": "flashcard",
+   "question": "What does the complexity of an algorithm describe?",
+   "answer": "The resources it needs, mainly time and memory, as an upper limit on how demand grows with problem size.",
+   "keywords": [
+    "time",
+    "memory",
+    "problem size"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Complexity of Algorithms"
+  },
+  {
+   "id": "computer-science-042",
+   "topic": "Algorithms",
+   "type": "flashcard",
+   "question": "What is divide and conquer?",
+   "answer": "Repeatedly halving the problem size and continuing with the relevant part, as in the binary search of a phone book (divide et impera).",
+   "keywords": [
+    "halving",
+    "problem size",
+    "relevant half"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Searching for a Name in a Phone Book"
+  },
+  {
+   "id": "computer-science-043",
+   "topic": "Algorithms",
+   "type": "flashcard",
+   "question": "What is the relationship between an algorithm and a program?",
+   "answer": "A program is an algorithm expressed in a formal programming language that a computer can execute.",
+   "keywords": [
+    "algorithm",
+    "formal programming language",
+    "executed"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, From Algorithm to Program"
+  },
+  {
+   "id": "computer-science-044",
+   "topic": "Algorithms",
+   "type": "flashcard",
+   "question": "List ways to represent an algorithm.",
+   "answer": "Natural language, pseudocode, flowchart, structured chart, state diagram, and program code.",
+   "keywords": [
+    "natural language",
+    "pseudocode",
+    "flowchart",
+    "program code"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Ways to Represent Algorithms"
+  },
+  {
+   "id": "computer-science-045",
+   "topic": "Algorithms",
+   "type": "flashcard",
+   "question": "What is pseudocode?",
+   "answer": "A text-based, informal and simple representation of an algorithm that is easy to understand and not tied to any programming language.",
+   "keywords": [
+    "text-based",
+    "informal",
+    "language"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Pseudocode"
+  },
+  {
+   "id": "computer-science-046",
+   "topic": "Algorithms",
+   "type": "flashcard",
+   "question": "Which flowchart symbols are used for start/end, process, decision, and input/output?",
+   "answer": "Oval for start/end, rectangle for a process, diamond for a decision (yes/no), parallelogram for input/output; arrows show the flow.",
+   "keywords": [
+    "oval",
+    "rectangle",
+    "diamond",
+    "parallelogram"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Flowcharts"
+  },
+  {
+   "id": "computer-science-047",
+   "topic": "Algorithms",
+   "type": "concept",
+   "question": "Name the six steps from algorithm to program.",
+   "answer": "Define input and output, develop a solution idea, design a rough program structure, stepwise refinement, implementation, and testing and debugging.",
+   "keywords": [
+    "input and output",
+    "solution idea",
+    "refinement",
+    "implementation",
+    "testing"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, From Algorithm to Program - Steps"
+  },
+  {
+   "id": "computer-science-048",
+   "topic": "Algorithms",
+   "type": "concept",
+   "question": "What does the equals sign mean in programming, and what does 'a = a + 1' mean?",
+   "answer": "It is an assignment, not mathematical equality: the right side is evaluated first and the result stored in the variable on the left. So a = a + 1 increases a by one.",
+   "keywords": [
+    "assignment",
+    "right side",
+    "left"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Elements of a Flowchart"
+  },
+  {
+   "id": "computer-science-049",
+   "topic": "Algorithms",
+   "type": "flashcard",
+   "question": "What is a variable and what three things does it have?",
+   "answer": "A named memory location for data, with a name, a data type and a value.",
+   "keywords": [
+    "name",
+    "data type",
+    "value",
+    "memory"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Variables and Data Types"
+  },
+  {
+   "id": "computer-science-050",
+   "topic": "Algorithms",
+   "type": "concept",
+   "question": "Describe Euclid's classic algorithm for the GCD.",
+   "answer": "Repeatedly subtract the smaller number from the larger until both numbers are equal; that number is the greatest common divisor.",
+   "keywords": [
+    "subtract",
+    "smaller",
+    "equal",
+    "greatest common divisor"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Example: Euclid's Algorithm"
+  },
+  {
+   "id": "computer-science-051",
+   "topic": "Algorithms",
+   "type": "concept",
+   "question": "How does the modern Euclidean algorithm work?",
+   "answer": "If b is 0, output a. Otherwise compute the remainder of a divided by b (a % b), and repeat with the divisor and the remainder as the new a and b.",
+   "keywords": [
+    "remainder",
+    "b = 0",
+    "repeat"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Modern Euclidean Algorithm"
+  },
+  {
+   "id": "computer-science-052",
+   "topic": "Algorithms",
+   "type": "concept",
+   "question": "Why does the classic GCD program need input validation?",
+   "answer": "If the user enters zero or a negative number, the loop never reaches equality and never terminates. Keep asking until both inputs are positive integers.",
+   "keywords": [
+    "negative",
+    "zero",
+    "infinite",
+    "validation"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Testing & Improving in the Loop"
+  },
+  {
+   "id": "computer-science-053",
+   "topic": "Algorithms",
+   "type": "flashcard",
+   "question": "What is a value table (trace table) used for?",
+   "answer": "Testing correctness by tracing the algorithm step by step, with one column per variable, recording the variable values row by row.",
+   "keywords": [
+    "trace",
+    "column per variable",
+    "step by step"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Value Tables"
+  },
+  {
+   "id": "computer-science-054",
+   "topic": "Algorithms",
+   "type": "concept",
+   "question": "Compare iteration and recursion.",
+   "answer": "Iteration repeats via loops (for or while) with a termination condition. Recursion repeats by a function calling itself until a termination condition is met, using conditionals such as if.",
+   "keywords": [
+    "loop",
+    "function calls itself",
+    "termination condition"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Summary: Iteration vs. Recursion"
+  },
+  {
+   "id": "computer-science-055",
+   "topic": "Algorithms",
+   "type": "concept",
+   "question": "Define the factorial recursively.",
+   "answer": "f(n) is 1 if n equals 0 (termination condition), otherwise n times f(n-1).",
+   "keywords": [
+    "n = 0",
+    "1",
+    "n * f(n-1)",
+    "termination"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Factorial Definition 2"
+  },
+  {
+   "id": "computer-science-056",
+   "topic": "Algorithms",
+   "type": "flashcard",
+   "question": "What is recursion?",
+   "answer": "The nested invocation of a function: a function calls itself until a termination condition is met.",
+   "keywords": [
+    "calls itself",
+    "termination condition"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Flowchart Factorial Definition 2"
+  },
+  {
+   "id": "computer-science-057",
+   "topic": "Algorithms",
+   "type": "concept",
+   "question": "Why use functions? Name advantages.",
+   "answer": "They avoid redundancy, enable code reuse, allow changes in one place, and improve readability through modular code blocks.",
+   "keywords": [
+    "redundancy",
+    "reuse",
+    "one place",
+    "readability"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Motivation for Functions"
+  },
+  {
+   "id": "computer-science-058",
+   "topic": "Algorithms",
+   "type": "flashcard",
+   "question": "What does the binomial coefficient 'n choose k' express?",
+   "answer": "The number of ways to choose exactly k elements from a set of n elements without regard to order.",
+   "keywords": [
+    "k elements",
+    "n elements",
+    "order"
+   ],
+   "synonyms": {},
+   "source": "CS3 Introduction to Algorithms, Calculation of the Binomial Coefficient"
+  },
+  {
+   "id": "computer-science-059",
+   "topic": "Programming languages and Python",
+   "type": "concept",
+   "question": "Name the three generations of programming languages by level of abstraction.",
+   "answer": "1st generation: machine language; 2nd: assembly language; 3rd: high-level languages such as Python, Java, C++.",
+   "keywords": [
+    "machine language",
+    "assembly",
+    "high-level"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, Fundamentals of Programming Languages"
+  },
+  {
+   "id": "computer-science-060",
+   "topic": "Programming languages and Python",
+   "type": "flashcard",
+   "question": "Describe machine language.",
+   "answer": "The lowest-level language, executed directly by the CPU, pure binary, processor-specific. Fastest but hard to read and non-portable.",
+   "keywords": [
+    "binary",
+    "cpu",
+    "processor-specific"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, Machine Language"
+  },
+  {
+   "id": "computer-science-061",
+   "topic": "Programming languages and Python",
+   "type": "flashcard",
+   "question": "Describe assembly language.",
+   "answer": "A low-level language using symbolic commands that map to machine instructions, hardware-specific, translated by an assembler. Used for embedded systems and drivers.",
+   "keywords": [
+    "symbolic",
+    "assembler",
+    "hardware-specific"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, Assembly Language"
+  },
+  {
+   "id": "computer-science-062",
+   "topic": "Programming languages and Python",
+   "type": "flashcard",
+   "question": "Describe high-level languages and their pros and cons.",
+   "answer": "Human-readable and abstracted from hardware, portable, translated by a compiler or interpreter. Easier to learn and maintain, but slower than low-level code.",
+   "keywords": [
+    "human-readable",
+    "portable",
+    "slower"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, High-Level Languages"
+  },
+  {
+   "id": "computer-science-063",
+   "topic": "Programming languages and Python",
+   "type": "concept",
+   "question": "Compare a compiler and an interpreter.",
+   "answer": "A compiler translates all source code to machine code before execution, giving a faster executable. An interpreter translates line by line at runtime, which is slower but platform independent and interactive. Python is interpreted.",
+   "keywords": [
+    "entire",
+    "before execution",
+    "line by line",
+    "runtime"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, Compiler vs. Interpreter"
+  },
+  {
+   "id": "computer-science-064",
+   "topic": "Programming languages and Python",
+   "type": "concept",
+   "question": "Name the five programming paradigms.",
+   "answer": "Imperative/procedural, declarative, functional, object-oriented, and logical.",
+   "keywords": [
+    "imperative",
+    "declarative",
+    "functional",
+    "object-oriented",
+    "logical"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, Programming Concepts (Paradigms)"
+  },
+  {
+   "id": "computer-science-065",
+   "topic": "Programming languages and Python",
+   "type": "flashcard",
+   "question": "What characterizes declarative programming? Give an example.",
+   "answer": "It describes what should be done, not how, e.g. SQL.",
+   "keywords": [
+    "what",
+    "not how",
+    "sql"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, Programming Concepts (Paradigms)"
+  },
+  {
+   "id": "computer-science-066",
+   "topic": "Programming languages and Python",
+   "type": "flashcard",
+   "question": "What characterizes logical programming? Give an example.",
+   "answer": "It describes facts and rules from which the system draws logical conclusions, e.g. Prolog.",
+   "keywords": [
+    "facts",
+    "rules",
+    "prolog"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, Programming Concepts (Paradigms)"
+  },
+  {
+   "id": "computer-science-067",
+   "topic": "Programming languages and Python",
+   "type": "flashcard",
+   "question": "Which language is used for which purpose: web, Android, iOS, system programming, data science?",
+   "answer": "JavaScript for web, Kotlin for Android, Swift for iOS, C/C++ or Rust for system programming, Python for data analysis and AI.",
+   "keywords": [
+    "javascript",
+    "kotlin",
+    "swift",
+    "c++",
+    "python"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, Which Language for Which Purpose"
+  },
+  {
+   "id": "computer-science-068",
+   "topic": "Programming languages and Python",
+   "type": "flashcard",
+   "question": "Who created Python and where does the name come from?",
+   "answer": "Guido van Rossum in the early 1990s; named after the British comedy series Monty Python's Flying Circus.",
+   "keywords": [
+    "guido van rossum",
+    "monty python"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, The History of Python"
+  },
+  {
+   "id": "computer-science-069",
+   "topic": "Programming languages and Python",
+   "type": "concept",
+   "question": "Why is Python so successful?",
+   "answer": "Simple readable syntax, versatile and cross-platform, large standard library and third-party packages, large community, multiple paradigms, preferred for data science and AI.",
+   "keywords": [
+    "readable",
+    "libraries",
+    "community",
+    "data science"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, Why Is Python So Successful"
+  },
+  {
+   "id": "computer-science-070",
+   "topic": "Programming languages and Python",
+   "type": "flashcard",
+   "question": "What do the built-in functions print() and input() do?",
+   "answer": "print() outputs to the screen; input() reads a string typed by the user.",
+   "keywords": [
+    "output",
+    "reads",
+    "user"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, Functions: print() and input()"
+  },
+  {
+   "id": "computer-science-071",
+   "topic": "Programming languages and Python",
+   "type": "concept",
+   "question": "What is dynamic typing in Python?",
+   "answer": "You do not declare a variable's type; it is determined automatically at runtime from the assigned value.",
+   "keywords": [
+    "no declaration",
+    "runtime",
+    "assigned value"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, Variables"
+  },
+  {
+   "id": "computer-science-072",
+   "topic": "Programming languages and Python",
+   "type": "flashcard",
+   "question": "What are comments in Python?",
+   "answer": "Lines starting with # (or triple-quoted blocks) that are ignored during execution and document the code.",
+   "keywords": [
+    "ignored",
+    "documentation",
+    "#"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, Comments"
+  },
+  {
+   "id": "computer-science-073",
+   "topic": "Programming languages and Python",
+   "type": "concept",
+   "question": "What does this print? name = 'Ada'; lastname = 'Lovelace'; print(f'Hello, {name} {lastname}')",
+   "answer": "Hello, Ada Lovelace. The f-string evaluates the expressions in the curly braces at runtime and inserts their values.",
+   "keywords": [
+    "hello, ada lovelace",
+    "f-string",
+    "curly braces"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, Formatting Strings with f-Strings"
+  },
+  {
+   "id": "computer-science-074",
+   "topic": "Programming languages and Python",
+   "type": "flashcard",
+   "question": "What do the string methods strip(), title(), lower(), upper(), replace() and split() do?",
+   "answer": "strip removes surrounding whitespace, title capitalizes each word, lower and upper change case, replace swaps substrings, split splits into a list of substrings.",
+   "keywords": [
+    "strip",
+    "title",
+    "replace",
+    "split",
+    "whitespace"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, More About Strings"
+  },
+  {
+   "id": "computer-science-075",
+   "topic": "Programming languages and Python",
+   "type": "concept",
+   "question": "What happens with a = input('a? '); b = input('b? '); print(a + b) when the user enters 2 and 3, and how do you fix it?",
+   "answer": "It prints 23 because input returns strings, which are concatenated. Convert with int() before adding to get 5.",
+   "keywords": [
+    "23",
+    "strings",
+    "concatenated",
+    "int"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, Input Values Are Strings by Default"
+  },
+  {
+   "id": "computer-science-076",
+   "topic": "Programming languages and Python",
+   "type": "flashcard",
+   "question": "Name Python's integer operators beyond plus, minus, times.",
+   "answer": "Slash for division, % for modulo (remainder), // for integer division, ** for power.",
+   "keywords": [
+    "%",
+    "//",
+    "**",
+    "modulo"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, The int Data Type"
+  },
+  {
+   "id": "computer-science-077",
+   "topic": "Programming languages and Python",
+   "type": "flashcard",
+   "question": "What do round(pi, 2) and the f-string format {pi:.2f} do?",
+   "answer": "Both give pi with two decimals; round rounds the value, the format specifier .2f only formats the display.",
+   "keywords": [
+    "two decimals",
+    "round",
+    "f-string"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, Rounding and Precision"
+  },
+  {
+   "id": "computer-science-078",
+   "topic": "Programming languages and Python",
+   "type": "concept",
+   "question": "Describe how to define and call your own function in Python.",
+   "answer": "Use the keyword def, a name, parentheses with optional parameters and a colon; the indented block is the body. Call it by name with arguments. Indentation defines structure.",
+   "keywords": [
+    "def",
+    "parameters",
+    "colon",
+    "indented"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, Creating Your Own Functions: def"
+  },
+  {
+   "id": "computer-science-079",
+   "topic": "Programming languages and Python",
+   "type": "flashcard",
+   "question": "What is the purpose of a main() function and of return?",
+   "answer": "main() holds the main logic and is the entry point of the program. return sends a value back to the caller, which can store or use it.",
+   "keywords": [
+    "entry point",
+    "calls other functions",
+    "return",
+    "caller"
+   ],
+   "synonyms": {},
+   "source": "CS4 Python Introduction, The Main Program / Return Values"
+  },
+  {
+   "id": "computer-science-080",
+   "topic": "Conditionals",
+   "type": "flashcard",
+   "question": "What is a Boolean expression and which data type holds its result?",
+   "answer": "A logical statement comparing values that evaluates to True or False; the bool data type.",
+   "keywords": [
+    "true",
+    "false",
+    "bool"
+   ],
+   "synonyms": {},
+   "source": "CS5 Python Conditionals, Making Decisions with Boolean Expressions"
+  },
+  {
+   "id": "computer-science-081",
+   "topic": "Conditionals",
+   "type": "concept",
+   "question": "What is the difference between = and == in Python?",
+   "answer": "= assigns a value to a variable; == compares two values for equality and returns True or False.",
+   "keywords": [
+    "assignment",
+    "comparison",
+    "equality"
+   ],
+   "synonyms": {},
+   "source": "CS5 Python Conditionals, Operators for Boolean Expressions"
+  },
+  {
+   "id": "computer-science-082",
+   "topic": "Conditionals",
+   "type": "flashcard",
+   "question": "Name the comparison operators.",
+   "answer": "Equal ==, not equal !=, greater than >, less than <, greater or equal >=, less or equal <=.",
+   "keywords": [
+    "==",
+    "!=",
+    ">=",
+    "<="
+   ],
+   "synonyms": {},
+   "source": "CS5 Python Conditionals, Operators for Boolean Expressions"
+  },
+  {
+   "id": "computer-science-083",
+   "topic": "Conditionals",
+   "type": "flashcard",
+   "question": "Explain the logical operators and, or and not.",
+   "answer": "and is true if all conditions are true; or is true if at least one is true; not reverses the result.",
+   "keywords": [
+    "all",
+    "at least one",
+    "reverses"
+   ],
+   "synonyms": {},
+   "source": "CS5 Python Conditionals, Operators for Boolean Expressions"
+  },
+  {
+   "id": "computer-science-084",
+   "topic": "Conditionals",
+   "type": "quiz",
+   "question": "What do 5 > 3 and 4 < 6, 5 < 10 or 7 > 10, and not (5 < 3) evaluate to?",
+   "answer": "All three are True.",
+   "keywords": [
+    "true",
+    "all"
+   ],
+   "synonyms": {},
+   "source": "CS5 Python Conditionals, Operators for Boolean Expressions"
+  },
+  {
+   "id": "computer-science-085",
+   "topic": "Conditionals",
+   "type": "concept",
+   "question": "Explain the if, elif and else structure.",
+   "answer": "if runs a block when its condition is True; elif checks further conditions if earlier ones failed; else is the catch-all without a condition that runs when none matched, and can be used only once at the end.",
+   "keywords": [
+    "if",
+    "elif",
+    "else",
+    "catch-all",
+    "condition"
+   ],
+   "synonyms": {},
+   "source": "CS5 Python Conditionals, The if/elif/else Statement"
+  },
+  {
+   "id": "computer-science-086",
+   "topic": "Conditionals",
+   "type": "concept",
+   "question": "Why is elif better than several separate if statements?",
+   "answer": "It avoids multiple nested or repeated decisions, reduces the number of checks, and improves readability.",
+   "keywords": [
+    "fewer decisions",
+    "nested",
+    "readability"
+   ],
+   "synonyms": {},
+   "source": "CS5 Python Conditionals, The elif Statement"
+  },
+  {
+   "id": "computer-science-087",
+   "topic": "Conditionals",
+   "type": "concept",
+   "question": "How is a leap year defined, and how would you implement it?",
+   "answer": "A multiple of 4, except century years, which must be divisible by 400. Use if/elif or combine conditions with and/or in one statement.",
+   "keywords": [
+    "divisible by 4",
+    "100",
+    "400",
+    "and"
+   ],
+   "synonyms": {},
+   "source": "CS5 Python Conditionals, Exercise: Leap Years"
+  },
+  {
+   "id": "computer-science-088",
+   "topic": "Conditionals",
+   "type": "concept",
+   "question": "How does match-case work and what is the underscore?",
+   "answer": "match checks a variable against case patterns and runs the matching block. The underscore is a wildcard for all other cases, like else. A vertical bar means or between patterns.",
+   "keywords": [
+    "match",
+    "case",
+    "wildcard",
+    "underscore"
+   ],
+   "synonyms": {},
+   "source": "CS5 Python Conditionals, Pattern Matching with match/case"
+  },
+  {
+   "id": "computer-science-089",
+   "topic": "Conditionals",
+   "type": "concept",
+   "question": "When would you use match-case instead of if-elif-else, e.g. in a calculator?",
+   "answer": "To check one variable, such as the operator, against several specific values, with a default case for invalid operators.",
+   "keywords": [
+    "variable",
+    "values",
+    "default case"
+   ],
+   "synonyms": {},
+   "source": "CS5 Python Conditionals, Exercise - Simple Calculator"
+  },
+  {
+   "id": "computer-science-090",
+   "topic": "Loops and lists",
+   "type": "flashcard",
+   "question": "What is a while loop?",
+   "answer": "A loop that repeats its block as long as the condition is true. The condition must change, otherwise the loop is infinite.",
+   "keywords": [
+    "condition",
+    "true",
+    "infinite"
+   ],
+   "synonyms": {},
+   "source": "CS6 Python Loops, The while Loop"
+  },
+  {
+   "id": "computer-science-091",
+   "topic": "Loops and lists",
+   "type": "concept",
+   "question": "How do you build a loop that keeps asking until valid input is entered?",
+   "answer": "Use while True, read and check the input, and break once valid; continue skips back to the start if it is invalid.",
+   "keywords": [
+    "while true",
+    "break",
+    "continue",
+    "valid"
+   ],
+   "synonyms": {},
+   "source": "CS6 Python Loops, Infinite Loops"
+  },
+  {
+   "id": "computer-science-092",
+   "topic": "Loops and lists",
+   "type": "flashcard",
+   "question": "What is the difference between break and continue?",
+   "answer": "break exits the enclosing loop immediately; continue skips the rest of the loop body and goes to the next iteration.",
+   "keywords": [
+    "exits",
+    "skips",
+    "next iteration"
+   ],
+   "synonyms": {},
+   "source": "CS6 Python Loops, Loop Controlling"
+  },
+  {
+   "id": "computer-science-093",
+   "topic": "Loops and lists",
+   "type": "flashcard",
+   "question": "What does str.isdigit() check?",
+   "answer": "Whether the string consists only of digits.",
+   "keywords": [
+    "only digits",
+    "string"
+   ],
+   "synonyms": {},
+   "source": "CS6 Python Loops, Infinite Loops"
+  },
+  {
+   "id": "computer-science-094",
+   "topic": "Loops and lists",
+   "type": "concept",
+   "question": "What is a for loop and an iterable?",
+   "answer": "A for loop runs its body once for each element of an iterable such as a string, list or range. An iterable is something you can go through element by element.",
+   "keywords": [
+    "each element",
+    "iterable",
+    "string",
+    "list",
+    "range"
+   ],
+   "synonyms": {},
+   "source": "CS6 Python Loops, The for Loop"
+  },
+  {
+   "id": "computer-science-095",
+   "topic": "Loops and lists",
+   "type": "concept",
+   "question": "When do you use a while loop and when a for loop?",
+   "answer": "while when the number of iterations is not known in advance; for when it is known or when iterating over all elements of a collection.",
+   "keywords": [
+    "unknown",
+    "known",
+    "collection"
+   ],
+   "synonyms": {},
+   "source": "CS6 Python Loops, Exercise: Factorial"
+  },
+  {
+   "id": "computer-science-096",
+   "topic": "Loops and lists",
+   "type": "flashcard",
+   "question": "What are lists in Python?",
+   "answer": "Ordered collections of elements written in square brackets, indexed starting at 0, possibly mixing data types.",
+   "keywords": [
+    "ordered",
+    "square brackets",
+    "index",
+    "0"
+   ],
+   "synonyms": {},
+   "source": "CS6 Python Loops, Lists in Python"
+  },
+  {
+   "id": "computer-science-097",
+   "topic": "Loops and lists",
+   "type": "quiz",
+   "question": "Given lst = [1,2,3,4,5], what happens with lst[0], lst[4] and lst[5]?",
+   "answer": "1, 5, and an IndexError because there is no index 5.",
+   "keywords": [
+    "1",
+    "5",
+    "indexerror"
+   ],
+   "synonyms": {},
+   "source": "CS6 Python Loops, Accessing List Elements"
+  },
+  {
+   "id": "computer-science-098",
+   "topic": "Loops and lists",
+   "type": "flashcard",
+   "question": "Name the list operations append, insert, remove, del and len.",
+   "answer": "append adds at the end, insert(i, x) adds at position i, remove(x) deletes the first occurrence of x, del lst[i] deletes at index i, len gives the number of elements.",
+   "keywords": [
+    "append",
+    "insert",
+    "remove",
+    "del",
+    "len"
+   ],
+   "synonyms": {},
+   "source": "CS6 Python Loops, Useful List Methods"
+  },
+  {
+   "id": "computer-science-099",
+   "topic": "Loops and lists",
+   "type": "concept",
+   "question": "What do range(5), range(2,6) and range(5,0,-1) produce?",
+   "answer": "0 1 2 3 4; 2 3 4 5; and 5 4 3 2 1. The stop value is excluded, and the third argument is the step.",
+   "keywords": [
+    "stop excluded",
+    "start",
+    "step"
+   ],
+   "synonyms": {},
+   "source": "CS6 Python Loops, The range() Function"
+  },
+  {
+   "id": "computer-science-100",
+   "topic": "Loops and lists",
+   "type": "concept",
+   "question": "How does the bubble sort algorithm work?",
+   "answer": "Compare adjacent elements, swap them if the previous one is larger, and repeat with a shrinking limit until no more swaps occur. The largest element moves to the end each pass.",
+   "keywords": [
+    "adjacent",
+    "swap",
+    "larger",
+    "repeat"
+   ],
+   "synonyms": {},
+   "source": "CS6 Python Loops, The Bubble Sort Algorithm"
+  },
+  {
+   "id": "computer-science-101",
+   "topic": "Loops and lists",
+   "type": "concept",
+   "question": "How do you merge two sorted lists into one sorted list?",
+   "answer": "Keep an index in each list, compare the current elements, insert the smaller into the result and advance that index. When one list is exhausted, copy the remaining elements of the other.",
+   "keywords": [
+    "indices",
+    "smaller",
+    "copy remaining"
+   ],
+   "synonyms": {},
+   "source": "CS7 Python Basics Wrap Up, Practice Problem 3: Merging Two Pre-Sorted Arrays"
+  },
+  {
+   "id": "computer-science-102",
+   "topic": "Loops and lists",
+   "type": "flashcard",
+   "question": "What does the modulo operator % help with when counting even and odd numbers?",
+   "answer": "num % 2 equals 0 for even numbers and 1 for odd numbers.",
+   "keywords": [
+    "%",
+    "remainder",
+    "even",
+    "odd"
+   ],
+   "synonyms": {},
+   "source": "CS6 Python Loops, Exercise: Counting Even/Odd Numbers"
+  },
+  {
+   "id": "computer-science-103",
+   "topic": "Data types, structures and control",
+   "type": "concept",
+   "question": "What is the difference between a data type and a data structure?",
+   "answer": "A data type describes what kind of value it is (int, float, str, bool). A data structure describes how multiple values are organized (list, dict, tuple, set).",
+   "keywords": [
+    "kind of value",
+    "organized",
+    "multiple values"
+   ],
+   "synonyms": {},
+   "source": "CS7 Python Basics Wrap Up, Data Types / Data Structures"
+  },
+  {
+   "id": "computer-science-104",
+   "topic": "Data types, structures and control",
+   "type": "flashcard",
+   "question": "Describe tuple and set.",
+   "answer": "A tuple is an ordered, immutable collection. A set is an unordered collection of unique elements with no duplicates.",
+   "keywords": [
+    "ordered",
+    "immutable",
+    "unordered",
+    "unique"
+   ],
+   "synonyms": {},
+   "source": "CS7 Python Basics Wrap Up, Data Structures"
+  },
+  {
+   "id": "computer-science-105",
+   "topic": "Data types, structures and control",
+   "type": "flashcard",
+   "question": "What are control structures in Python?",
+   "answer": "if/elif/else, match-case, while and for loops, break and continue; they steer program flow with decisions and repetition.",
+   "keywords": [
+    "decisions",
+    "loops",
+    "flow"
+   ],
+   "synonyms": {},
+   "source": "CS7 Python Basics Wrap Up, Control Structures"
+  },
+  {
+   "id": "computer-science-106",
+   "topic": "Data types, structures and control",
+   "type": "flashcard",
+   "question": "What are the main purposes of functions?",
+   "answer": "Code reuse, clear organization of the program, and controlling the flow via calls and return values.",
+   "keywords": [
+    "reuse",
+    "organization",
+    "return values"
+   ],
+   "synonyms": {},
+   "source": "CS7 Python Basics Wrap Up, Functions"
+  },
+  {
+   "id": "computer-science-107",
+   "topic": "Dictionaries and mutability",
+   "type": "concept",
+   "question": "What is a dictionary in Python and how is it written?",
+   "answer": "A collection of key-value pairs in curly braces with a colon between key and value. You look up a key to get its value.",
+   "keywords": [
+    "key-value",
+    "curly braces",
+    "colon",
+    "key"
+   ],
+   "synonyms": {},
+   "source": "CS8 Dictionaries Mutable-Immutable Data Types, Dictionaries - The dict Data Type"
+  },
+  {
+   "id": "computer-science-108",
+   "topic": "Dictionaries and mutability",
+   "type": "flashcard",
+   "question": "What rules apply to dictionary keys and values?",
+   "answer": "Keys must be unique and immutable (e.g. strings, numbers). Values can be any data type, including lists or other dictionaries.",
+   "keywords": [
+    "unique",
+    "immutable",
+    "any type"
+   ],
+   "synonyms": {},
+   "source": "CS8 Dictionaries Mutable-Immutable Data Types, Dictionaries - The dict Data Type"
+  },
+  {
+   "id": "computer-science-109",
+   "topic": "Dictionaries and mutability",
+   "type": "concept",
+   "question": "How do you access, add, change, delete and test for entries in a dictionary?",
+   "answer": "Access with d[key], add or change with d[key] = value, delete with del d[key], and test for a key with the in operator.",
+   "keywords": [
+    "d[key]",
+    "del",
+    "in"
+   ],
+   "synonyms": {},
+   "source": "CS8 Dictionaries Mutable-Immutable Data Types, Working with Dictionaries"
+  },
+  {
+   "id": "computer-science-110",
+   "topic": "Dictionaries and mutability",
+   "type": "flashcard",
+   "question": "How do you loop over a dictionary?",
+   "answer": "Iterate over keys with for key in d, or over key-value pairs with d.items().",
+   "keywords": [
+    "keys",
+    "items()"
+   ],
+   "synonyms": {},
+   "source": "CS8 Dictionaries Mutable-Immutable Data Types, Iterating Over a Dictionary"
+  },
+  {
+   "id": "computer-science-111",
+   "topic": "Dictionaries and mutability",
+   "type": "flashcard",
+   "question": "Is a dictionary ordered or indexed by position?",
+   "answer": "No, it is key-indexed and accessed via keys, not by position.",
+   "keywords": [
+    "key-indexed",
+    "not positional"
+   ],
+   "synonyms": {},
+   "source": "CS8 Dictionaries Mutable-Immutable Data Types, Working with Dictionaries"
+  },
+  {
+   "id": "computer-science-112",
+   "topic": "Dictionaries and mutability",
+   "type": "concept",
+   "question": "How would you get the French word for 'red' using en_de and de_fr dictionaries?",
+   "answer": "Look up the German word in en_de and use it as the key in de_fr: de_fr[en_de['red']].",
+   "keywords": [
+    "nested lookup",
+    "en_de",
+    "de_fr"
+   ],
+   "synonyms": {},
+   "source": "CS8 Dictionaries Mutable-Immutable Data Types, Exercise Solution"
+  },
+  {
+   "id": "computer-science-113",
+   "topic": "Dictionaries and mutability",
+   "type": "concept",
+   "question": "How would you structure a list of students with several properties?",
+   "answer": "As a list of dictionaries, each with keys like name, id, major and semester; loop over the list and filter by a key.",
+   "keywords": [
+    "list of dictionaries",
+    "keys",
+    "loop"
+   ],
+   "synonyms": {},
+   "source": "CS8 Dictionaries Mutable-Immutable Data Types, Even More Complex Structures"
+  },
+  {
+   "id": "computer-science-114",
+   "topic": "Dictionaries and mutability",
+   "type": "concept",
+   "question": "What does immutable mean and which types are immutable?",
+   "answer": "The value cannot be changed after creation; any change creates a new object. int, float, str and bool are immutable.",
+   "keywords": [
+    "cannot be changed",
+    "new object",
+    "int",
+    "str"
+   ],
+   "synonyms": {},
+   "source": "CS8 Dictionaries Mutable-Immutable Data Types, Mutable vs. Immutable Data Types"
+  },
+  {
+   "id": "computer-science-115",
+   "topic": "Dictionaries and mutability",
+   "type": "concept",
+   "question": "What does mutable mean and which types are mutable?",
+   "answer": "The content can be changed in place while the object keeps its identity (memory address). list and dict are mutable.",
+   "keywords": [
+    "changed in place",
+    "same object",
+    "list",
+    "dict"
+   ],
+   "synonyms": {},
+   "source": "CS8 Dictionaries Mutable-Immutable Data Types, Mutable vs. Immutable Data Types"
+  },
+  {
+   "id": "computer-science-116",
+   "topic": "Dictionaries and mutability",
+   "type": "flashcard",
+   "question": "What are the advantages and disadvantages of immutable types?",
+   "answer": "Fast, simple memory handling, safe, usable as dictionary keys. But every modification needs a new object, which can be slower or use more memory.",
+   "keywords": [
+    "safe",
+    "dictionary keys",
+    "new object"
+   ],
+   "synonyms": {},
+   "source": "CS8 Dictionaries Mutable-Immutable Data Types, Immutable Data Types"
+  },
+  {
+   "id": "computer-science-117",
+   "topic": "Dictionaries and mutability",
+   "type": "flashcard",
+   "question": "What are the advantages and disadvantages of mutable types?",
+   "answer": "Efficient for many updates and flexible. But side effects through shared references, harder debugging, and they cannot be dictionary keys.",
+   "keywords": [
+    "side effects",
+    "shared",
+    "not keys"
+   ],
+   "synonyms": {},
+   "source": "CS8 Dictionaries Mutable-Immutable Data Types, Mutable Data Types"
+  },
+  {
+   "id": "computer-science-118",
+   "topic": "Dictionaries and mutability",
+   "type": "concept",
+   "question": "What does id() show and what happens to it when you reassign a = 10 then a = 20, versus appending to a list?",
+   "answer": "id() shows the memory address. Reassigning an immutable creates a new object with a new address; appending to a list changes the content but the address stays the same.",
+   "keywords": [
+    "memory address",
+    "new object",
+    "same address"
+   ],
+   "synonyms": {},
+   "source": "CS8 Dictionaries Mutable-Immutable Data Types, Immutable/Mutable Example"
+  },
+  {
+   "id": "computer-science-119",
+   "topic": "Dictionaries and mutability",
+   "type": "flashcard",
+   "question": "What is the difference between an argument and a parameter?",
+   "answer": "An argument is the actual value passed when calling a function; a parameter is the variable in the function definition that receives it.",
+   "keywords": [
+    "argument",
+    "value",
+    "parameter",
+    "definition"
+   ],
+   "synonyms": {},
+   "source": "CS8 Dictionaries Mutable-Immutable Data Types, Passing Data to Functions - Basics"
+  },
+  {
+   "id": "computer-science-120",
+   "topic": "Dictionaries and mutability",
+   "type": "concept",
+   "question": "What happens when you pass an immutable versus a mutable object to a function?",
+   "answer": "Immutable: it behaves as if a copy was passed, so changes inside do not affect the original. Mutable: a reference to the same object is passed, so changes inside change the original.",
+   "keywords": [
+    "copy",
+    "reference",
+    "original",
+    "side effects"
+   ],
+   "synonyms": {},
+   "source": "CS8 Dictionaries Mutable-Immutable Data Types, Passing Data to Functions - Summary"
+  },
+  {
+   "id": "computer-science-121",
+   "topic": "Dictionaries and mutability",
+   "type": "quiz",
+   "question": "Why does bubble_sort(lst) change the list in main without returning anything?",
+   "answer": "Lists are mutable and passed by reference, so the function modifies the original object.",
+   "keywords": [
+    "mutable",
+    "reference",
+    "original"
+   ],
+   "synonyms": {},
+   "source": "CS8 Dictionaries Mutable-Immutable Data Types, Passing Data to Functions - Mutable"
+  },
+  {
+   "id": "computer-science-122",
+   "topic": "Dictionaries and mutability",
+   "type": "quiz",
+   "question": "Why does calculateGCD(66,12) not change variables of the caller even though x and y are modified?",
+   "answer": "Integers are immutable and behave as passed by value, so the function works on its own copies.",
+   "keywords": [
+    "immutable",
+    "copy"
+   ],
+   "synonyms": {},
+   "source": "CS8 Dictionaries Mutable-Immutable Data Types, Passing Data to Functions - Immutable"
+  },
+  {
+   "id": "computer-science-123",
+   "topic": "Exceptions",
+   "type": "concept",
+   "question": "What are the two types of errors in programming?",
+   "answer": "Syntax errors are static errors from incorrect language use, detected before running. Runtime errors (exceptions) occur while the program runs.",
+   "keywords": [
+    "syntax error",
+    "runtime error",
+    "before execution"
+   ],
+   "synonyms": {},
+   "source": "CS9 Exceptions, Exceptions: Definition and Categorization"
+  },
+  {
+   "id": "computer-science-124",
+   "topic": "Exceptions",
+   "type": "flashcard",
+   "question": "Give examples of syntax errors.",
+   "answer": "Missing indentation, missing parentheses, missing colon, unterminated string.",
+   "keywords": [
+    "indentation",
+    "colon",
+    "parentheses"
+   ],
+   "synonyms": {},
+   "source": "CS9 Exceptions, Exceptions: Definition and Categorization"
+  },
+  {
+   "id": "computer-science-125",
+   "topic": "Exceptions",
+   "type": "quiz",
+   "question": "Which exception does int('dog') raise?",
+   "answer": "ValueError: wrong type of value given to a function.",
+   "keywords": [
+    "valueerror"
+   ],
+   "synonyms": {},
+   "source": "CS9 Exceptions, Common Built-in Exceptions"
+  },
+  {
+   "id": "computer-science-126",
+   "topic": "Exceptions",
+   "type": "quiz",
+   "question": "Which exception: 'Hello' + 5?",
+   "answer": "TypeError, because the data types are incompatible.",
+   "keywords": [
+    "typeerror",
+    "incompatible"
+   ],
+   "synonyms": {},
+   "source": "CS9 Exceptions, Common Built-in Exceptions"
+  },
+  {
+   "id": "computer-science-127",
+   "topic": "Exceptions",
+   "type": "quiz",
+   "question": "Which exception: using a variable before defining it?",
+   "answer": "NameError.",
+   "keywords": [
+    "nameerror",
+    "not defined"
+   ],
+   "synonyms": {},
+   "source": "CS9 Exceptions, Common Built-in Exceptions"
+  },
+  {
+   "id": "computer-science-128",
+   "topic": "Exceptions",
+   "type": "quiz",
+   "question": "Which exception: lst = [1,2,3]; print(lst[3])?",
+   "answer": "IndexError: list index out of range.",
+   "keywords": [
+    "indexerror",
+    "out of range"
+   ],
+   "synonyms": {},
+   "source": "CS9 Exceptions, Common Built-in Exceptions"
+  },
+  {
+   "id": "computer-science-129",
+   "topic": "Exceptions",
+   "type": "quiz",
+   "question": "Which exception: 10 / 0?",
+   "answer": "ZeroDivisionError.",
+   "keywords": [
+    "zerodivisionerror",
+    "division by zero"
+   ],
+   "synonyms": {},
+   "source": "CS9 Exceptions, Common Built-in Exceptions"
+  },
+  {
+   "id": "computer-science-130",
+   "topic": "Exceptions",
+   "type": "quiz",
+   "question": "Which exception when opening a file that does not exist?",
+   "answer": "FileNotFoundError.",
+   "keywords": [
+    "filenotfounderror"
+   ],
+   "synonyms": {},
+   "source": "CS9 Exceptions, Common Built-in Exceptions"
+  },
+  {
+   "id": "computer-science-131",
+   "topic": "Exceptions",
+   "type": "concept",
+   "question": "How does try-except work?",
+   "answer": "Code that might fail goes in the try block. The except blocks catch and handle specific exception types so the program continues in a controlled way. Multiple except blocks are allowed.",
+   "keywords": [
+    "try",
+    "except",
+    "specific",
+    "continues"
+   ],
+   "synonyms": {},
+   "source": "CS9 Exceptions, Handling Exceptions"
+  },
+  {
+   "id": "computer-science-132",
+   "topic": "Exceptions",
+   "type": "concept",
+   "question": "What is exception propagation?",
+   "answer": "Exceptions propagate up the call stack until a matching try-except catches them. If none is found, the program crashes.",
+   "keywords": [
+    "call stack",
+    "caught",
+    "crash"
+   ],
+   "synonyms": {},
+   "source": "CS9 Exceptions, Handling Exceptions"
+  },
+  {
+   "id": "computer-science-133",
+   "topic": "Exceptions",
+   "type": "flashcard",
+   "question": "What does the else clause of try-except do?",
+   "answer": "Its code runs only if no exception occurred in the try block.",
+   "keywords": [
+    "no exception",
+    "else"
+   ],
+   "synonyms": {},
+   "source": "CS9 Exceptions, Handling Exceptions: else Clause"
+  },
+  {
+   "id": "computer-science-134",
+   "topic": "Exceptions",
+   "type": "concept",
+   "question": "How do you validate user input with exceptions?",
+   "answer": "Use while True with try: int(input()); except ValueError prints a message; else: break once valid.",
+   "keywords": [
+    "while true",
+    "valueerror",
+    "break"
+   ],
+   "synonyms": {},
+   "source": "CS9 Exceptions, Using Exceptions for Input Validation"
+  },
+  {
+   "id": "computer-science-135",
+   "topic": "Exceptions",
+   "type": "concept",
+   "question": "What does raise do?",
+   "answer": "It actively triggers an exception, built-in or custom, with an error message, e.g. raise ValueError('message') to enforce constraints.",
+   "keywords": [
+    "raise",
+    "trigger",
+    "error message"
+   ],
+   "synonyms": {},
+   "source": "CS9 Exceptions, Raising Exceptions with raise"
+  },
+  {
+   "id": "computer-science-136",
+   "topic": "Object-oriented programming",
+   "type": "concept",
+   "question": "Why was OOP introduced?",
+   "answer": "Programming tasks became more complex (e.g. many sensor types and interacting systems), and purely procedural code can no longer handle them effectively.",
+   "keywords": [
+    "complexity",
+    "procedural"
+   ],
+   "synonyms": {},
+   "source": "CS10 OOP, Motivation"
+  },
+  {
+   "id": "computer-science-137",
+   "topic": "Object-oriented programming",
+   "type": "concept",
+   "question": "What is object-oriented programming?",
+   "answer": "A paradigm where a program is a collection of interacting objects that combine data and behavior, modeling the real world to make systems modular, maintainable and extensible.",
+   "keywords": [
+    "objects",
+    "data",
+    "behavior",
+    "modular"
+   ],
+   "synonyms": {},
+   "source": "CS10 OOP, What is Object-Oriented Programming"
+  },
+  {
+   "id": "computer-science-138",
+   "topic": "Object-oriented programming",
+   "type": "flashcard",
+   "question": "What is an object?",
+   "answer": "A unit that bundles state (attributes) and behavior (methods); created from a class.",
+   "keywords": [
+    "state",
+    "attributes",
+    "behavior",
+    "methods"
+   ],
+   "synonyms": {},
+   "source": "CS10 OOP, Objects"
+  },
+  {
+   "id": "computer-science-139",
+   "topic": "Object-oriented programming",
+   "type": "flashcard",
+   "question": "What is a class?",
+   "answer": "A blueprint (template) for creating objects that defines their attributes and methods; a user-defined data type. An object is an instance of a class.",
+   "keywords": [
+    "blueprint",
+    "template",
+    "instance",
+    "user-defined data type"
+   ],
+   "synonyms": {},
+   "source": "CS10 OOP, Classes"
+  },
+  {
+   "id": "computer-science-140",
+   "topic": "Object-oriented programming",
+   "type": "flashcard",
+   "question": "What are attributes and methods?",
+   "answer": "Attributes are the properties that store an object's state, such as balance. Methods are the behaviors, functions bound to the object, such as deposit().",
+   "keywords": [
+    "properties",
+    "state",
+    "behavior",
+    "functions"
+   ],
+   "synonyms": {},
+   "source": "CS10 OOP, Attributes / Methods"
+  },
+  {
+   "id": "computer-science-141",
+   "topic": "Object-oriented programming",
+   "type": "concept",
+   "question": "What is the constructor and what does __init__ do?",
+   "answer": "The constructor is called when an object is created, using the class name with parentheses. In Python it is implemented by the special method __init__, which initializes the attributes.",
+   "keywords": [
+    "constructor",
+    "__init__",
+    "initialize",
+    "attributes"
+   ],
+   "synonyms": {},
+   "source": "CS10 OOP, The __init__() Method"
+  },
+  {
+   "id": "computer-science-142",
+   "topic": "Object-oriented programming",
+   "type": "concept",
+   "question": "What is self?",
+   "answer": "A reference to the current object, the instance being worked with. It is the first parameter of every method and is needed to access attributes and call other methods.",
+   "keywords": [
+    "current object",
+    "first parameter",
+    "attributes"
+   ],
+   "synonyms": {},
+   "source": "CS10 OOP, Why self Matters"
+  },
+  {
+   "id": "computer-science-143",
+   "topic": "Object-oriented programming",
+   "type": "quiz",
+   "question": "In __init__, x = 10 and self.y = 20. What happens with p.x and p.y?",
+   "answer": "p.y gives 20; p.x raises an AttributeError because x is only a local variable, not an attribute.",
+   "keywords": [
+    "attributeerror",
+    "local variable",
+    "self"
+   ],
+   "synonyms": {},
+   "source": "CS10 OOP, Why self Matters"
+  },
+  {
+   "id": "computer-science-144",
+   "topic": "Object-oriented programming",
+   "type": "concept",
+   "question": "What is the difference between a function and a method?",
+   "answer": "A function is defined outside a class with no object reference and called as function(). A method is defined inside a class, bound to an object through self, and called as object.method().",
+   "keywords": [
+    "outside a class",
+    "inside a class",
+    "self",
+    "object"
+   ],
+   "synonyms": {},
+   "source": "CS10 OOP, Functions vs. Methods"
+  },
+  {
+   "id": "computer-science-145",
+   "topic": "Object-oriented programming",
+   "type": "concept",
+   "question": "What are dunder methods? Name two.",
+   "answer": "Special methods with double underscores. __init__ initializes an object; __str__ defines its string representation for print().",
+   "keywords": [
+    "double underscore",
+    "__init__",
+    "__str__"
+   ],
+   "synonyms": {},
+   "source": "CS10 OOP, dunder-Methods in Python"
+  },
+  {
+   "id": "computer-science-146",
+   "topic": "Object-oriented programming",
+   "type": "concept",
+   "question": "How can you make the + operator work for your own class?",
+   "answer": "Implement the special method __add__(self, other); likewise __sub__, __mul__ and __truediv__ for the other operators (operator overloading).",
+   "keywords": [
+    "__add__",
+    "other",
+    "overloading"
+   ],
+   "synonyms": {},
+   "source": "CS10 OOP, Overloading Operators"
+  },
+  {
+   "id": "computer-science-147",
+   "topic": "Object-oriented programming",
+   "type": "flashcard",
+   "question": "What is a UML class diagram?",
+   "answer": "A diagram showing classes with their attributes, methods and the relations between them, e.g. an account has one owner and a customer owns 0..n accounts.",
+   "keywords": [
+    "uml",
+    "classes",
+    "relations",
+    "attributes"
+   ],
+   "synonyms": {},
+   "source": "CS10 OOP, Class Diagrams and Relations Between Classes"
+  },
+  {
+   "id": "computer-science-148",
+   "topic": "Data science",
+   "type": "concept",
+   "question": "What is data science and what are its typical tasks?",
+   "answer": "An interdisciplinary field extracting knowledge from data, combining statistics, mathematics, computer science and domain expertise. Tasks: collecting and preparing, analyzing, visualizing data, and predicting with machine learning.",
+   "keywords": [
+    "interdisciplinary",
+    "statistics",
+    "visualizing",
+    "predictions"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, What is Data Science"
+  },
+  {
+   "id": "computer-science-149",
+   "topic": "Data science",
+   "type": "concept",
+   "question": "Describe the data science workflow for analyzing electricity consumption.",
+   "answer": "Collect and preprocess data (fill missing values, detect outliers), analyze trends such as by hour or weekday and temperature correlation, visualize, and predict future consumption.",
+   "keywords": [
+    "preprocess",
+    "analysis",
+    "visualization",
+    "predictions"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Analyse Electricity Consumption"
+  },
+  {
+   "id": "computer-science-150",
+   "topic": "Data science",
+   "type": "flashcard",
+   "question": "What is NumPy and what is an ndarray?",
+   "answer": "Numerical Python, a library for efficient processing of large numerical datasets; the ndarray is its multidimensional, memory-efficient, fast array.",
+   "keywords": [
+    "numerical",
+    "ndarray",
+    "multidimensional"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, NumPy"
+  },
+  {
+   "id": "computer-science-151",
+   "topic": "Data science",
+   "type": "flashcard",
+   "question": "What does np.random.seed(42) do?",
+   "answer": "It makes random numbers reproducible: the same seed gives the same random output on every run.",
+   "keywords": [
+    "reproducible",
+    "same output"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Test Data Generation"
+  },
+  {
+   "id": "computer-science-152",
+   "topic": "Data science",
+   "type": "concept",
+   "question": "How do you create arrays with zeros, ones and a specific value in NumPy?",
+   "answer": "np.zeros(shape), np.ones(shape) and np.full(shape, value), or np.array from a Python list.",
+   "keywords": [
+    "zeros",
+    "ones",
+    "full",
+    "array"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Creating Arrays"
+  },
+  {
+   "id": "computer-science-153",
+   "topic": "Data science",
+   "type": "concept",
+   "question": "What is the difference between np.arange and np.linspace?",
+   "answer": "arange(start, stop, step) uses a fixed step and excludes stop. linspace(start, stop, count) gives a fixed count of equally spaced values and includes stop.",
+   "keywords": [
+    "step",
+    "count",
+    "excludes",
+    "includes"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Creating Arrays with Ranges of Numbers"
+  },
+  {
+   "id": "computer-science-154",
+   "topic": "Data science",
+   "type": "flashcard",
+   "question": "How do np.random.rand and np.random.randint differ?",
+   "answer": "rand creates random floats in [0, 1) with given dimensions; randint creates random integers in [start, stop) with a given size.",
+   "keywords": [
+    "floats",
+    "integers",
+    "range",
+    "size"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Arrays with Random Numbers"
+  },
+  {
+   "id": "computer-science-155",
+   "topic": "Data science",
+   "type": "concept",
+   "question": "How do arithmetic operations on NumPy arrays behave?",
+   "answer": "They are applied element by element, so a + b adds corresponding entries and a ** 2 squares every element.",
+   "keywords": [
+    "element by element",
+    "arrays"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Arithmetic Operations"
+  },
+  {
+   "id": "computer-science-156",
+   "topic": "Data science",
+   "type": "flashcard",
+   "question": "What are aggregation functions in NumPy?",
+   "answer": "Functions that reduce data to a single summary value: mean, median, sum, min, max, standard deviation.",
+   "keywords": [
+    "reduce",
+    "single value",
+    "mean",
+    "median"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Aggregation Functions"
+  },
+  {
+   "id": "computer-science-157",
+   "topic": "Data science",
+   "type": "concept",
+   "question": "What does the axis argument mean in np.mean(arr, axis=1) on a weeks-by-days array?",
+   "answer": "axis=1 aggregates across the columns of each row, giving one value per row (per week); axis=0 aggregates down the rows, giving one value per column.",
+   "keywords": [
+    "axis 1",
+    "row",
+    "per week",
+    "axis 0"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Applied Example: Weather Data Analysis"
+  },
+  {
+   "id": "computer-science-158",
+   "topic": "Data science",
+   "type": "concept",
+   "question": "How do you find the position of the lowest value in a 2D array of 52 weeks by 7 days?",
+   "answer": "Use np.argmin on the flattened array, then week = index // 7 and day = index % 7.",
+   "keywords": [
+    "argmin",
+    "flattened",
+    "integer division",
+    "modulo"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Applied Example: Weather Data Analysis"
+  },
+  {
+   "id": "computer-science-159",
+   "topic": "Data science",
+   "type": "concept",
+   "question": "How do you count the days above 30 degrees in a NumPy array?",
+   "answer": "np.sum(temperatures > 30): the comparison gives True/False values, and summing counts the Trues.",
+   "keywords": [
+    "comparison",
+    "sum",
+    "true"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Applied Example: Weather Data Analysis"
+  },
+  {
+   "id": "computer-science-160",
+   "topic": "Data science",
+   "type": "flashcard",
+   "question": "What are the dot product operation and the matrix multiplication operator in NumPy?",
+   "answer": "np.dot(a, b) for the scalar product of vectors, and the @ operator for matrix multiplication; .T transposes a matrix.",
+   "keywords": [
+    "np.dot",
+    "@",
+    "transpose"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Linear Algebra Operations"
+  },
+  {
+   "id": "computer-science-161",
+   "topic": "Data science",
+   "type": "flashcard",
+   "question": "What is Matplotlib?",
+   "answer": "A Python plotting library, MATLAB-like, for line plots, bar charts, scatter plots, pie charts and heat maps to find patterns, trends or outliers.",
+   "keywords": [
+    "plotting",
+    "visualization",
+    "line",
+    "scatter"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Matplotlib: Visualizing Data"
+  },
+  {
+   "id": "computer-science-162",
+   "topic": "Data science",
+   "type": "concept",
+   "question": "Which Matplotlib function creates a line plot, scatter plot, bar chart, pie chart and heat map?",
+   "answer": "plt.plot, plt.scatter, plt.bar, plt.pie and plt.imshow (with a colormap and colorbar).",
+   "keywords": [
+    "plot",
+    "scatter",
+    "bar",
+    "pie",
+    "imshow"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Matplotlib: Visualizing Data"
+  },
+  {
+   "id": "computer-science-163",
+   "topic": "Data science",
+   "type": "flashcard",
+   "question": "Which commands label and display a Matplotlib plot?",
+   "answer": "plt.title, plt.xlabel, plt.ylabel, plt.legend (with labels), and plt.show to display it.",
+   "keywords": [
+    "title",
+    "xlabel",
+    "ylabel",
+    "show"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Matplotlib: Visualizing Data"
+  },
+  {
+   "id": "computer-science-164",
+   "topic": "Data science",
+   "type": "concept",
+   "question": "What are Figure, Axes and plot in Matplotlib?",
+   "answer": "The figure is the entire canvas, axes are the coordinate systems within it, and the plot is the graphical elements drawn in the axes. plt.subplots creates a figure with axes.",
+   "keywords": [
+    "figure",
+    "canvas",
+    "axes",
+    "subplots"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Estimation of Pi: Visualization"
+  },
+  {
+   "id": "computer-science-165",
+   "topic": "Data science",
+   "type": "flashcard",
+   "question": "What does add_patch do?",
+   "answer": "Adds geometric shapes (circle, rectangle, polygon, ellipse) from matplotlib.patches to an axes.",
+   "keywords": [
+    "shapes",
+    "patches",
+    "axes"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Matplotlib: Geometric Shapes (Patches)"
+  },
+  {
+   "id": "computer-science-166",
+   "topic": "Data science",
+   "type": "concept",
+   "question": "Explain the Monte Carlo estimation of pi in the exercise.",
+   "answer": "Throw random points into a unit square and count those inside the inscribed circle. The ratio of circle area to square area is pi/4, so pi is about 4 times points inside divided by total points.",
+   "keywords": [
+    "random points",
+    "circle",
+    "pi/4",
+    "ratio"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Exercise: Estimation of Pi"
+  },
+  {
+   "id": "computer-science-167",
+   "topic": "Data science",
+   "type": "flashcard",
+   "question": "What is pandas and what are its core data structures?",
+   "answer": "An open-source library for data analysis and manipulation of tabular data; its core structures are Series (one-dimensional) and DataFrame (two-dimensional table).",
+   "keywords": [
+    "tabular",
+    "series",
+    "dataframe"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Pandas: Core Data Structures"
+  },
+  {
+   "id": "computer-science-168",
+   "topic": "Data science",
+   "type": "flashcard",
+   "question": "In which ways can you create a DataFrame?",
+   "answer": "From a dictionary (keys are column names), from a list of lists with column names, from a list of dictionaries (one per row), or from a CSV file with pd.read_csv.",
+   "keywords": [
+    "dictionary",
+    "list of lists",
+    "read_csv"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Pandas: Creating a DataFrame"
+  },
+  {
+   "id": "computer-science-169",
+   "topic": "Data science",
+   "type": "flashcard",
+   "question": "What does CSV stand for and how is it structured?",
+   "answer": "Comma Separated Values: each row is one record, values are separated by a delimiter (comma or semicolon), and the first row holds the column names.",
+   "keywords": [
+    "comma separated",
+    "delimiter",
+    "first row"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Pandas: Creating a DataFrame"
+  },
+  {
+   "id": "computer-science-170",
+   "topic": "Data science",
+   "type": "flashcard",
+   "question": "What do head(), info() and describe() show?",
+   "answer": "head shows the first rows, info shows columns, non-null counts, types and memory, describe shows statistics of numeric columns.",
+   "keywords": [
+    "head",
+    "info",
+    "describe",
+    "statistics"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Pandas DataFrame - Data Preview"
+  },
+  {
+   "id": "computer-science-171",
+   "topic": "Data science",
+   "type": "concept",
+   "question": "How do you filter a DataFrame for rows with age above 18 in Munich?",
+   "answer": "Use boolean masks combined with &: df[(df['Age'] > 18) & (df['City'] == 'Munich')]. Rows are accessed by position with iloc.",
+   "keywords": [
+    "boolean mask",
+    "&",
+    "iloc"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Pandas: Data Access and Filtering"
+  },
+  {
+   "id": "computer-science-172",
+   "topic": "Data science",
+   "type": "concept",
+   "question": "How do you compute the average age per city and find the city with the highest average?",
+   "answer": "df.groupby('City')['Age'].mean() gives a Series; idxmax() returns the city with the highest value, max() the value.",
+   "keywords": [
+    "groupby",
+    "mean",
+    "idxmax"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Pandas: Grouping and Extending Data"
+  },
+  {
+   "id": "computer-science-173",
+   "topic": "Data science",
+   "type": "concept",
+   "question": "How do you add a new column to a DataFrame based on another column?",
+   "answer": "Assign with apply and a lambda, e.g. df['Adult'] = df['Age'].apply(lambda x: 'yes' if x > 18 else 'no'), or create a default column and modify values with df.loc.",
+   "keywords": [
+    "apply",
+    "lambda",
+    "loc"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Pandas: Grouping and Extending Data"
+  },
+  {
+   "id": "computer-science-174",
+   "topic": "Data science",
+   "type": "flashcard",
+   "question": "How do you save a DataFrame to CSV and what does index=False do?",
+   "answer": "df.to_csv(filename, index=False). index=False stops row numbers being written; encoding utf-8-sig is recommended for Excel.",
+   "keywords": [
+    "to_csv",
+    "index=False",
+    "utf-8-sig"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Pandas: Saving Data to Files"
+  },
+  {
+   "id": "computer-science-175",
+   "topic": "Data science",
+   "type": "concept",
+   "question": "How can pandas plot data directly?",
+   "answer": "DataFrame.plot() and Series.plot() use Matplotlib internally; the kind argument selects line, bar, hist or pie, and the index is used for the x-axis.",
+   "keywords": [
+    "plot",
+    "kind",
+    "matplotlib",
+    "index"
+   ],
+   "synonyms": {},
+   "source": "CS11 Data Science, Data Visualization with pandas"
+  }
+ ]
+}

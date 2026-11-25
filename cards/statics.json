@@ -1,0 +1,2421 @@
+{
+ "course": "Statics for Renewable Energies and Energy Systems",
+ "cards": [
+  {
+   "id": "statics-001",
+   "topic": "Forces and Units",
+   "type": "flashcard",
+   "question": "What three properties characterise a force?",
+   "answer": "Point of application, direction (line of action and sense), and magnitude.",
+   "keywords": [
+    "point of application",
+    "direction",
+    "magnitude"
+   ],
+   "synonyms": {
+    "point of application": [
+     "application point"
+    ],
+    "direction": [
+     "line of action",
+     "sense"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.1.3"
+  },
+  {
+   "id": "statics-002",
+   "topic": "Forces and Units",
+   "type": "flashcard",
+   "question": "What is the SI unit of force and how is it defined?",
+   "answer": "The newton, N = kg·m/s², from Newton's second law F = m·a.",
+   "keywords": [
+    "newton",
+    "mass",
+    "acceleration"
+   ],
+   "synonyms": {
+    "newton": [
+     "N"
+    ],
+    "acceleration": [
+     "m per s squared"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.1.2"
+  },
+  {
+   "id": "statics-003",
+   "topic": "Forces and Units",
+   "type": "flashcard",
+   "question": "How is the weight force of a body defined?",
+   "answer": "F_G = m·g, mass times acceleration due to gravity (9.81 or about 10 m/s²), acting at the center of gravity.",
+   "keywords": [
+    "mass",
+    "gravity",
+    "center of gravity"
+   ],
+   "synonyms": {
+    "center of gravity": [
+     "centre of gravity",
+     "centre of mass"
+    ],
+    "gravity": [
+     "g",
+     "gravitational acceleration"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.1.2/2.1.3"
+  },
+  {
+   "id": "statics-004",
+   "topic": "Forces and Units",
+   "type": "concept",
+   "question": "Why can forces not be observed directly, and how do we notice them?",
+   "answer": "Only their effects can be observed, such as deformation or motion.",
+   "keywords": [
+    "effects",
+    "deformation",
+    "motion"
+   ],
+   "synonyms": {
+    "deformation": [
+     "deforms",
+     "stretching"
+    ],
+    "motion": [
+     "movement",
+     "acceleration"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.1.1"
+  },
+  {
+   "id": "statics-005",
+   "topic": "Forces and Units",
+   "type": "flashcard",
+   "question": "What is a bound vector versus a sliding vector for forces?",
+   "answer": "A force defined by point of application, direction and magnitude is a bound vector; on a rigid body it acts as a sliding vector that can move along its line of action.",
+   "keywords": [
+    "bound vector",
+    "sliding vector",
+    "line of action"
+   ],
+   "synonyms": {
+    "sliding vector": [
+     "slide along"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.1.3-2.1.4"
+  },
+  {
+   "id": "statics-006",
+   "topic": "Forces and Units",
+   "type": "concept",
+   "question": "What is a rigid body and what does it imply for forces?",
+   "answer": "A body that does not deform under forces; a force's effect is unchanged if its point of application is moved along its line of action.",
+   "keywords": [
+    "does not deform",
+    "line of action",
+    "effect unchanged"
+   ],
+   "synonyms": {
+    "does not deform": [
+     "no deformation",
+     "undeformable"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.1.4"
+  },
+  {
+   "id": "statics-007",
+   "topic": "Forces and Units",
+   "type": "flashcard",
+   "question": "What is the difference between volume forces and area forces?",
+   "answer": "Volume forces act throughout the body's volume (gravity, magnetic, electric); area forces act over a contact area (pressure of a body or fluid).",
+   "keywords": [
+    "volume forces",
+    "area forces",
+    "contact area"
+   ],
+   "synonyms": {
+    "volume forces": [
+     "body forces"
+    ],
+    "area forces": [
+     "surface forces"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.1.4 Classification"
+  },
+  {
+   "id": "statics-008",
+   "topic": "Forces and Units",
+   "type": "flashcard",
+   "question": "What is a concentrated force and what is a line load?",
+   "answer": "A concentrated force acts at a single point (an idealisation); a line load is a 2D model of a force distributed over an area.",
+   "keywords": [
+    "single point",
+    "idealization",
+    "distributed"
+   ],
+   "synonyms": {
+    "single point": [
+     "one point"
+    ],
+    "idealization": [
+     "idealisation",
+     "simplification"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.1.4 Classification"
+  },
+  {
+   "id": "statics-009",
+   "topic": "Forces and Units",
+   "type": "flashcard",
+   "question": "What does Newton's third law state and why is it needed in statics?",
+   "answer": "For every action there is an equal and opposite reaction; it gives the reaction forces when a body is isolated from its surroundings.",
+   "keywords": [
+    "action",
+    "reaction",
+    "opposite"
+   ],
+   "synonyms": {
+    "reaction": [
+     "counterforce"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.1.5"
+  },
+  {
+   "id": "statics-010",
+   "topic": "Forces and Units",
+   "type": "concept",
+   "question": "What does it mean to isolate or cut free a body?",
+   "answer": "Separate the body from its surroundings and replace supports and constraints by their reaction forces, giving the free-body diagram.",
+   "keywords": [
+    "isolate",
+    "reaction forces",
+    "free-body diagram"
+   ],
+   "synonyms": {
+    "free-body diagram": [
+     "free body diagram",
+     "free cut"
+    ],
+    "isolate": [
+     "cut free",
+     "separate"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.1.5"
+  },
+  {
+   "id": "statics-011",
+   "topic": "Forces and Units",
+   "type": "flashcard",
+   "question": "Name the SI prefixes kilo, Mega, milli, micro.",
+   "answer": "kilo is 10^3, Mega 10^6, milli 10^-3, micro 10^-6.",
+   "keywords": [
+    "10^3",
+    "10^6",
+    "10^-3",
+    "10^-6"
+   ],
+   "synonyms": {
+    "10^3": [
+     "thousand",
+     "1000"
+    ],
+    "10^6": [
+     "million"
+    ],
+    "10^-3": [
+     "thousandth"
+    ],
+    "10^-6": [
+     "millionth"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.1.6"
+  },
+  {
+   "id": "statics-012",
+   "topic": "Forces and Units",
+   "type": "flashcard",
+   "question": "What are the SI units of moment, energy and pressure in terms of N?",
+   "answer": "Moment N·m, energy J = N·m, pressure Pa = N/m².",
+   "keywords": [
+    "N·m",
+    "joule",
+    "pascal"
+   ],
+   "synonyms": {
+    "N·m": [
+     "newton metre",
+     "newton meter"
+    ],
+    "joule": [
+     "J"
+    ],
+    "pascal": [
+     "Pa",
+     "N per square metre"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.1.6"
+  },
+  {
+   "id": "statics-013",
+   "topic": "Forces with a Common Point of Application",
+   "type": "concept",
+   "question": "How can two forces with a common point of application be combined graphically?",
+   "answer": "Using the parallelogram law: the resultant is the diagonal of the parallelogram formed by the two forces.",
+   "keywords": [
+    "parallelogram",
+    "resultant",
+    "diagonal"
+   ],
+   "synonyms": {
+    "parallelogram": [
+     "parallelogram law"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.2.1"
+  },
+  {
+   "id": "statics-014",
+   "topic": "Forces with a Common Point of Application",
+   "type": "concept",
+   "question": "How is the resultant of several forces with a common point found graphically?",
+   "answer": "Draw the forces head-to-tail in a force plan to scale; the resultant runs from the start to the end of the force polygon, in any order.",
+   "keywords": [
+    "head-to-tail",
+    "force polygon",
+    "scale"
+   ],
+   "synonyms": {
+    "head-to-tail": [
+     "tip to tail",
+     "head to tail"
+    ],
+    "force polygon": [
+     "force plan"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.2.1"
+  },
+  {
+   "id": "statics-015",
+   "topic": "Forces with a Common Point of Application",
+   "type": "flashcard",
+   "question": "What is the difference between a layout plan and a force plan?",
+   "answer": "The layout plan shows the geometry (lines of action, angles, dimensions) to scale; the force plan shows the force vectors to scale head-to-tail.",
+   "keywords": [
+    "layout plan",
+    "force plan",
+    "scale"
+   ],
+   "synonyms": {
+    "layout plan": [
+     "geometry"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.2.1"
+  },
+  {
+   "id": "statics-016",
+   "topic": "Forces with a Common Point of Application",
+   "type": "concept",
+   "question": "How do you find a resultant analytically for forces with a common point?",
+   "answer": "Resolve each force into x and y components, sum the components separately, then get magnitude by Pythagoras and direction from the arctangent of the component ratio.",
+   "keywords": [
+    "components",
+    "sum",
+    "Pythagoras",
+    "angle"
+   ],
+   "synonyms": {
+    "components": [
+     "Cartesian components",
+     "resolve"
+    ],
+    "Pythagoras": [
+     "square root",
+     "root of sum of squares"
+    ],
+    "angle": [
+     "tangent",
+     "direction",
+     "arctan"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.2.2"
+  },
+  {
+   "id": "statics-017",
+   "topic": "Forces with a Common Point of Application",
+   "type": "flashcard",
+   "question": "How are the Cartesian components of a force related to its magnitude and angle?",
+   "answer": "F_x = F cos α and F_y = F sin α, with F the square root of F_x² plus F_y² and tan α = F_y/F_x.",
+   "keywords": [
+    "cosine",
+    "sine",
+    "angle"
+   ],
+   "synonyms": {
+    "cosine": [
+     "cos"
+    ],
+    "sine": [
+     "sin"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.2.2"
+  },
+  {
+   "id": "statics-018",
+   "topic": "Forces with a Common Point of Application",
+   "type": "flashcard",
+   "question": "What do the signs of force components mean?",
+   "answer": "A component is positive if it acts in the positive coordinate direction and negative if it acts in the opposite direction.",
+   "keywords": [
+    "sign",
+    "positive direction",
+    "negative"
+   ],
+   "synonyms": {
+    "positive direction": [
+     "positive coordinate"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.2.2"
+  },
+  {
+   "id": "statics-019",
+   "topic": "Forces with a Common Point of Application",
+   "type": "concept",
+   "question": "What is the equilibrium condition for forces with a common point of application?",
+   "answer": "The vector sum of all forces is zero; the force polygon is closed; in 2D the sums of x and y components are each zero.",
+   "keywords": [
+    "sum",
+    "zero",
+    "force polygon closed"
+   ],
+   "synonyms": {
+    "force polygon closed": [
+     "closed polygon",
+     "polygon closes"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.2.3"
+  },
+  {
+   "id": "statics-020",
+   "topic": "Forces with a Common Point of Application",
+   "type": "flashcard",
+   "question": "How many unknowns can be found for a concurrent coplanar force system in equilibrium?",
+   "answer": "Two, because there are two equilibrium conditions: sum of F_x and sum of F_y equal zero.",
+   "keywords": [
+    "two",
+    "unknowns",
+    "force equations"
+   ],
+   "synonyms": {
+    "two": [
+     "2"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.2.3"
+  },
+  {
+   "id": "statics-021",
+   "topic": "Forces with a Common Point of Application",
+   "type": "flashcard",
+   "question": "What does Newton's first law say about equilibrium?",
+   "answer": "A body at rest remains at rest if the resultant force acting on it is zero.",
+   "keywords": [
+    "rest",
+    "resultant",
+    "zero"
+   ],
+   "synonyms": {
+    "rest": [
+     "equilibrium"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.2.3"
+  },
+  {
+   "id": "statics-022",
+   "topic": "Forces with a Common Point of Application",
+   "type": "flashcard",
+   "question": "What properties does an ideal rope or cable have?",
+   "answer": "Its length greatly exceeds its cross-section and it transmits only tensile force along its axis.",
+   "keywords": [
+    "tensile",
+    "axis",
+    "length"
+   ],
+   "synonyms": {
+    "tensile": [
+     "tension",
+     "pull only"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.2.4"
+  },
+  {
+   "id": "statics-023",
+   "topic": "Forces with a Common Point of Application",
+   "type": "concept",
+   "question": "How do the forces on both sides of a cable over a frictionless pulley compare, and what acts on the pulley bearing?",
+   "answer": "They are equal in magnitude; the resultant of the two cable forces, found by the parallelogram law, acts on the bearing.",
+   "keywords": [
+    "equal",
+    "friction",
+    "resultant"
+   ],
+   "synonyms": {
+    "friction": [
+     "frictionless",
+     "no friction"
+    ],
+    "resultant": [
+     "parallelogram"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.2.4"
+  },
+  {
+   "id": "statics-024",
+   "topic": "Forces with a Common Point of Application",
+   "type": "concept",
+   "question": "Which method applies to a force system where several ropes meet at a point with a given load, such as a cable-car cabin?",
+   "answer": "Free-body diagram of the connection point, then force equilibrium in x and y; the cable inclinations determine how the load splits.",
+   "keywords": [
+    "free-body diagram",
+    "equilibrium",
+    "components"
+   ],
+   "synonyms": {
+    "equilibrium": [
+     "sum of forces zero"
+    ],
+    "components": [
+     "x and y"
+    ]
+   },
+   "source": "2627_STATICS Exercises Problem 1.1.9"
+  },
+  {
+   "id": "statics-025",
+   "topic": "Forces with a Common Point of Application",
+   "type": "concept",
+   "question": "How do you find the rope forces needed to pull a sledge with a given force in x-direction with two ropes at angles?",
+   "answer": "Resolve both rope forces into components; require the y-components to cancel and the x-components to sum to the given pull.",
+   "keywords": [
+    "components",
+    "y-components cancel",
+    "sum x"
+   ],
+   "synonyms": {
+    "components": [
+     "resolve"
+    ],
+    "y-components cancel": [
+     "vertical cancel",
+     "y sum zero"
+    ]
+   },
+   "source": "2627_STATICS Exercises Problem 1.1.7"
+  },
+  {
+   "id": "statics-026",
+   "topic": "Forces with a Common Point of Application",
+   "type": "concept",
+   "question": "What is the idea behind a toggle press and its amplification factor?",
+   "answer": "A small force on a joint is amplified through shallow bar angles; the joint is in equilibrium so force equilibrium gives the output force, and the amplification factor is output force over input force.",
+   "keywords": [
+    "equilibrium",
+    "joint",
+    "ratio"
+   ],
+   "synonyms": {
+    "ratio": [
+     "output over input",
+     "divided"
+    ],
+    "joint": [
+     "node"
+    ]
+   },
+   "source": "2627_STATICS Exercises Problem 1.1.8"
+  },
+  {
+   "id": "statics-027",
+   "topic": "Forces with a Common Point of Application",
+   "type": "concept",
+   "question": "When is the resultant force of a system required to have no vertical component, and how can you achieve this?",
+   "answer": "Set the sum of the vertical components to zero; then adjust either the magnitude or the direction of one force to satisfy it.",
+   "keywords": [
+    "vertical components",
+    "sum zero",
+    "adjust"
+   ],
+   "synonyms": {
+    "vertical components": [
+     "y-components"
+    ],
+    "adjust": [
+     "magnitude",
+     "angle"
+    ]
+   },
+   "source": "2627_STATICS Exercises Problem 1.1.2"
+  },
+  {
+   "id": "statics-028",
+   "topic": "Forces with a Common Point of Application",
+   "type": "concept",
+   "question": "How do you determine force and direction needed in a pulley exercise machine lifting a mass?",
+   "answer": "The rope tension equals the weight force; use equilibrium at the pulley and rope junction to get the pulling force and angle, neglecting pulley diameters.",
+   "keywords": [
+    "rope tension",
+    "equilibrium",
+    "weight"
+   ],
+   "synonyms": {
+    "weight": [
+     "mass times g"
+    ],
+    "equilibrium": [
+     "force balance"
+    ]
+   },
+   "source": "2627_STATICS Exercises Problem 1.1.13"
+  },
+  {
+   "id": "statics-029",
+   "topic": "Moments and Couples",
+   "type": "flashcard",
+   "question": "What is the lever principle for parallel forces?",
+   "answer": "A rigid body under parallel forces is in equilibrium when h1·F1 equals h2·F2, i.e. the moments balance.",
+   "keywords": [
+    "lever",
+    "distance",
+    "moments balance"
+   ],
+   "synonyms": {
+    "distance": [
+     "lever arm",
+     "perpendicular distance"
+    ],
+    "moments balance": [
+     "moments equal",
+     "equal moments"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.3"
+  },
+  {
+   "id": "statics-030",
+   "topic": "Moments and Couples",
+   "type": "flashcard",
+   "question": "How is the moment of a force about a point defined?",
+   "answer": "Force times the perpendicular distance between its line of action and the reference point: |M_A| = F·h.",
+   "keywords": [
+    "force",
+    "perpendicular distance",
+    "reference point"
+   ],
+   "synonyms": {
+    "perpendicular distance": [
+     "lever arm",
+     "h"
+    ],
+    "reference point": [
+     "point A",
+     "pivot"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.3"
+  },
+  {
+   "id": "statics-031",
+   "topic": "Moments and Couples",
+   "type": "flashcard",
+   "question": "What is the sign convention for moments in this course?",
+   "answer": "Counterclockwise moments are positive.",
+   "keywords": [
+    "counterclockwise",
+    "positive"
+   ],
+   "synonyms": {
+    "counterclockwise": [
+     "anticlockwise",
+     "ccw"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.3"
+  },
+  {
+   "id": "statics-032",
+   "topic": "Moments and Couples",
+   "type": "flashcard",
+   "question": "What are the SI unit and the three characteristics of a moment?",
+   "answer": "N·m; magnitude F·h, sense of rotation, and reference point.",
+   "keywords": [
+    "N·m",
+    "magnitude",
+    "sense of rotation",
+    "reference point"
+   ],
+   "synonyms": {
+    "N·m": [
+     "newton metre"
+    ],
+    "sense of rotation": [
+     "direction of rotation"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.3, 2.4.3"
+  },
+  {
+   "id": "statics-033",
+   "topic": "Moments and Couples",
+   "type": "concept",
+   "question": "What is a couple?",
+   "answer": "Two parallel forces of equal magnitude acting in opposite directions.",
+   "keywords": [
+    "parallel",
+    "equal magnitude",
+    "opposite"
+   ],
+   "synonyms": {
+    "opposite": [
+     "opposing"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.4.1"
+  },
+  {
+   "id": "statics-034",
+   "topic": "Moments and Couples",
+   "type": "concept",
+   "question": "What are the key properties of a couple?",
+   "answer": "Resultant force is zero, so no translation; its moment is independent of the reference point; it is a free vector.",
+   "keywords": [
+    "resultant force zero",
+    "independent of reference point",
+    "free vector"
+   ],
+   "synonyms": {
+    "resultant force zero": [
+     "no translation",
+     "zero resultant"
+    ],
+    "free vector": [
+     "free moment"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.4.1"
+  },
+  {
+   "id": "statics-035",
+   "topic": "Moments and Couples",
+   "type": "flashcard",
+   "question": "Give examples of couples.",
+   "answer": "Cross wrench, bicycle handlebar, steering wheel.",
+   "keywords": [
+    "cross wrench",
+    "handlebar",
+    "steering wheel"
+   ],
+   "synonyms": {
+    "cross wrench": [
+     "wheel wrench"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.4.1"
+  },
+  {
+   "id": "statics-036",
+   "topic": "Moments and Couples",
+   "type": "concept",
+   "question": "How can a force be moved parallel to its line of action to another point without changing its effect?",
+   "answer": "Add the equivalent couple moment M = F·h about the new point, or add a force pair F and -F.",
+   "keywords": [
+    "couple moment",
+    "F times h",
+    "statically equivalent"
+   ],
+   "synonyms": {
+    "couple moment": [
+     "moment",
+     "couple"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.4.2"
+  },
+  {
+   "id": "statics-037",
+   "topic": "Moments and Couples",
+   "type": "concept",
+   "question": "How is a moment represented and what is the right-hand rule?",
+   "answer": "By a curved arrow in the plane or a double-headed vector perpendicular to the plane; thumb along +z, fingers curl in the positive sense of rotation.",
+   "keywords": [
+    "perpendicular",
+    "right-hand rule",
+    "thumb"
+   ],
+   "synonyms": {
+    "right-hand rule": [
+     "right hand rule"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.4.3"
+  },
+  {
+   "id": "statics-038",
+   "topic": "General Systems of Forces and Equilibrium",
+   "type": "concept",
+   "question": "How can a general system of coplanar forces be reduced?",
+   "answer": "To a resultant force (sum of components) and a resultant moment about a chosen reference point.",
+   "keywords": [
+    "resultant force",
+    "resultant moment",
+    "reference point"
+   ],
+   "synonyms": {
+    "resultant moment": [
+     "sum of moments"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.4.4"
+  },
+  {
+   "id": "statics-039",
+   "topic": "General Systems of Forces and Equilibrium",
+   "type": "concept",
+   "question": "How do you move each force to a reference point when reducing a force system?",
+   "answer": "Shift each force parallel to its line of action through the point and add its moment about that point, to stay statically equivalent.",
+   "keywords": [
+    "parallel",
+    "add moment",
+    "reference point"
+   ],
+   "synonyms": {
+    "add moment": [
+     "couple moment",
+     "moment about point"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.4.4"
+  },
+  {
+   "id": "statics-040",
+   "topic": "General Systems of Forces and Equilibrium",
+   "type": "concept",
+   "question": "How can resultant force and resultant moment be combined into a single force?",
+   "answer": "Shift the line of action of the resultant by distance h = M_R,A / F_R so its moment equals M_A.",
+   "keywords": [
+    "distance",
+    "moment",
+    "resultant force"
+   ],
+   "synonyms": {
+    "distance": [
+     "h",
+     "shift line of action"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.4.4"
+  },
+  {
+   "id": "statics-041",
+   "topic": "General Systems of Forces and Equilibrium",
+   "type": "concept",
+   "question": "What are the equilibrium conditions of a rigid body under a general coplanar force system?",
+   "answer": "Sum of F_x, sum of F_y and sum of moments about any point are all zero.",
+   "keywords": [
+    "sum F_x zero",
+    "sum F_y zero",
+    "sum of moments zero"
+   ],
+   "synonyms": {
+    "sum F_x zero": [
+     "horizontal forces"
+    ],
+    "sum F_y zero": [
+     "vertical forces"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.4.5"
+  },
+  {
+   "id": "statics-042",
+   "topic": "General Systems of Forces and Equilibrium",
+   "type": "flashcard",
+   "question": "Why are there exactly three equilibrium conditions in the plane?",
+   "answer": "A rigid body in the plane has three degrees of freedom: two translations and one rotation.",
+   "keywords": [
+    "three degrees of freedom",
+    "two translations",
+    "rotation"
+   ],
+   "synonyms": {
+    "three degrees of freedom": [
+     "3 degrees of freedom"
+    ],
+    "translations": [
+     "translation"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.4.5"
+  },
+  {
+   "id": "statics-043",
+   "topic": "General Systems of Forces and Equilibrium",
+   "type": "concept",
+   "question": "What alternative sets of three equations can be used for planar equilibrium?",
+   "answer": "Two force equations plus one moment; one force equation plus two moment equations about different points; or three moment equations about three non-collinear points.",
+   "keywords": [
+    "two force one moment",
+    "two moments",
+    "three moments",
+    "non-collinear"
+   ],
+   "synonyms": {
+    "non-collinear": [
+     "not on a line"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.4.5"
+  },
+  {
+   "id": "statics-044",
+   "topic": "General Systems of Forces and Equilibrium",
+   "type": "flashcard",
+   "question": "Can the reference point for the moment equation be chosen freely?",
+   "answer": "Yes; choosing it smartly, for example where unknown forces intersect, simplifies the equations.",
+   "keywords": [
+    "arbitrary",
+    "reference point",
+    "unknowns"
+   ],
+   "synonyms": {
+    "arbitrary": [
+     "any",
+     "freely"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.4.5"
+  },
+  {
+   "id": "statics-045",
+   "topic": "General Systems of Forces and Equilibrium",
+   "type": "concept",
+   "question": "How do you find axle loads of a mobile crane and when it tips over?",
+   "answer": "Moment equilibrium about an axle gives the other axle load; tipping occurs when the reaction at the lifted-side axle becomes zero.",
+   "keywords": [
+    "moment equilibrium",
+    "axle",
+    "reaction zero"
+   ],
+   "synonyms": {
+    "reaction zero": [
+     "force zero",
+     "becomes zero"
+    ]
+   },
+   "source": "2627_STATICS Exercises Problem 1.2.1"
+  },
+  {
+   "id": "statics-046",
+   "topic": "Structural Elements and Mechanical Model",
+   "type": "concept",
+   "question": "What simplifications are used in a mechanical model?",
+   "answer": "Rigid bodies, concentrated masses, symmetry, massless components, and neglecting friction.",
+   "keywords": [
+    "rigid bodies",
+    "massless",
+    "symmetry",
+    "friction"
+   ],
+   "synonyms": {
+    "friction": [
+     "neglect friction"
+    ]
+   },
+   "source": "03 STATICS Structures 3.1"
+  },
+  {
+   "id": "statics-047",
+   "topic": "Structural Elements and Mechanical Model",
+   "type": "flashcard",
+   "question": "What defines a tensile member and what can it carry?",
+   "answer": "Length much greater than cross-section (ratio over 10); it carries only tensile forces along its axis, e.g. rope, chain, cable.",
+   "keywords": [
+    "length",
+    "tensile only",
+    "rope"
+   ],
+   "synonyms": {
+    "tensile only": [
+     "tension only"
+    ],
+    "rope": [
+     "cable",
+     "chain",
+     "wire"
+    ]
+   },
+   "source": "03 STATICS Structures 3.2"
+  },
+  {
+   "id": "statics-048",
+   "topic": "Structural Elements and Mechanical Model",
+   "type": "flashcard",
+   "question": "What is a bar or rod?",
+   "answer": "A slender element with length over 10 times the cross-section that transmits axial tensile and compressive forces, usually pinned at both ends.",
+   "keywords": [
+    "axial",
+    "tensile and compressive",
+    "joints at both ends"
+   ],
+   "synonyms": {
+    "axial": [
+     "longitudinal"
+    ],
+    "joints at both ends": [
+     "pinned"
+    ]
+   },
+   "source": "03 STATICS Structures 3.2"
+  },
+  {
+   "id": "statics-049",
+   "topic": "Structural Elements and Mechanical Model",
+   "type": "concept",
+   "question": "What is a pendulum rod?",
+   "answer": "A rod connected by two joints at its ends with forces acting only there; the forces are equal, opposite and along the line through both joints.",
+   "keywords": [
+    "two joints",
+    "axial",
+    "line of action through joints"
+   ],
+   "synonyms": {
+    "two joints": [
+     "both ends"
+    ],
+    "axial": [
+     "normal force only"
+    ]
+   },
+   "source": "03 STATICS Structures 3.2"
+  },
+  {
+   "id": "statics-050",
+   "topic": "Structural Elements and Mechanical Model",
+   "type": "concept",
+   "question": "Why does a pendulum rod carry only axial force?",
+   "answer": "Equilibrium of forces and moments with loads only at the two joints forces equal and opposite forces along the line connecting them; no shear.",
+   "keywords": [
+    "moment equilibrium",
+    "equal and opposite",
+    "no shear"
+   ],
+   "synonyms": {
+    "no shear": [
+     "no transverse"
+    ]
+   },
+   "source": "03 STATICS Structures 3.2"
+  },
+  {
+   "id": "statics-051",
+   "topic": "Structural Elements and Mechanical Model",
+   "type": "flashcard",
+   "question": "Give examples of pendulum rods.",
+   "answer": "Torque arm, push rod, connecting rod, tension or compression spring.",
+   "keywords": [
+    "torque arm",
+    "push rod",
+    "connecting rod"
+   ],
+   "synonyms": {
+    "push rod": [
+     "pushrod"
+    ]
+   },
+   "source": "03 STATICS Structures 3.2"
+  },
+  {
+   "id": "statics-052",
+   "topic": "Structural Elements and Mechanical Model",
+   "type": "flashcard",
+   "question": "What is a beam, and how does it differ from a rod?",
+   "answer": "A slender element that can take loads in both longitudinal and transverse directions; a rod takes only axial loads.",
+   "keywords": [
+    "transverse",
+    "longitudinal",
+    "slender"
+   ],
+   "synonyms": {
+    "transverse": [
+     "perpendicular loads"
+    ]
+   },
+   "source": "03 STATICS Structures 3.2"
+  },
+  {
+   "id": "statics-053",
+   "topic": "Structural Elements and Mechanical Model",
+   "type": "flashcard",
+   "question": "What is a frame?",
+   "answer": "Beams connected rigidly, for example welded, bonded or bolted.",
+   "keywords": [
+    "beams",
+    "rigidly",
+    "welded"
+   ],
+   "synonyms": {
+    "rigidly": [
+     "rigid connection"
+    ]
+   },
+   "source": "03 STATICS Structures 3.2"
+  },
+  {
+   "id": "statics-054",
+   "topic": "Bearings and Joints",
+   "type": "concept",
+   "question": "What are the two functions of a bearing or joint?",
+   "answer": "Kinematic: restricting motion; static: transmitting forces and moments.",
+   "keywords": [
+    "restrict motion",
+    "transmit forces"
+   ],
+   "synonyms": {
+    "restrict motion": [
+     "kinematic",
+     "constraint"
+    ],
+    "transmit forces": [
+     "static",
+     "reaction"
+    ]
+   },
+   "source": "03 STATICS Structures 3.3"
+  },
+  {
+   "id": "statics-055",
+   "topic": "Bearings and Joints",
+   "type": "flashcard",
+   "question": "How many degrees of freedom does a free rigid body have in the plane?",
+   "answer": "Three: translation in x, translation in y and rotation about z.",
+   "keywords": [
+    "three",
+    "translation",
+    "rotation"
+   ],
+   "synonyms": {
+    "three": [
+     "3"
+    ]
+   },
+   "source": "03 STATICS Structures 3.3"
+  },
+  {
+   "id": "statics-056",
+   "topic": "Bearings and Joints",
+   "type": "concept",
+   "question": "What is the link between restrained degrees of freedom and reactions?",
+   "answer": "Each restrained degree of freedom gives one reaction force or moment in the free-body diagram.",
+   "keywords": [
+    "restrained",
+    "reaction",
+    "free-body diagram"
+   ],
+   "synonyms": {
+    "restrained": [
+     "blocked",
+     "constrained"
+    ]
+   },
+   "source": "03 STATICS Structures 3.3"
+  },
+  {
+   "id": "statics-057",
+   "topic": "Bearings and Joints",
+   "type": "concept",
+   "question": "Describe the movable support (roller, floating bearing).",
+   "answer": "Allows displacement parallel to the surface and rotation; transmits only a force perpendicular to the surface; one reaction.",
+   "keywords": [
+    "perpendicular",
+    "one reaction",
+    "rotation allowed"
+   ],
+   "synonyms": {
+    "one reaction": [
+     "1",
+     "single"
+    ]
+   },
+   "source": "03 STATICS Structures 3.3"
+  },
+  {
+   "id": "statics-058",
+   "topic": "Bearings and Joints",
+   "type": "concept",
+   "question": "Describe the fixed support (hinged, locating bearing).",
+   "answer": "Restrains both translations but allows rotation; transmits forces in x and y; two reactions.",
+   "keywords": [
+    "two reactions",
+    "rotation allowed",
+    "no displacement"
+   ],
+   "synonyms": {
+    "two reactions": [
+     "2 reactions"
+    ]
+   },
+   "source": "03 STATICS Structures 3.3"
+  },
+  {
+   "id": "statics-059",
+   "topic": "Bearings and Joints",
+   "type": "concept",
+   "question": "Describe the clamped support.",
+   "answer": "Restrains both translations and rotation; transmits two forces and a moment; three reactions.",
+   "keywords": [
+    "three reactions",
+    "moment",
+    "clamped"
+   ],
+   "synonyms": {
+    "three reactions": [
+     "3 reactions"
+    ],
+    "clamped": [
+     "rigid clamping",
+     "fixed end"
+    ]
+   },
+   "source": "03 STATICS Structures 3.3"
+  },
+  {
+   "id": "statics-060",
+   "topic": "Bearings and Joints",
+   "type": "concept",
+   "question": "Describe the guided (slider) support.",
+   "answer": "Restrains displacement perpendicular to the rail and rotation; transmits a force perpendicular to the rail and a moment; two reactions.",
+   "keywords": [
+    "perpendicular",
+    "moment",
+    "two reactions"
+   ],
+   "synonyms": {
+    "two reactions": [
+     "2 reactions"
+    ]
+   },
+   "source": "03 STATICS Structures 3.3"
+  },
+  {
+   "id": "statics-061",
+   "topic": "Bearings and Joints",
+   "type": "concept",
+   "question": "Describe a hinge or joint and how many reactions it has.",
+   "answer": "Connects elements, restrains translations in both directions, allows relative rotation; transmits two force components; v = 2.",
+   "keywords": [
+    "two",
+    "force components",
+    "rotation allowed"
+   ],
+   "synonyms": {
+    "two": [
+     "2"
+    ],
+    "rotation allowed": [
+     "allows rotation",
+     "free rotation"
+    ]
+   },
+   "source": "03 STATICS Structures 3.3"
+  },
+  {
+   "id": "statics-062",
+   "topic": "Bearings and Joints",
+   "type": "flashcard",
+   "question": "A pendulum support is equivalent to which support?",
+   "answer": "A movable support, transmitting only a force along the rod's line; one reaction.",
+   "keywords": [
+    "movable support",
+    "line of action",
+    "one reaction"
+   ],
+   "synonyms": {
+    "movable support": [
+     "roller",
+     "floating"
+    ]
+   },
+   "source": "03 STATICS Structures 3.3"
+  },
+  {
+   "id": "statics-063",
+   "topic": "Bearings and Joints",
+   "type": "flashcard",
+   "question": "Which direction does the force of a movable support act?",
+   "answer": "Always perpendicular to the gap or contact surface.",
+   "keywords": [
+    "perpendicular",
+    "gap",
+    "contact surface"
+   ],
+   "synonyms": {
+    "perpendicular": [
+     "normal"
+    ],
+    "gap": [
+     "surface",
+     "plane"
+    ]
+   },
+   "source": "03 STATICS Structures 3.3"
+  },
+  {
+   "id": "statics-064",
+   "topic": "Bearings and Joints",
+   "type": "flashcard",
+   "question": "Which support is a roller bearing or ball bearing of a shaft in the model?",
+   "answer": "Movable bearing (roller) and fixed bearing (ball) respectively.",
+   "keywords": [
+    "roller",
+    "movable",
+    "ball",
+    "fixed"
+   ],
+   "synonyms": {
+    "movable": [
+     "floating bearing",
+     "loose bearing"
+    ],
+    "fixed": [
+     "locating bearing"
+    ]
+   },
+   "source": "03 STATICS Structures 3.3"
+  },
+  {
+   "id": "statics-065",
+   "topic": "Statical Determinacy",
+   "type": "concept",
+   "question": "What is the cutting procedure for analysing a structure?",
+   "answer": "Cut all supports and hinged connections, contacts and pendulum rods; do not cut rigid connections; draw free-body diagrams of each element.",
+   "keywords": [
+    "supports",
+    "hinges",
+    "rigid connections not cut",
+    "free-body diagram"
+   ],
+   "synonyms": {
+    "free-body diagram": [
+     "free cut"
+    ]
+   },
+   "source": "03 STATICS Structures 3.4"
+  },
+  {
+   "id": "statics-066",
+   "topic": "Statical Determinacy",
+   "type": "flashcard",
+   "question": "What is the condition for statical determinacy of a structure?",
+   "answer": "r + v = 3n, with r support reactions, v joint reactions, n structural elements.",
+   "keywords": [
+    "support reactions",
+    "joint reactions",
+    "three times elements"
+   ],
+   "synonyms": {
+    "three times elements": [
+     "3n",
+     "3 times n"
+    ]
+   },
+   "source": "03 STATICS Structures 3.4"
+  },
+  {
+   "id": "statics-067",
+   "topic": "Statical Determinacy",
+   "type": "concept",
+   "question": "Why is r + v = 3n necessary but not sufficient?",
+   "answer": "The arrangement may still be unstable: supports all parallel, all reactions intersecting at one point, or internal instability.",
+   "keywords": [
+    "parallel",
+    "single point",
+    "unstable"
+   ],
+   "synonyms": {
+    "parallel": [
+     "all parallel"
+    ],
+    "single point": [
+     "intersect at one point",
+     "common point"
+    ]
+   },
+   "source": "03 STATICS Structures 3.4"
+  },
+  {
+   "id": "statics-068",
+   "topic": "Statical Determinacy",
+   "type": "concept",
+   "question": "What additional conditions are needed for statical determinacy?",
+   "answer": "Lines of action of the reactions must not all be parallel and must not all intersect at a single point.",
+   "keywords": [
+    "not parallel",
+    "not one point",
+    "lines of action"
+   ],
+   "synonyms": {
+    "not parallel": [
+     "not all parallel"
+    ],
+    "not one point": [
+     "not intersect at single point"
+    ]
+   },
+   "source": "03 STATICS Structures 3.4"
+  },
+  {
+   "id": "statics-069",
+   "topic": "Statical Determinacy",
+   "type": "concept",
+   "question": "What happens if r + z is larger than 3n? Smaller?",
+   "answer": "Larger: statically indeterminate, equilibrium alone is insufficient. Smaller: mechanism, unstable and moves.",
+   "keywords": [
+    "indeterminate",
+    "mechanism",
+    "unstable"
+   ],
+   "synonyms": {
+    "indeterminate": [
+     "overdetermined"
+    ],
+    "mechanism": [
+     "moves",
+     "kinematic"
+    ]
+   },
+   "source": "03 STATICS Structures 3.4"
+  },
+  {
+   "id": "statics-070",
+   "topic": "Statical Determinacy",
+   "type": "flashcard",
+   "question": "Which conditions would a system need to be statically determinate?",
+   "answer": "Unknown reactions equal the number of equilibrium equations and the supports are arranged properly, so it is just sufficiently restrained.",
+   "keywords": [
+    "unknowns equal equations",
+    "just sufficiently restrained"
+   ],
+   "synonyms": {
+    "just sufficiently restrained": [
+     "just restrained"
+    ]
+   },
+   "source": "03 STATICS Structures 3.4"
+  },
+  {
+   "id": "statics-071",
+   "topic": "Statical Determinacy",
+   "type": "concept",
+   "question": "How do extra pendulum rods affect counting at a joint?",
+   "answer": "Each rod beyond two at a joint, or beyond one at a bearing, adds two unknown reactions.",
+   "keywords": [
+    "extra rods",
+    "two",
+    "joint"
+   ],
+   "synonyms": {
+    "two": [
+     "2"
+    ]
+   },
+   "source": "03 STATICS Structures 3.4"
+  },
+  {
+   "id": "statics-072",
+   "topic": "Statical Determinacy",
+   "type": "concept",
+   "question": "How do you show that a structure is statically determinate in an exam task?",
+   "answer": "Count elements, support reactions and joint reactions, and show r + v = 3n; also check supports are not parallel or concurrent.",
+   "keywords": [
+    "count",
+    "r+v=3n",
+    "supports arrangement"
+   ],
+   "synonyms": {
+    "count": [
+     "number"
+    ],
+    "r+v=3n": [
+     "3n",
+     "three n"
+    ]
+   },
+   "source": "Exam WS 2024/25 Task 1a"
+  },
+  {
+   "id": "statics-073",
+   "topic": "Trusses",
+   "type": "concept",
+   "question": "What is a truss?",
+   "answer": "Slender straight members connected only at their ends.",
+   "keywords": [
+    "slender",
+    "straight",
+    "ends"
+   ],
+   "synonyms": {
+    "ends": [
+     "joints",
+     "nodes"
+    ]
+   },
+   "source": "03 STATICS Structures 3.5"
+  },
+  {
+   "id": "statics-074",
+   "topic": "Trusses",
+   "type": "concept",
+   "question": "What idealising assumptions are made for trusses?",
+   "answer": "Frictionless pin joints, external forces applied only at joints, perfectly straight members.",
+   "keywords": [
+    "pin joints",
+    "loads at joints",
+    "straight members"
+   ],
+   "synonyms": {
+    "pin joints": [
+     "frictionless",
+     "hinges"
+    ],
+    "loads at joints": [
+     "joints"
+    ]
+   },
+   "source": "03 STATICS Structures 3.5"
+  },
+  {
+   "id": "statics-075",
+   "topic": "Trusses",
+   "type": "flashcard",
+   "question": "What is the basic element of a truss and why?",
+   "answer": "The triangle, since it forms a rigid body.",
+   "keywords": [
+    "triangle",
+    "rigid"
+   ],
+   "synonyms": {
+    "rigid": [
+     "stable"
+    ]
+   },
+   "source": "03 STATICS Structures 3.5"
+  },
+  {
+   "id": "statics-076",
+   "topic": "Trusses",
+   "type": "flashcard",
+   "question": "What loads do truss members carry?",
+   "answer": "Only axial forces, tension or compression.",
+   "keywords": [
+    "axial",
+    "tension",
+    "compression"
+   ],
+   "synonyms": {
+    "axial": [
+     "normal force"
+    ]
+   },
+   "source": "03 STATICS Structures 3.5/3.6"
+  },
+  {
+   "id": "statics-077",
+   "topic": "Trusses",
+   "type": "flashcard",
+   "question": "What is the condition for statical determinacy of a planar truss?",
+   "answer": "r + m = 2j: support reactions plus members equal twice the joints.",
+   "keywords": [
+    "reactions",
+    "members",
+    "joints"
+   ],
+   "synonyms": {
+    "joints": [
+     "nodes"
+    ]
+   },
+   "source": "03 STATICS Structures 3.5"
+  },
+  {
+   "id": "statics-078",
+   "topic": "Trusses",
+   "type": "concept",
+   "question": "Why does each joint give two equations?",
+   "answer": "Each joint is a central force system, so only sum F_x = 0 and sum F_y = 0 apply.",
+   "keywords": [
+    "central force system",
+    "two equations"
+   ],
+   "synonyms": {
+    "central force system": [
+     "concurrent forces"
+    ]
+   },
+   "source": "03 STATICS Structures 3.5"
+  },
+  {
+   "id": "statics-079",
+   "topic": "Trusses",
+   "type": "concept",
+   "question": "What is a zero-force member and why look for them?",
+   "answer": "A member with no internal force; identifying them first simplifies finding the rest.",
+   "keywords": [
+    "zero force",
+    "simplify"
+   ],
+   "synonyms": {
+    "zero force": [
+     "no force"
+    ]
+   },
+   "source": "03 STATICS Structures 3.5"
+  },
+  {
+   "id": "statics-080",
+   "topic": "Trusses",
+   "type": "concept",
+   "question": "State the three rules for zero-force members.",
+   "answer": "a) three members at an unloaded joint, two collinear: the third is zero; b) two non-collinear members at an unloaded joint: both are zero; c) external force along one of two members: the other is zero.",
+   "keywords": [
+    "unloaded joint",
+    "collinear",
+    "two members",
+    "external force"
+   ],
+   "synonyms": {
+    "collinear": [
+     "same direction"
+    ],
+    "unloaded joint": [
+     "no load"
+    ]
+   },
+   "source": "03 STATICS Structures 3.5"
+  },
+  {
+   "id": "statics-081",
+   "topic": "Trusses",
+   "type": "concept",
+   "question": "Describe the method of joints.",
+   "answer": "Isolate each joint with a free-body diagram, apply sum F_x and sum F_y equal zero, assuming only axial forces.",
+   "keywords": [
+    "isolate joint",
+    "two equations",
+    "axial forces"
+   ],
+   "synonyms": {
+    "isolate joint": [
+     "free-body diagram",
+     "cut joint"
+    ]
+   },
+   "source": "03 STATICS Structures 3.5"
+  },
+  {
+   "id": "statics-082",
+   "topic": "Trusses",
+   "type": "flashcard",
+   "question": "What is the sign convention in the method of joints?",
+   "answer": "Assume member forces point away from the joint; positive results mean tension, negative mean compression.",
+   "keywords": [
+    "away from joint",
+    "positive tension",
+    "negative compression"
+   ],
+   "synonyms": {
+    "away from joint": [
+     "leaving joint"
+    ],
+    "positive tension": [
+     "positive is tension"
+    ]
+   },
+   "source": "03 STATICS Structures 3.5"
+  },
+  {
+   "id": "statics-083",
+   "topic": "Trusses",
+   "type": "concept",
+   "question": "Describe the method of sections.",
+   "answer": "Cut the truss through at most three members with unknown forces and apply three equilibrium conditions to one part.",
+   "keywords": [
+    "cut",
+    "three members",
+    "three equations"
+   ],
+   "synonyms": {
+    "three members": [
+     "max three"
+    ]
+   },
+   "source": "03 STATICS Structures 3.5"
+  },
+  {
+   "id": "statics-084",
+   "topic": "Trusses",
+   "type": "concept",
+   "question": "When is the method of sections better than the method of joints?",
+   "answer": "When only specific member forces are needed, as it gives them directly without working joint by joint.",
+   "keywords": [
+    "specific members",
+    "directly"
+   ],
+   "synonyms": {
+    "specific members": [
+     "particular members"
+    ]
+   },
+   "source": "03 STATICS Structures 3.5"
+  },
+  {
+   "id": "statics-085",
+   "topic": "Trusses",
+   "type": "concept",
+   "question": "What are the typical steps for a truss problem?",
+   "answer": "Check determinacy, mark zero-force members, find support reactions, then compute bar forces by joints or sections.",
+   "keywords": [
+    "determinacy",
+    "zero-force",
+    "reactions",
+    "bar forces"
+   ],
+   "synonyms": {
+    "determinacy": [
+     "r+m=2j"
+    ],
+    "bar forces": [
+     "member forces"
+    ]
+   },
+   "source": "2627_STATICS Exercises Problem 1.4.1; Exam WS 2024/25 Task 3"
+  },
+  {
+   "id": "statics-086",
+   "topic": "Trusses",
+   "type": "concept",
+   "question": "How do you pick a moment point in the method of sections?",
+   "answer": "Choose the point where two unknown member lines intersect so those forces drop out of the moment equation.",
+   "keywords": [
+    "intersection",
+    "two unknowns",
+    "moment"
+   ],
+   "synonyms": {
+    "intersection": [
+     "intersect"
+    ]
+   },
+   "source": "03 STATICS Structures 3.5"
+  },
+  {
+   "id": "statics-087",
+   "topic": "Trusses",
+   "type": "concept",
+   "question": "What is compression versus tension in a member?",
+   "answer": "Tension pulls the member (it lengthens); compression pushes it (it shortens).",
+   "keywords": [
+    "tension",
+    "compression"
+   ],
+   "synonyms": {
+    "tension": [
+     "pull"
+    ],
+    "compression": [
+     "push"
+    ]
+   },
+   "source": "03 STATICS Structures 3.5"
+  },
+  {
+   "id": "statics-088",
+   "topic": "Internal Loads in Beams",
+   "type": "concept",
+   "question": "Why are internal loads needed?",
+   "answer": "Needed for structural design; they are found by an imaginary cut, isolating one part and applying equilibrium.",
+   "keywords": [
+    "structural design",
+    "imaginary cut",
+    "equilibrium"
+   ],
+   "synonyms": {
+    "imaginary cut": [
+     "method of sections",
+     "cut"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.1"
+  },
+  {
+   "id": "statics-089",
+   "topic": "Internal Loads in Beams",
+   "type": "flashcard",
+   "question": "Name the three internal loads in a beam.",
+   "answer": "Normal force N(x), shear force Q(x), bending moment M(x).",
+   "keywords": [
+    "normal force",
+    "shear force",
+    "bending moment"
+   ],
+   "synonyms": {
+    "shear force": [
+     "transverse force"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.1"
+  },
+  {
+   "id": "statics-090",
+   "topic": "Internal Loads in Beams",
+   "type": "concept",
+   "question": "State the seven steps of the method of sections for internal loads.",
+   "answer": "Define local coordinates; free-body diagram of the structure; support reactions; divide into segments; cut each segment; apply equilibrium for N, Q, M; plot diagrams.",
+   "keywords": [
+    "local coordinate",
+    "reactions",
+    "segments",
+    "equilibrium",
+    "diagrams"
+   ],
+   "synonyms": {
+    "segments": [
+     "divide"
+    ],
+    "diagrams": [
+     "plot"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.1"
+  },
+  {
+   "id": "statics-091",
+   "topic": "Internal Loads in Beams",
+   "type": "flashcard",
+   "question": "Where are cuts made in a beam?",
+   "answer": "Perpendicular to the longitudinal axis of the undeformed beam.",
+   "keywords": [
+    "perpendicular",
+    "axis",
+    "undeformed"
+   ],
+   "synonyms": {
+    "perpendicular": [
+     "right angles"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.1"
+  },
+  {
+   "id": "statics-092",
+   "topic": "Internal Loads in Beams",
+   "type": "concept",
+   "question": "Where must a beam be split into segments?",
+   "answer": "At every point of force or moment application and at the start or end of line loads.",
+   "keywords": [
+    "force application",
+    "moment",
+    "line load"
+   ],
+   "synonyms": {
+    "force application": [
+     "concentrated force"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.1"
+  },
+  {
+   "id": "statics-093",
+   "topic": "Internal Loads in Beams",
+   "type": "concept",
+   "question": "Describe the sign convention for internal loads.",
+   "answer": "The face normal points outward; on a positive face internal loads are positive in positive coordinate directions, on a negative face positive in negative directions.",
+   "keywords": [
+    "positive face",
+    "negative face",
+    "normal outward"
+   ],
+   "synonyms": {
+    "normal outward": [
+     "outward"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.1"
+  },
+  {
+   "id": "statics-094",
+   "topic": "Internal Loads in Beams",
+   "type": "concept",
+   "question": "How do internal loads on the two faces of a cut relate?",
+   "answer": "They are equal and opposite, by Newton's third law.",
+   "keywords": [
+    "equal",
+    "opposite",
+    "third law"
+   ],
+   "synonyms": {
+    "third law": [
+     "actio reactio",
+     "action reaction"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.1"
+  },
+  {
+   "id": "statics-095",
+   "topic": "Internal Loads in Beams",
+   "type": "concept",
+   "question": "Can the left or right part be used at a cut?",
+   "answer": "Both give identical results; choose the part that simplifies the calculation.",
+   "keywords": [
+    "identical",
+    "simplify"
+   ],
+   "synonyms": {
+    "identical": [
+     "same"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.1"
+  },
+  {
+   "id": "statics-096",
+   "topic": "Internal Loads in Beams",
+   "type": "flashcard",
+   "question": "What is the local coordinate system for a beam?",
+   "answer": "x along the beam axis, y perpendicular to the plane, z by the right-hand rule (down).",
+   "keywords": [
+    "x along axis",
+    "z downward"
+   ],
+   "synonyms": {
+    "z downward": [
+     "z down"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.1"
+  },
+  {
+   "id": "statics-097",
+   "topic": "Internal Loads in Beams",
+   "type": "concept",
+   "question": "How do you treat a uniform line load when cutting a beam?",
+   "answer": "Replace the load on the segment by its resultant, area of the rectangle, acting at its centroid.",
+   "keywords": [
+    "resultant",
+    "area",
+    "centroid"
+   ],
+   "synonyms": {
+    "centroid": [
+     "middle",
+     "centre"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.2"
+  },
+  {
+   "id": "statics-098",
+   "topic": "Internal Loads in Beams",
+   "type": "concept",
+   "question": "What does a concentrated force do to the Q and M diagrams?",
+   "answer": "Jump in shear force Q, kink in bending moment M.",
+   "keywords": [
+    "jump",
+    "Q",
+    "kink",
+    "M"
+   ],
+   "synonyms": {
+    "jump": [
+     "step"
+    ],
+    "kink": [
+     "change in slope"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.1, 4.2.3"
+  },
+  {
+   "id": "statics-099",
+   "topic": "Internal Loads in Beams",
+   "type": "flashcard",
+   "question": "What does a concentrated moment do to the diagrams?",
+   "answer": "Causes a jump in the bending moment M(x).",
+   "keywords": [
+    "jump",
+    "bending moment"
+   ],
+   "synonyms": {
+    "jump": [
+     "step"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.3"
+  },
+  {
+   "id": "statics-100",
+   "topic": "Internal Loads in Beams",
+   "type": "concept",
+   "question": "Where is the bending moment at a maximum?",
+   "answer": "Where the shear force Q is zero (and changes sign).",
+   "keywords": [
+    "shear force zero",
+    "maximum"
+   ],
+   "synonyms": {
+    "shear force zero": [
+     "Q zero",
+     "Q equals zero"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.2"
+  },
+  {
+   "id": "statics-101",
+   "topic": "Internal Loads in Beams",
+   "type": "concept",
+   "question": "Why can internal loads in an unloaded segment be zero?",
+   "answer": "If there are no external loads on the part between the free end and the cut, equilibrium forces N, Q and M to be zero.",
+   "keywords": [
+    "no external loads",
+    "zero",
+    "free end"
+   ],
+   "synonyms": {
+    "zero": [
+     "vanish"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.2"
+  },
+  {
+   "id": "statics-102",
+   "topic": "Internal Loads in Beams",
+   "type": "flashcard",
+   "question": "When is it unnecessary to calculate support reactions?",
+   "answer": "When cutting from a free end toward the support, since the cut part contains no reactions.",
+   "keywords": [
+    "free end",
+    "cut part"
+   ],
+   "synonyms": {
+    "free end": [
+     "start at free end"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.2"
+  },
+  {
+   "id": "statics-103",
+   "topic": "Internal Loads in Beams",
+   "type": "concept",
+   "question": "Describe the boundary values of Q and M for a free end, a pin, a parallel guide and a clamping.",
+   "answer": "Free end: Q=0, M=0; pin or joint: Q≠0, M=0; parallel guide: Q=0, M≠0; clamping: both nonzero.",
+   "keywords": [
+    "free end",
+    "pin",
+    "guide",
+    "clamping"
+   ],
+   "synonyms": {
+    "pin": [
+     "joint",
+     "hinge"
+    ],
+    "guide": [
+     "parallel guide"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.3"
+  },
+  {
+   "id": "statics-104",
+   "topic": "Frames and Differential Relations",
+   "type": "concept",
+   "question": "State the differential relations between q, Q and M.",
+   "answer": "dQ/dx = -q(x) and dM/dx = Q(x).",
+   "keywords": [
+    "dQ/dx",
+    "-q",
+    "dM/dx",
+    "Q"
+   ],
+   "synonyms": {
+    "dQ/dx": [
+     "derivative of shear"
+    ],
+    "dM/dx": [
+     "derivative of moment"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.3"
+  },
+  {
+   "id": "statics-105",
+   "topic": "Frames and Differential Relations",
+   "type": "concept",
+   "question": "How do the curves of Q and M depend on the line load q(x)?",
+   "answer": "q = 0: Q constant, M linear; q constant: Q linear, M parabola; q linear: Q parabola, M cubic.",
+   "keywords": [
+    "constant",
+    "linear",
+    "parabola",
+    "cubic"
+   ],
+   "synonyms": {
+    "parabola": [
+     "quadratic"
+    ],
+    "cubic": [
+     "third order"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.3"
+  },
+  {
+   "id": "statics-106",
+   "topic": "Frames and Differential Relations",
+   "type": "concept",
+   "question": "How can internal loads be found by integration?",
+   "answer": "Integrate q to get Q plus a constant, integrate Q to get M plus a constant, using boundary conditions of the supports.",
+   "keywords": [
+    "integrate",
+    "constants",
+    "boundary conditions"
+   ],
+   "synonyms": {
+    "integrate": [
+     "integration"
+    ],
+    "boundary conditions": [
+     "bearing conditions"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.3"
+  },
+  {
+   "id": "statics-107",
+   "topic": "Frames and Differential Relations",
+   "type": "concept",
+   "question": "How is dQ/dx = -q derived?",
+   "answer": "From vertical equilibrium of an infinitesimal beam element dx with the line load q constant over it.",
+   "keywords": [
+    "infinitesimal element",
+    "equilibrium",
+    "dx"
+   ],
+   "synonyms": {
+    "infinitesimal element": [
+     "small element"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.3"
+  },
+  {
+   "id": "statics-108",
+   "topic": "Frames and Differential Relations",
+   "type": "concept",
+   "question": "How do the internal-load functions change at a transition of q(x) or point loads?",
+   "answer": "At the transition into a line load, Q shows a kink; at a concentrated force Q jumps and M kinks.",
+   "keywords": [
+    "kink",
+    "jump",
+    "line load"
+   ],
+   "synonyms": {
+    "kink": [
+     "change in slope"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.2.3"
+  },
+  {
+   "id": "statics-109",
+   "topic": "Frames and Differential Relations",
+   "type": "concept",
+   "question": "What is a frame in internal-load analysis?",
+   "answer": "Inclined, rigidly joined straight beams; each straight member is analysed separately.",
+   "keywords": [
+    "rigid",
+    "inclined",
+    "member"
+   ],
+   "synonyms": {
+    "rigid": [
+     "rigidly joined"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.3"
+  },
+  {
+   "id": "statics-110",
+   "topic": "Frames and Differential Relations",
+   "type": "concept",
+   "question": "How are the local coordinates defined in frames?",
+   "answer": "Define a new local coordinate system whenever the beam direction changes, x along the member axis.",
+   "keywords": [
+    "new coordinate",
+    "direction changes",
+    "axis"
+   ],
+   "synonyms": {
+    "new coordinate": [
+     "new local system"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.3"
+  },
+  {
+   "id": "statics-111",
+   "topic": "Frames and Differential Relations",
+   "type": "flashcard",
+   "question": "What do internal-load diagrams show at a frame corner?",
+   "answer": "Discontinuities, because the abrupt change of direction changes how loads act on the member.",
+   "keywords": [
+    "discontinuities",
+    "direction change"
+   ],
+   "synonyms": {
+    "discontinuities": [
+     "jumps"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.3"
+  },
+  {
+   "id": "statics-112",
+   "topic": "Frames and Differential Relations",
+   "type": "concept",
+   "question": "How do you segment a frame?",
+   "answer": "Make a segment at every change of member direction or loading, e.g. AB, BC, CD, DE, with a cut in each.",
+   "keywords": [
+    "segments",
+    "direction",
+    "cut"
+   ],
+   "synonyms": {
+    "segments": [
+     "members"
+    ]
+   },
+   "source": "04 STATICS Internal Loads 4.3"
+  },
+  {
+   "id": "statics-113",
+   "topic": "Problem-Solving Methods",
+   "type": "concept",
+   "question": "What is the general procedure for a rigid-body equilibrium problem?",
+   "answer": "Draw the free-body diagram with all reactions, count unknowns, write equilibrium equations choosing smart moment points, solve and check.",
+   "keywords": [
+    "free-body diagram",
+    "unknowns",
+    "equilibrium equations",
+    "moment point"
+   ],
+   "synonyms": {
+    "moment point": [
+     "reference point"
+    ]
+   },
+   "source": "2627_STATICS Exercises Problems 1.2.x"
+  },
+  {
+   "id": "statics-114",
+   "topic": "Problem-Solving Methods",
+   "type": "concept",
+   "question": "How do you determine joint and support reactions in a mechanism with a hydraulic cylinder, such as a wheel loader?",
+   "answer": "Treat the cylinder as a pendulum rod, cut the mechanism into bodies, draw free-body diagrams, write equilibrium per body and solve the unknowns.",
+   "keywords": [
+    "pendulum rod",
+    "cut",
+    "free-body diagram",
+    "equilibrium"
+   ],
+   "synonyms": {
+    "pendulum rod": [
+     "two-force member",
+     "cylinder"
+    ]
+   },
+   "source": "2627_STATICS Exercises Problem 1.2.9"
+  },
+  {
+   "id": "statics-115",
+   "topic": "Problem-Solving Methods",
+   "type": "concept",
+   "question": "How do you identify a two-force member (pendulum rod) in a mechanism?",
+   "answer": "Look for a member with joints at both ends and no loads in between; its force acts along the line connecting the joints.",
+   "keywords": [
+    "both ends",
+    "no loads",
+    "line connecting"
+   ],
+   "synonyms": {
+    "both ends": [
+     "two joints"
+    ]
+   },
+   "source": "2627_STATICS Exercises 1.2.19; Exam WS 2024/25 Task 1"
+  },
+  {
+   "id": "statics-116",
+   "topic": "Problem-Solving Methods",
+   "type": "concept",
+   "question": "How do you analyse the swingarm of a bike with shock strut and joint?",
+   "answer": "Free-cut the swingarm with strut as pendulum rod along its axis and a joint with two components; apply equilibrium.",
+   "keywords": [
+    "free cut",
+    "strut",
+    "joint",
+    "equilibrium"
+   ],
+   "synonyms": {
+    "strut": [
+     "shock absorber"
+    ]
+   },
+   "source": "2627_STATICS Exercises Problem 1.2.19"
+  },
+  {
+   "id": "statics-117",
+   "topic": "Problem-Solving Methods",
+   "type": "concept",
+   "question": "How do you determine the clamp reactions of a frame under line load and forces?",
+   "answer": "Replace line load by its resultant at the centroid and apply three equilibrium equations to get two forces and a moment.",
+   "keywords": [
+    "line load",
+    "resultant",
+    "centroid",
+    "three equations"
+   ],
+   "synonyms": {
+    "centroid": [
+     "centre"
+    ]
+   },
+   "source": "2627_STATICS Exercises Problem 1.3.1"
+  },
+  {
+   "id": "statics-118",
+   "topic": "Problem-Solving Methods",
+   "type": "concept",
+   "question": "How do you solve a multi-body structure with pendulum rods like the mobile barrier?",
+   "answer": "Check determinacy, free-cut each body with rods as axial forces, then solve equilibrium for each.",
+   "keywords": [
+    "determinacy",
+    "free cut",
+    "pendulum rods",
+    "equilibrium"
+   ],
+   "synonyms": {
+    "pendulum rods": [
+     "rods"
+    ]
+   },
+   "source": "Exam WS 2024/25 Task 1"
+  },
+  {
+   "id": "statics-119",
+   "topic": "Problem-Solving Methods",
+   "type": "concept",
+   "question": "Why is it useful to critically check a result with an AI tool, and how should it be documented?",
+   "answer": "Document which steps were checked, whether the AI confirmed or deviated, and how reliability was judged.",
+   "keywords": [
+    "steps checked",
+    "confirmed",
+    "deviations",
+    "reliability"
+   ],
+   "synonyms": {
+    "deviations": [
+     "differences"
+    ]
+   },
+   "source": "2627_STATICS Exercises Problems 1.1.x/1.2.9/1.4.4"
+  },
+  {
+   "id": "statics-120",
+   "topic": "Problem-Solving Methods",
+   "type": "concept",
+   "question": "How do you reduce a force system to a single resultant force and check where it acts?",
+   "answer": "Sum forces to get F_R, sum moments about a point to get M_R, then h = M_R / F_R gives the offset of the line of action.",
+   "keywords": [
+    "resultant",
+    "moment",
+    "distance"
+   ],
+   "synonyms": {
+    "distance": [
+     "h",
+     "offset"
+    ]
+   },
+   "source": "2627_STATICS Exercises Problems 1.2.x"
+  },
+  {
+   "id": "statics-121",
+   "topic": "Problem-Solving Methods",
+   "type": "concept",
+   "question": "What is the effect of choosing the moment reference point where two unknown lines of action intersect?",
+   "answer": "Those two unknowns have zero lever arm and drop out, so the equation contains only one unknown.",
+   "keywords": [
+    "lever arm zero",
+    "drop out",
+    "one unknown"
+   ],
+   "synonyms": {
+    "lever arm zero": [
+     "no moment"
+    ]
+   },
+   "source": "02 STATICS Basic Concepts 2.4.5"
+  },
+  {
+   "id": "statics-122",
+   "topic": "Problem-Solving Methods",
+   "type": "concept",
+   "question": "How do you set up the equilibrium of a garage door or lid held by a strut?",
+   "answer": "Free-body diagram of the door with weight at center of gravity, hinge reactions and strut force along its axis; moment about the hinge gives the strut force.",
+   "keywords": [
+    "center of gravity",
+    "hinge",
+    "moment",
+    "strut"
+   ],
+   "synonyms": {
+    "center of gravity": [
+     "weight"
+    ]
+   },
+   "source": "2627_STATICS Exercises Problem 1.2.x"
+  }
+ ]
+}
