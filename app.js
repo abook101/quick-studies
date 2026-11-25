@@ -1,11 +1,11 @@
 'use strict';
 /* Quick Studies: offline study app. All progress lives in this phone's localStorage. */
 
-const APP_VERSION = '2026-11-25 v4';   // shown in Settings so we can tell which version a phone runs
+const APP_VERSION = '2026-11-25 12:27';   // shown in Settings so we can tell which version a phone runs
 const DAY = 86400000;
 const SEC_PER_CARD = 40;          // rough estimate used to size a session
 const LOG_MAX = 3000;             // keep the answer log bounded
-const KEY = { prog: 'qs.progress.v1', log: 'qs.log.v1', settings: 'qs.settings.v1' };
+const KEY = { prog: 'qs.progress.v1', log: 'qs.log.v1', settings: 'qs.settings.v1', removed: 'qs.removed.v1' };
 
 /* ---------- storage ---------- */
 function load(k, fallback) {
@@ -19,12 +19,14 @@ const state = {
   byId: new Map(),
   prog: load(KEY.prog, {}),       // id -> {reps, lapses, ease, ivl, due, last}
   log: load(KEY.log, []),
+  removed: load(KEY.removed, {}),  // id -> {t, course, topic, question}: questions Jad chose to hide
   settings: Object.assign({ minutes: 15, newPerSession: 8, otherShare: 0.15, speechLang: 'en-US' }, load(KEY.settings, {})),
   session: null,
 };
 const saveProg = () => save(KEY.prog, state.prog);
 const saveLog = () => { if (state.log.length > LOG_MAX) state.log = state.log.slice(-LOG_MAX); save(KEY.log, state.log); };
 const saveSettings = () => save(KEY.settings, state.settings);
+const saveRemoved = () => save(KEY.removed, state.removed);
 
 /* ---------- loading cards ---------- */
 async function fetchJSON(url) {
@@ -42,14 +44,22 @@ async function loadCards() {
       const slug = f.replace(/\.json$/, '');
       const cards = (data.cards || []).filter(c => c && c.id && c.question);
       cards.forEach(c => { c.course = slug; c.topic = c.topic || 'General'; c.keywords = c.keywords || []; c.synonyms = c.synonyms || {}; });
-      if (cards.length) courses.push({ slug, name: data.course || slug, cards });
+      if (cards.length) courses.push({ slug, name: data.course || slug, all: cards, cards });
     } catch (e) { console.warn('skip', f, e); }
   }
   const real = courses.filter(c => c.slug !== 'sample');
   state.courses = real.length ? real : courses;
   state.byId = new Map();
-  state.courses.forEach(c => c.cards.forEach(card => state.byId.set(card.id, card)));
+  state.courses.forEach(c => c.all.forEach(card => state.byId.set(card.id, card)));
+  applyRemoved();
 }
+// removed questions stay in the files but are left out of sessions and stats
+function applyRemoved() { state.courses.forEach(c => { c.cards = c.all.filter(x => !state.removed[x.id]); }); }
+function removeCard(card) {
+  state.removed[card.id] = { t: new Date().toISOString(), course: card.course, topic: card.topic, question: card.question };
+  saveRemoved(); applyRemoved();
+}
+function restoreCard(id) { delete state.removed[id]; saveRemoved(); applyRemoved(); }
 
 /* ---------- spaced repetition (SM-2 style) ---------- */
 function progOf(id) { return state.prog[id]; }
@@ -110,7 +120,7 @@ function courseStats(course) {
   const due = course.cards.filter(c => isDue(c.id)).length;
   const seen = course.cards.filter(c => progOf(c.id)).length;
   const mastered = course.cards.filter(c => strength(c.id) >= 1).length;
-  const avgWeak = topics.reduce((s, t) => s + t.weak * t.cards.length, 0) / course.cards.length;
+  const avgWeak = topics.reduce((s, t) => s + t.weak * t.cards.length, 0) / Math.max(1, course.cards.length);
   const f = recentFailRate(e => e.course === course.slug, 60);
   return { course, topics, due, seen, mastered, total: course.cards.length, failRate: f.rate,
     weak: avgWeak + 0.25 * Math.min(1, due / 25) };
@@ -127,7 +137,7 @@ function shuffle(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.fl
 
 function buildSession(minutes, forcedSlug) {
   const target = Math.max(5, Math.round(minutes * 60 / SEC_PER_CARD));
-  const stats = state.courses.map(courseStats);
+  const stats = activeCourses().map(courseStats);
   if (!stats.length) return null;
   let chosen;
   if (forcedSlug) chosen = stats.filter(s => s.course.slug === forcedSlug);
@@ -270,6 +280,13 @@ function toast(msg) {
   const t = document.createElement('div'); t.className = 'toast'; t.textContent = msg;
   document.body.appendChild(t); setTimeout(() => t.remove(), 3200);
 }
+function toastAction(msg, label, fn, ms = 8000) {
+  document.querySelectorAll('.toast').forEach(t => t.remove());
+  const t = document.createElement('div'); t.className = 'toast action';
+  t.innerHTML = `<span>${esc(msg)}</span><button>${esc(label)}</button>`;
+  t.querySelector('button').onclick = () => { t.remove(); fn(); };
+  document.body.appendChild(t); setTimeout(() => t.remove(), ms);
+}
 function fmtDays(d) { return d < 1 ? 'today' : d === 1 ? '1 day' : d < 30 ? d + ' days' : Math.round(d / 30) + ' mo'; }
 function download(name, obj) {
   const blob = new Blob([JSON.stringify(obj, null, 2)], { type: 'application/json' });
@@ -288,11 +305,13 @@ document.addEventListener('click', e => {
   route(b.dataset.go);
 });
 function confirmLeave() { if (state.session && state.session.done > 0) { finishSession(); return false; } state.session = null; return true; }
-function route(name) { window.scrollTo(0, 0); ({ home: renderHome, stats: renderStats, settings: renderSettings, session: renderCard })[name](); }
+const activeCourses = () => state.courses.filter(c => c.cards.length);
+function route(name) {
+  document.querySelectorAll('.top [data-go]').forEach(b => b.classList.toggle('active', b.dataset.go === name || (name === 'session' && b.dataset.go === 'home'))); window.scrollTo(0, 0); ({ home: renderHome, stats: renderStats, settings: renderSettings, session: renderCard })[name](); }
 
 /* ---------- home ---------- */
 function renderHome() {
-  const stats = state.courses.map(courseStats);
+  const stats = activeCourses().map(courseStats);
   const due = stats.reduce((s, x) => s + x.due, 0);
   const fresh = stats.reduce((s, x) => s + (x.total - x.seen), 0);
   const isSample = state.courses.length === 1 && state.courses[0].slug === 'sample';
@@ -356,7 +375,10 @@ function renderCard() {
       </div>
     </div>
     <div id="result"></div>
-    <button class="btn ghost" id="end">End session</button>`;
+    <div class="row">
+      <button class="btn ghost" id="remove">🗑 Remove question</button>
+      <button class="btn ghost" id="end">End session</button>
+    </div>`;
   const txt = document.getElementById('txt'), mic = document.getElementById('mic');
   let listening = false;
   const micIdle = () => { listening = false; mic.classList.remove('on'); mic.lastElementChild.textContent = 'Tap and speak your answer'; };
@@ -380,6 +402,19 @@ function renderCard() {
   document.getElementById('check').onclick = () => { stopListening(); showResult(card, txt.value); };
   document.getElementById('dunno').onclick = () => { stopListening(); showResult(card, ''); };
   document.getElementById('end').onclick = () => { stopListening(); finishSession(); };
+  document.getElementById('remove').onclick = () => { stopListening(); removeInSession(card); };
+}
+function removeInSession(card) {
+  const s = state.session, at = s.idx;
+  const before = s.queue.slice();
+  removeCard(card);
+  s.queue = s.queue.filter((c, i) => i < at || c.id !== card.id);   // drop it from the rest of this session
+  renderCard();
+  toastAction('Question removed', 'Undo', () => {
+    restoreCard(card.id);
+    if (state.session === s) { s.queue = before; s.idx = at; renderCard(); }
+    toast('Question restored');
+  });
 }
 function showResult(card, text) {
   const r = checkAnswer(card, text);
@@ -446,7 +481,7 @@ function finishSession() {
 
 /* ---------- stats ---------- */
 function renderStats() {
-  const stats = state.courses.map(courseStats);
+  const stats = activeCourses().map(courseStats);
   const now = Date.now();
   const week = [0, 1, 2, 3, 4, 5, 6].map(d => {
     const end = endOfToday(now + d * DAY);
@@ -455,6 +490,7 @@ function renderStats() {
   const last7 = state.log.filter(e => now - Date.parse(e.t) < 7 * DAY);
   $view.innerHTML = `
     <h1>Progress</h1>
+    <button class="btn" data-go="home">← Home: start studying</button>
     <div class="box">
       <div class="row">
         <div><div class="big-num">${last7.length}</div><div class="muted small">answers this week</div></div>
@@ -546,6 +582,7 @@ function renderSettings() {
   const opt = (vals, cur, fmt) => vals.map(v => `<option value="${v}" ${v == cur ? 'selected' : ''}>${fmt(v)}</option>`).join('');
   $view.innerHTML = `
     <h1>Settings</h1>
+    <button class="btn" data-go="home">← Home: start studying</button>
     <div class="box">
       <label class="field">Session length</label>
       <select id="minutes">${opt([10, 15, 20, 25, 30, 45, 60], st.minutes, v => v + ' minutes')}</select>
@@ -557,6 +594,15 @@ function renderSettings() {
       <select id="useMic">${opt(['on', 'off'], micEnabled() ? 'on' : 'off', v => v === 'on' ? 'In-app mic button' : 'Keyboard mic only')}</select>
       <label class="field">Voice recognition accent</label>
       <select id="lang">${opt(['en-US', 'en-GB', 'en-IN', 'en-AU'], st.speechLang, v => v)}</select>
+    </div>
+    <h2>Removed questions</h2>
+    <div class="box">
+      ${Object.keys(state.removed).length ? `<div class="muted small">These are left out of your sessions. Tap Restore to bring one back.</div>` +
+        Object.entries(state.removed).sort((a, b) => b[1].t.localeCompare(a[1].t)).map(([id, r]) => `
+        <div class="course-line small">
+          <div style="flex:1">${esc(r.question)}<div class="muted">${esc((state.courses.find(c => c.slug === r.course) || {}).name || r.course)} · ${esc(r.topic)}</div></div>
+          <button class="btn ghost" style="width:auto;padding:6px 10px" data-restore="${esc(id)}">Restore</button>
+        </div>`).join('') : '<div class="muted small">None. Use “Remove question” on any card to hide it from your sessions.</div>'}
     </div>
     <h2>Answer log</h2>
     <div class="box">
@@ -591,11 +637,12 @@ function renderSettings() {
     <div class="muted small">Cards loaded: ${state.byId.size} from ${state.courses.length} course(s). App version ${APP_VERSION}.</div>`;
   const bind = (id, key, conv) => document.getElementById(id).onchange = e => { st[key] = conv(e.target.value); saveSettings(); toast('Saved'); };
   bind('minutes', 'minutes', Number); bind('newPer', 'newPerSession', Number); bind('other', 'otherShare', Number); bind('lang', 'speechLang', String); bind('useMic', 'useMic', v => v === 'on');
+  $view.querySelectorAll('[data-restore]').forEach(b => b.onclick = () => { restoreCard(b.dataset.restore); toast('Question restored'); renderSettings(); });
   const stamp = new Date().toISOString().slice(0, 10);
-  document.getElementById('expLog').onclick = () => download(`study-log-${stamp}.json`, { exported: new Date().toISOString(), entries: state.log });
+  document.getElementById('expLog').onclick = () => download(`study-log-${stamp}.json`, { exported: new Date().toISOString(), entries: state.log, removed: state.removed });
   document.getElementById('expAll').onclick = () => {
     const { tgToken, tgChat, tgIndexMsg, tgFiles, ...safe } = st;   // never put the bot token in a backup file
-    download(`study-backup-${stamp}.json`, { version: 1, exported: new Date().toISOString(), progress: state.prog, log: state.log, settings: safe });
+    download(`study-backup-${stamp}.json`, { version: 1, exported: new Date().toISOString(), progress: state.prog, log: state.log, removed: state.removed, settings: safe });
   };
   const $ = id => document.getElementById(id);
   const busy = async (btn, fn) => {
@@ -619,7 +666,7 @@ function renderSettings() {
       const data = JSON.parse(await file.files[0].text());
       if (!data.progress) throw new Error('not a backup');
       if (!confirm('Replace the progress on this phone with this backup?')) return;
-      state.prog = data.progress; state.log = data.log || []; const { tgToken, tgChat, tgIndexMsg, tgFiles, ...rest } = data.settings || {}; Object.assign(st, rest);
+      state.prog = data.progress; state.log = data.log || []; state.removed = data.removed || {}; saveRemoved(); applyRemoved(); const { tgToken, tgChat, tgIndexMsg, tgFiles, ...rest } = data.settings || {}; Object.assign(st, rest);
       saveProg(); saveLog(); saveSettings(); toast('Backup restored'); renderSettings();
     } catch (e) { toast('That file is not a Quick Studies backup.'); }
   };
@@ -635,5 +682,5 @@ function renderSettings() {
   if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
   if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
   await loadCards();
-  renderHome();
+  route("home");
 })();
