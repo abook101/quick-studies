@@ -1,6 +1,7 @@
 'use strict';
 /* Quick Studies: offline study app. All progress lives in this phone's localStorage. */
 
+const APP_VERSION = '2026-11-25 v3';   // shown in Settings so we can tell which version a phone runs
 const DAY = 86400000;
 const SEC_PER_CARD = 40;          // rough estimate used to size a session
 const LOG_MAX = 3000;             // keep the answer log bounded
@@ -569,7 +570,7 @@ function renderSettings() {
       <input type="file" id="file" accept="application/json,.json" hidden>
       <button class="btn ghost" id="reset" style="color:var(--again)">Reset all progress</button>
     </div>
-    <div class="muted small">Cards loaded: ${state.byId.size} from ${state.courses.length} course(s).</div>`;
+    <div class="muted small">Cards loaded: ${state.byId.size} from ${state.courses.length} course(s). App version ${APP_VERSION}.</div>`;
   const bind = (id, key, conv) => document.getElementById(id).onchange = e => { st[key] = conv(e.target.value); saveSettings(); toast('Saved'); };
   bind('minutes', 'minutes', Number); bind('newPer', 'newPerSession', Number); bind('other', 'otherShare', Number); bind('lang', 'speechLang', String); bind('useMic', 'useMic', v => v === 'on');
   const stamp = new Date().toISOString().slice(0, 10);
